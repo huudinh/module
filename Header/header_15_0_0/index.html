@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3c.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>SCI FRAMEWORK</title>
+    <meta name="Resource-type" content="Document" />
+    <meta name="viewport"
+        content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+
+    <link rel="stylesheet" type="text/css" href="../../media/css/style.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/header_15_0_0.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/font.css" />
+    <script src="../../media/js/lib-min.js"></script>
+</head>
+<style>
+    a {
+        text-decoration: none;
+    }
+
+    .header_15_0_0_box1 {
+        display: flex;
+        align-items: center;
+    }
+
+    @media (max-width: 1024px) {
+        .header_15_0_0_box1 {
+            margin-top: 10px;
+            justify-content: space-between;
+        }
+    }
+
+    .header_15_0_0_box1-logo {
+        display: none;
+    }
+
+    @media (max-width: 1024px) {
+        .header_15_0_0_box1-logo {
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        .header_15_0_0_box1-logo img {
+            max-width: 100%;
+            width: 220px;
+        }
+    }
+
+    @media (max-width: 414px) {
+        .header_15_0_0_box1-logo img {
+            width: 200px;
+        }
+    }
+
+    @media (max-width: 360px) {
+        .header_15_0_0_box1-logo img {
+            width: 170px;
+        }
+    }
+
+    .header_15_0_0_box1-Control {
+        display: none;
+    }
+
+    @media (max-width: 1024px) {
+        .header_15_0_0_box1-Control {
+            display: flex;
+        }
+    }
+
+    .header_15_0_0_box1-Control,
+    .header_15_0_0_box1-Nav {
+        width: 85px;
+    }
+
+    .header_15_0_0_box1-sp,
+    .header_15_0_0_box1-dv {
+        width: 24%;
+    }
+
+    @media (max-width: 1024px) {
+
+        .header_15_0_0_box1-sp,
+        .header_15_0_0_box1-dv {
+            display: none;
+        }
+    }
+
+    .header_15_0_0_box1-ht {
+        width: 60%;
+        text-align: center;
+        color: #fff;
+    }
+
+    @media (max-width: 1024px) {
+        .header_15_0_0_box1-ht {
+            display: none;
+        }
+    }
+
+    .header_15_0_0_box1-dv {
+        display: flex;
+    }
+
+    @media (max-width: 1024px) {
+        .header_15_0_0_box1-dv {
+            display: none;
+        }
+    }
+
+    .header_15_0_0_box1-Nav {
+        display: none;
+    }
+
+    @media (max-width: 1024px) {
+        .header_15_0_0_box1-Nav {
+            display: block;
+        }
+    }
+
+    .header_15_0_0_box1-call {
+        padding-top: 5px;
+    }
+
+    .header_15_0_0_box1-call img {
+        vertical-align: bottom;
+        width: 100%;
+    }
+
+    .header_15_0_0_box1-search {
+        background-color: #0f7762;
+        margin-top: 5px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        width: 35px;
+        justify-content: center;
+    }
+
+    .header_15_0_0_box1-searchMB {
+        background: #067970;
+        color: #fff;
+        display: inline-block;
+        border-radius: 100%;
+        font-size: 13px;
+        padding: 8px 10px;
+        display: none;
+    }
+
+    @media (max-width: 1024px) {
+        .header_15_0_0_box1-searchMB {
+            display: block;
+        }
+    }
+
+    .header_15_0_0_box1-mapMB {
+        display: none;
+    }
+
+    .header_15_0_0_box1-mapMB #Layer_1 {
+        fill: #fff;
+        width: 14px;
+        height: 14px;
+    }
+
+    .header_15_0_0_box1-mapMB a {
+        background: #067970;
+        color: #fff;
+        display: block;
+        padding: 5px 8px;
+        font-size: 16px;
+        border-radius: 5px;
+    }
+
+    @media (max-width: 1024px) {
+        .header_15_0_0_box1-mapMB {
+            display: block;
+            margin-left: 10px;
+        }
+    }
+
+    .header_15_0_0_box1-Nav {
+        color: #1D8371;
+        font-size: 35px;
+    }
+
+    @media (max-width: 414px) {
+        .header_15_0_0_box1-Nav {
+            font-size: 30px;
+        }
+    }
+
+    .header_15_0_0_boxTop {
+        border-top: 5px solid #0f7762;
+        background: url(images/boxtop-bg.png) center bottom no-repeat;
+    }
+
+    @media (max-width: 1024px) {
+        .header_15_0_0_boxTop {
+            border-top: none;
+            background: #fff;
+        }
+    }
+
+    .header_15_0_0_box2 {
+        display: flex;
+        align-items: center;
+    }
+
+    @media (max-width: 1024px) {
+        .header_15_0_0_box2 {
+            display: none;
+            width: 270px;
+            background: #fff;
+            position: fixed;
+            height: 100%;
+            left: 0;
+            top: 0;
+            z-index: 3;
+            overflow: auto;
+            padding-bottom: 20px;
+            padding-top: 20px;
+        }
+    }
+
+    .header_15_0_0_box2.show {
+        display: block;
+    }
+
+    .header_15_0_0_box2-logo {
+        width: 25%;
+    }
+
+    .header_15_0_0_box2-logo img {
+        width: 95%;
+    }
+
+    @media (max-width: 1024px) {
+        .header_15_0_0_box2-logo img {
+            width: 100%;
+            padding: 0 30px;
+        }
+    }
+
+    @media (max-width: 414px) {
+        .header_15_0_0_box2-logo img {
+            padding: 0 20px;
+        }
+    }
+
+    .header_15_0_0_box2__menu {
+        width: 75%;
+        display: inherit;
+    }
+
+    @media (max-width: 1024px) {
+        .header_15_0_0_box2__menu {
+            width: 100%;
+        }
+    }
+
+    .header_15_0_0_box2__menu a {
+        font-size: 14px;
+        padding: 35px 18px 30px;
+        margin: 0;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+
+    @media (max-width: 1024px) {
+        .header_15_0_0_box2__menu a {
+            padding: 0 15px;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        .header_15_0_0_box2__menu-hover {
+            padding: 10px 0 10px;
+            position: relative;
+            border-top: 1px solid rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    .header_15_0_0_box2__menu-hover a {
+        position: relative;
+    }
+
+    .header_15_0_0_box2__menu-hover .arr::before {
+        position: absolute;
+        bottom: 29px;
+        right: 5px;
+        text-align: center;
+        color: #f16749;
+        content: '⌵';
+    }
+
+    @media (max-width: 1024px) {
+        .header_15_0_0_box2__menu-hover .arr::before {
+            display: none !important;
+        }
+    }
+
+    .header_15_0_0_box2__menu-hover:hover .arr::before,
+    .header_15_0_0_box2__menu-hover:hover .header_15_0_0_box2__menu-content {
+        display: block;
+    }
+
+    .header_15_0_0_box2__menu-hover:hover>a {
+        color: #e3a261;
+    }
+
+    .header_15_0_0_box2__menu-content {
+        padding-top: 30px;
+        display: none;
+        position: absolute;
+        width: 80%;
+        right: 16px;
+        top: 60px;
+        background: #0E7661;
+        color: #fff;
+        border-radius: 8px;
+    }
+
+    @media (max-width: 1024px) {
+        .header_15_0_0_box2__menu-content {
+            position: initial;
+            width: 100%;
+            border-radius: 0;
+            top: auto;
+            right: auto;
+            margin-top: 10px;
+            padding-top: 0;
+        }
+    }
+
+    .header_15_0_0_box2__menu-content ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    @media (max-width: 1024px) {
+        .header_15_0_0_box2__menu-content ul {
+            padding: 0px;
+            margin: -2px;
+        }
+    }
+
+    .header_15_0_0_box2__menu-content ul li {
+        border-bottom: 1px dotted #ccc;
+        margin: 0;
+        padding: 4px 0;
+        font-size: 13px;
+        position: relative;
+    }
+
+    @media (max-width: 1024px) {
+        .header_15_0_0_box2__menu-content ul li {
+            border-bottom: none;
+            background-color: #017d73;
+            padding: 8px 0px;
+            margin: 4px 0;
+        }
+    }
+
+    .header_15_0_0_box2__menu-content ul li:last-child {
+        border-bottom: none;
+    }
+
+    .header_15_0_0_box2__menu-content a {
+        color: #fff;
+        transition: 0.1s;
+        padding: 0;
+        text-transform: none;
+        font-weight: 400;
+    }
+
+    @media (max-width: 1024px) {
+        .header_15_0_0_box2__menu-content a {
+            padding: 0 15px;
+        }
+    }
+
+    .header_15_0_0_box2__menu-content a:hover {
+        color: #DCAF47;
+    }
+
+    .header_15_0_0_box2__menu-content h4 {
+        color: #fff;
+        font-size: 15px;
+        padding: 5px 0;
+        text-transform: uppercase;
+        border-bottom: 1px dotted #d5b67c;
+        position: relative;
+        margin-bottom: 10px;
+        margin-top: -32px;
+    }
+
+    @media (max-width: 1024px) {
+        .header_15_0_0_box2__menu-content h4 {
+            margin-top: 0;
+            margin-bottom: 0;
+            margin-left: 12px;
+            border-bottom: transparent;
+            color: #e5c992;
+        }
+    }
+
+    .header_15_0_0_box2__menu-content p {
+        margin-top: 10px;
+    }
+
+    .header_15_0_0_box2__menu-content .row {
+        padding: 15px 25px;
+    }
+
+    @media (max-width: 1024px) {
+        .header_15_0_0_box2__menu .menu-icon {
+            display: block;
+            position: absolute;
+            right: 0px;
+            top: 0px;
+            color: #666;
+            padding: 10px;
+            text-align: right;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    @media (max-width: 1024px) {
+        .header_15_0_0_box2__menu .icon-plus::before {
+            content: '+';
+            position: absolute;
+            right: 10px;
+        }
+
+        .header_15_0_0_box2__menu .icon-plus.active::before {
+            content: '-';
+        }
+    }
+
+    .header_15_0_0_box2 ul {
+        padding-left: 0;
+    }
+
+    .header_15_0_0_box2 ul li {
+        list-style: none;
+    }
+
+    @media (max-width: 1024px) {
+        .header_15_0_0_box2__address {
+            display: none;
+        }
+    }
+
+    .header_15_0_0_box2__address select {
+        padding: 5px 0;
+        margin-bottom: 0;
+    }
+
+    @media (max-width: 1024px) {
+        .header_15_0_0_box2 .row>div {
+            padding-left: 0;
+            padding-right: 0;
+        }
+    }
+
+    .header_15_0_0_box2-tv {
+        display: none;
+    }
+
+    @media (max-width: 1024px) {
+        .header_15_0_0_box2-tv {
+            display: block;
+            text-align: center;
+            margin-top: 30px;
+        }
+    }
+
+    .header_15_0_0_box2-tv a {
+        background: #067670;
+        color: #fff;
+        padding: 10px 20px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+
+    .header_15_0_0_box3 {
+        background: rgba(0, 0, 0, 0.6);
+        width: 100%;
+        height: 100%;
+        content: '';
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        animation: opac 0.4s;
+    }
+
+    .header_15_0_0_box3.act {
+        display: block;
+    }
+
+    /*# sourceMappingURL=header_15_0_0.css.map */
+</style>
+
+<body>
+    <header class="header_15_0_0">
+        <div class="header_15_0_0_boxTop">
+            <div class="container">
+                <div class="header_15_0_0_box1">
+                    <div id="toggle" class="header_15_0_0_box1-Nav">☰</div>
+                    <div class="header_15_0_0_box1-logo">
+                        <a href="/">
+                            <img src="images/logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="header_15_0_0_box1-Control">
+                        <div class="header_15_0_0_box1-searchMB">
+                            <a class="modal-btn" data-modal="search">
+                                <img style="width:16px" src="images/search-2.svg">
+                            </a>
+                        </div>
+                        <div class="header_15_0_0_box1-mapMB">
+                            <a href="#chi-nhanh">
+                                <svg id="Layer_1" enable-background="new 0 0 512 512" height="15" viewBox="0 0 512 512"
+                                    width="15" xmlns="http://www.w3.org/2000/svg">
+                                    <g>
+                                        <path class="header_15_0_0-box1-map"
+                                            d="m407.579 87.677c-31.073-53.624-86.265-86.385-147.64-87.637-2.62-.054-5.257-.054-7.878 0-61.374 1.252-116.566 34.013-147.64 87.637-31.762 54.812-32.631 120.652-2.325 176.123l126.963 232.387c.057.103.114.206.173.308 5.586 9.709 15.593 15.505 26.77 15.505 11.176 0 21.183-5.797 26.768-15.505.059-.102.116-.205.173-.308l126.963-232.387c30.304-55.471 29.435-121.311-2.327-176.123zm-151.579 144.323c-39.701 0-72-32.299-72-72s32.299-72 72-72 72 32.299 72 72-32.298 72-72 72z">
+                                        </path>
+                                    </g>
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="header_15_0_0_box1-sp">
+                    </div>
+                    <div class="header_15_0_0_box1-ht">
+                        HỆ THỐNG THẨM MỸ UY TÍN TOÀN QUỐC
+                    </div>
+                    <div class="header_15_0_0_box1-dv">
+                        <div class="header_15_0_0_box1-call">
+                            <a>
+                                <img src="images/boxtop-call.png">
+                            </a>
+                        </div>
+                        <div class="header_15_0_0_box1-search">
+                            <a>
+                                <img src="images/search.svg">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="header_15_0_0_box2" id="headerMenu">
+                <a href="/" class="header_15_0_0_box2-logo">
+                    <img src="images/logo.png">
+                </a>
+                <ul class="header_15_0_0_box2__menu">
+                    <li class="header_15_0_0_box2__menu-hover">
+                        <a href="" class="arr">giới thiệu </a> <i class="menu-icon icon-plus"></i>
+                        <div class="header_15_0_0_box2__menu-content">
+                            <div class="row">
+                                <div class="col-xl-3">
+                                    <h4>Về Đông Á</h4>
+                                    <ul>
+                                        <li><a href="/kien-thuc-lam-dep/benh-vien-tham-my-kangnam-benh-vien-han-quoc-uy-tin-tai-viet-nam/"
+                                                rel="nofollow">Tổng quan Đông Á</a></li>
+                                        <li><a href="/kien-thuc-lam-dep/doi-ngu-bac-si-tham-my-tai-bvtm-kangnam/"
+                                                rel="nofollow">Đội ngũ
+                                                bác sĩ</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-xl-3">
+                                    <ul>
+                                        <li><a title="Các công nghệ thẩm mỹ Hot nhất tại BVTM Kangnam"
+                                                href="/kien-thuc-lam-dep/benh-vien-tham-my-kangnam-cong-nghe-tham-my-hot-han-quoc/"
+                                                rel="nofollow ">Cơ sở vật chất</a></li>
+                                        <li><a title="Bảng giá phẫu thuật thẩm mỹ tại Kangnam"
+                                                href="https://benhvienthammydonga.vn//bang-gia-dich-vu-tham-my/cap-nhat-bang-gia-phau-thuat-tham-my-tai-kangnam-moi-nhat/">Trang
+                                                thiết bị</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-xl-3">
+                                    <ul>
+                                        <li><a title="Các chương trình khuyến mại phẫu thuật thẩm mỹ tại Kangnam"
+                                                href="/kien-thuc-lam-dep/uu-dai/" rel="nofollow ">Bảng giá thẩm mỹ</a>
+                                        </li>
+
+                                    </ul>
+                                </div>
+                                <div class="col-xl-3">
+                                    <ul>
+                                        <li><a title="Chính sách bảo hành sau phẫu thuật thẩm mỹ"
+                                                href="/kien-thuc-lam-dep/chinh-sach-bao-hanh-uy-tin-tai-benh-vien-tham-my-kangnam/"
+                                                rel="nofollow ">Hệ Thống Chi nhánh</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header_15_0_0_box2__menu-hover">
+                        <a class="arr">Thẩm mỹ khuôn mặt</a> <i class="menu-icon icon-plus"></i>
+                        <div class="header_15_0_0_box2__menu-content">
+                            <div class="row">
+                                <div class="col-xl-3">
+                                    <h4>THẨM MỸ MŨI</h4>
+                                    <ul>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mui/nang-mui-han-quoc/">Nâng
+                                                mũi bọc
+                                                sụn</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mui/nang-mui-cau-truc/">Nâng
+                                                mũi Model –
+                                                Bán cấu trúc</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mui/nang-mui-sun-suon/">Nâng
+                                                mũi Model –
+                                                Cấu trúc</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mui/thu-gon-canh-mui/">Nâng
+                                                mũi Model –
+                                                Nano Form</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mui/thu-nho-dau-mui/">Nâng
+                                                mũi Model –
+                                                Bán sụn sườn</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mui/mui-go-lech-phai-lam-sao/"
+                                                rel="nofollow ">PT hạ thấp sống mũi gồ</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mui/nang-mui-bi-hong/">Nâng
+                                                mũi Model –
+                                                Sụn sườn</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mui/tiem-filler-mui/">Nâng
+                                                mũi Model –
+                                                Chỉnh hình mũi</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mui/tiem-filler-mui/">Chỉnh
+                                                hình vách
+                                                ngăn</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mui/tiem-filler-mui/">Tháo
+                                                chất liệu
+                                                mũi</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mui/tiem-filler-mui/">Thu
+                                                nhỏ cánh mũi</a>
+                                        </li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mui/tiem-filler-mui/">Thu
+                                                nhỏ đầu mũi</a>
+                                        </li>
+                                    </ul>
+                                    <p></p>
+                                </div>
+                                <div class="col-xl-3">
+                                    <h4>THẨM MỸ MẮT</h4>
+                                    <ul>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mat/cat-mi-mat-plasma/">Cắt
+                                                mí hàn quốc
+                                                double eyelifft</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mat/nhan-mi-mat/">Cắt mí
+                                                Natural Eyes</a>
+                                        </li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mat/lay-mo-mi-mat-tren/">Nâng
+                                                cung chân
+                                                mày</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mat/lay-mo-mi-mat/">Tạo
+                                                khoé mắt
+                                                trong/ngoài</a>
+                                        </li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mat/nang-cung-may/">Lấy mỡ
+                                                mí mắt </a>
+                                        </li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mat/chua-sup-mi-bam-sinh/">Xóa
+                                                rãnh lệ
+                                            </a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//cay-mo/cay-mo-hoc-mat/">Cấy/ghép mỡ
+                                                mắt
+                                                mắt</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mat/mo-rong-goc-mat/">Chỉnh
+                                                hình sụp
+                                                mí</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mat/phau-thuat-mat-to/">Bấm
+                                                mí Hàn Quốc</a>
+                                        </li>
+                                        <li><a
+                                                href="https://benhvienthammydonga.vn//tham-my-mat/chinh-sua-cat-mi-mat-bi-hong-do-loi-phau-thuat/">Bấm
+                                                mí Dr Park</a></li>
+                                    </ul>
+                                    <p></p>
+                                </div>
+                                <div class="col-xl-3">
+                                    <h4>THẨM MỸ HÀM MẶT</h4>
+                                    <ul>
+                                        <li><a
+                                                href="https://benhvienthammydonga.vn//tham-my-ham-mat/phau-thuat-got-ham-vline-tai-kangnam/">Gọt
+                                                hàm V-line</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-ham-mat/phau-thuat-ham-ho-mom-tai-kangnam/"
+                                                rel="nofollow ">Trượt – Gọt cằm</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-ham-mat/phau-thuat-nang-go-ma-an-toan-khong-dau/"
+                                                rel="nofollow ">Chỉnh hàm hô móm</a></li>
+                                        <li><a
+                                                href="https://benhvienthammydonga.vn//tham-my-ham-mat/phau-thuat-don-cam-v-line/">PT
+                                                độn
+                                                cằm</a></li>
+                                        <li><a
+                                                href="https://benhvienthammydonga.vn//tham-my-ham-mat/phau-thuat-truot-cam-vline-kangnam/">Chữa
+                                                cười hở lợi</a></li>
+                                        <li><a
+                                                href="https://benhvienthammydonga.vn//tham-my-ham-mat/phau-thuat-cuoi-ho-loi/">Hạ
+                                                gò
+                                                má</a></li>
+                                        <li><a
+                                                href="https://benhvienthammydonga.vn//tham-my-ham-mat/phau-thuat-cuoi-ho-loi/">Nâng
+                                                gò
+                                                má</a></li>
+                                        <li><a
+                                                href="https://benhvienthammydonga.vn//tham-my-ham-mat/phau-thuat-cuoi-ho-loi/">Độn
+                                                cằm
+                                                Vline</a></li>
+                                        <li><a
+                                                href="https://benhvienthammydonga.vn//tham-my-ham-mat/phau-thuat-cuoi-ho-loi/">Tạo
+                                                cằm
+                                                chẻ</a></li>
+                                        <li><a
+                                                href="https://benhvienthammydonga.vn//tham-my-ham-mat/phau-thuat-cuoi-ho-loi/">Lấy
+                                                mỡ
+                                                nọng cằm</a></li>
+                                        <li><a
+                                                href="https://benhvienthammydonga.vn//tham-my-ham-mat/phau-thuat-cuoi-ho-loi/">Độn
+                                                thái
+                                                dương</a></li>
+                                        <li><a
+                                                href="https://benhvienthammydonga.vn//tham-my-ham-mat/phau-thuat-cuoi-ho-loi/">Độn
+                                                trán</a></li>
+                                        <li><a
+                                                href="https://benhvienthammydonga.vn//tham-my-ham-mat/phau-thuat-cuoi-ho-loi/">Gọt
+                                                trán</a></li>
+                                    </ul>
+                                    <p></p>
+                                </div>
+                                <div class="col-xl-3">
+                                    <h4>KHÁC</h4>
+                                    <ul>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-moi/cat-moi-trai-tim/">Cấy
+                                                mỡ mặt</a></li>
+                                        <li><a
+                                                href="https://benhvienthammydonga.vn//tham-my-ma-lum/tao-ma-lum-dong-tien/">Tạo
+                                                má
+                                                lúm</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//cang-da-cay-mo-mat/cang-da-mat/">Tạo
+                                                hình môi</a>
+                                        </li>
+                                        <li><a href="https://benhvienthammydonga.vn//cang-da-cay-mo-mat/cang-da-tran/">Căng
+                                                da mặt</a>
+                                        </li>
+                                        <li><a
+                                                href="https://benhvienthammydonga.vn//cang-da-cay-mo-mat/cang-da-mat-bang-chi/">cấy
+                                                tóc</a></li>
+                                        <li><a
+                                                href="https://benhvienthammydonga.vn//cang-da-cay-mo-mat/cang-da-mat-bang-chi/">trị
+                                                rụng
+                                                tóc</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="header_15_0_0_box2__menu-hover">
+                        <a class="arr">Thẩm mỹ vóc dáng</a> <i class="menu-icon icon-plus"></i>
+                        <div class="header_15_0_0_box2__menu-content">
+                            <div class="row">
+                                <div class="col-xl-4">
+                                    <h4>GIẢM MỠ</h4>
+                                    <ul>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mui/nang-mui-han-quoc/">Hút
+                                                mỡ Lipo
+                                                Vaser</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mui/nang-mui-cau-truc/">Hút
+                                                mỡ + Tạo
+                                                hình toàn thể</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mui/nang-mui-sun-suon/">Giảm
+                                                mỡ bụng
+                                                Slimlipo</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mui/thu-gon-canh-mui/">Giảm
+                                                mỡ phân vùng
+                                                Slimlipo</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mui/thu-nho-dau-mui/">Hút
+                                                mỡ bụng
+                                                Slimlipo</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mui/mui-go-lech-phai-lam-sao/"
+                                                rel="nofollow ">Tạo cơ bụng 6 múi</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mui/nang-mui-bi-hong/">Phẫu
+                                                thuật thu
+                                                gọn bắp chân</a></li>
+                                    </ul>
+                                    <p></p>
+                                </div>
+                                <div class="col-xl-4">
+                                    <h4>NÂNG NGỰC</h4>
+                                    <ul>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mat/cat-mi-mat-plasma/">
+                                                Nâng ngực túi
+                                                Nano</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mat/nhan-mi-mat/">Cấy mỡ
+                                                nâng ngực</a>
+                                        </li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mat/lay-mo-mi-mat-tren/">Thu
+                                                gọn ngực phì
+                                                đại</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mat/lay-mo-mi-mat/">Treo
+                                                ngực sa trễ</a>
+                                        </li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mat/nang-cung-may/">Thu nhỏ
+                                                nhũ hoa – Đầu
+                                                ti</a>
+                                        </li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mat/chua-sup-mi-bam-sinh/">Làm
+                                                hồng nhũ hoa
+                                            </a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//cay-mo/cay-mo-hoc-mat/">Cắt tuyến
+                                                vú</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mat/mo-rong-goc-mat/">Thu
+                                                nhỏ quầng
+                                                vú</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-xl-4">
+                                    <h4>NÂNG MÔNG</h4>
+                                    <ul>
+                                        <li><a
+                                                href="https://benhvienthammydonga.vn//tham-my-ham-mat/phau-thuat-got-ham-vline-tai-kangnam/">Nâng
+                                                mông nội soi</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-ham-mat/phau-thuat-ham-ho-mom-tai-kangnam/"
+                                                rel="nofollow ">Nâng mông chảy xê</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-ham-mat/phau-thuat-nang-go-ma-an-toan-khong-dau/"
+                                                rel="nofollow ">Cấy mỡ nâng mông</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header_15_0_0_box2__menu-hover">
+                        <a class="arr">ĐIỀU TRỊ DA</a> <i class="menu-icon icon-plus"></i>
+                        <div class="header_15_0_0_box2__menu-content">
+                            <div class="row">
+                                <div class="col-xl-3">
+                                    <h4>TRẺ HÓA CHUẨN NHẬT</h4>
+                                    <ul>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mui/nang-mui-han-quoc/">Trẻ
+                                                hóa Bio
+                                                Yooung</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mui/nang-mui-cau-truc/">Trẻ
+                                                hóa
+                                                Thermage</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mui/nang-mui-sun-suon/">Trẻ
+                                                hóa Hifu</a>
+                                        </li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mui/thu-gon-canh-mui/">Chăm
+                                                sóc da mặt
+                                                chuyên sâu</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mui/thu-nho-dau-mui/">Chăm
+                                                sóc body chuyên
+                                                sâu</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-xl-3">
+                                    <h4>ĐIỀU TRỊ DA</h4>
+                                    <ul>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mat/cat-mi-mat-plasma/">
+                                                Điều trị nám chuẩn
+                                                Nhật</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mat/nhan-mi-mat/">Trị sẹo
+                                                lồi</a>
+                                        </li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mat/lay-mo-mi-mat-tren/">Trị
+                                                sẹo rỗ</a>
+                                        </li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mat/lay-mo-mi-mat/">Trị mụn
+                                                chuẩn Nhật</a>
+                                        </li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mat/nang-cung-may/">Trị mụn
+                                                thịt</a>
+                                        </li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mat/chua-sup-mi-bam-sinh/">Chăm
+                                                sóc da
+                                                mụn Acne Remove
+                                            </a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-xl-3">
+                                    <h4>SPA</h4>
+                                    <ul>
+                                        <li><a
+                                                href="https://benhvienthammydonga.vn//tham-my-ham-mat/phau-thuat-got-ham-vline-tai-kangnam/">Triệt
+                                                lông Diode Laser M3</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-ham-mat/phau-thuat-ham-ho-mom-tai-kangnam/"
+                                                rel="nofollow ">Tắm dưỡng body</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-ham-mat/phau-thuat-nang-go-ma-an-toan-khong-dau/"
+                                                rel="nofollow ">Tắm trắng toàn thân Hi White 3D</a></li>
+                                        <li><a
+                                                href="https://benhvienthammydonga.vn//tham-my-ham-mat/phau-thuat-don-cam-v-line/">Massage
+                                                thư giãn</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-xl-3">
+                                    <h4>KHÁC</h4>
+                                    <ul>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-moi/cat-moi-trai-tim/">Xóa
+                                                xăm</a></li>
+                                        <li><a
+                                                href="https://benhvienthammydonga.vn//tham-my-ma-lum/tao-ma-lum-dong-tien/">PT
+                                                tạo má
+                                                lúm</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//cang-da-cay-mo-mat/cang-da-mat/">Phun
+                                                xăm</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="header_15_0_0_box2__menu-hover">
+                        <a class="arr">Thẩm mỹ khác</a> <i class="menu-icon icon-plus"></i>
+                        <div class="header_15_0_0_box2__menu-content">
+                            <div class="row">
+                                <div class="col-xl-3">
+                                    <h4>CẤY TÓC</h4>
+                                    <ul>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mui/nang-mui-han-quoc/">Cấy
+                                                tóc Bio Hair
+                                                Transplant</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-xl-3">
+                                    <h4>NHA KHOA</h4>
+                                    <ul>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mat/cat-mi-mat-plasma/">
+                                                Tẩy trắng răng</a>
+                                        </li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mat/nhan-mi-mat/">Niềng
+                                                răng Nano 3D</a>
+                                        </li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mat/lay-mo-mi-mat-tren/">Trồng
+                                                răng
+                                                Implant</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-mat/lay-mo-mi-mat/">Bọc
+                                                răng sứ</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="col-xl-3">
+                                    <h4>TRỊ HÔI NÁCH</h4>
+                                    <ul>
+                                        <li><a
+                                                href="https://benhvienthammydonga.vn//tham-my-ham-mat/phau-thuat-got-ham-vline-tai-kangnam/">Trị
+                                                hôi nách Laser Ultra Dry</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-xl-3">
+                                    <h4>THẨM MỸ VÙNG KÍN</h4>
+                                    <ul>
+                                        <li><a href="https://benhvienthammydonga.vn//tham-my-moi/cat-moi-trai-tim/">Thu
+                                                nhỏ môi bé,
+                                                lớn</a></li>
+                                        <li><a
+                                                href="https://benhvienthammydonga.vn//tham-my-ma-lum/tao-ma-lum-dong-tien/">Tạo
+                                                hình
+                                                vùng kín </a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//cang-da-cay-mo-mat/cang-da-mat/">Cấy
+                                                mỡ – Trẻ
+                                                hóa vùng kín</a></li>
+                                        <li><a href="https://benhvienthammydonga.vn//cang-da-cay-mo-mat/cang-da-tran/">Trẻ
+                                                hóa làm
+                                                hồng vùng kín</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="header_15_0_0_box2__address">
+                    <select id="url" onchange="urlHandler(this.value)">
+                        <option selected="">CHỌN CHI NHÁNH</option>
+                        <option value="https://benhvienthammydonga.vn/dong-a-ha-noi/">Hà Nội</option>
+                        <option value="https://benhvienthammydonga.vn/dong-a-tp-ho-chi-minh/">TP .Hồ Chí Minh</option>
+                        <option value="https://benhvienthammydonga.vn/dong-a-da-nang/">Đà Nẵng</option>
+                        <option value="https://benhvienthammydonga.vn/dong-a-hai-phong/">Hải Phòng</option>
+                        <option value="https://benhvienthammydonga.vn/dong-a-binh-duong/">Bình Dương</option>
+                        <option value="https://benhvienthammydonga.vn/dong-a-nghe-an/">Nghệ An</option>
+                        <option value="https://benhvienthammydonga.vn/dong-a-can-tho/">Cần Thơ</option>
+                    </select>
+                </div>
+                <div class="header_15_0_0_box2-tv">
+                    <a class="popup_regist_2_0_1_clickPopup bvda_tv">Tư vấn miễn phí</a>
+                </div>
+            </div>
+        </div>
+        <div class="header_15_0_0_box3"></div>
+    </header>
+    <script src="js/header_15_0_0.js"></script>
+
+</body>
+
+</html>

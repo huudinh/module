@@ -1,0 +1,371 @@
+.footer_7_0_0 h2, .footer_7_0_0__info p {
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.footer_7_0_0 {
+  background: #005B59;
+  padding-top: 30px;
+  z-index: 2;
+  position: relative;
+}
+.footer_7_0_0 .mb {
+  display: none;
+}
+
+.footer_7_0_0__container {
+  width: 73%;
+  margin: 0 auto;
+  padding-bottom: 20px;
+}
+
+.footer_7_0_0__bct {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.footer_7_0_0__logo {
+  text-align: center;
+}
+
+.footer_7_0_0__sub {
+  color: #eeee;
+  text-align: center;
+  font-size: 15px;
+  background: #014D4B;
+  padding: 10px 0;
+}
+
+.footer_7_0_0__social {
+  width: 76%;
+  margin: 20px auto 0;
+}
+.footer_7_0_0__social a {
+  margin: 0 10px;
+}
+
+.footer_7_0_0__boxif {
+  text-align: center;
+}
+.footer_7_0_0__boxif p {
+  color: #fff;
+  font-size: 13px;
+}
+.footer_7_0_0__boxif p a {
+  color: #EFB958;
+  text-decoration: underline;
+}
+
+.footer_7_0_0__img {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.footer_7_0_0 h2 {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+
+.footer_7_0_0__info p {
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  border-bottom: 1px solid #0d746f;
+  margin-right: 100px;
+  padding-bottom: 5px;
+}
+.footer_7_0_0__info ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer_7_0_0__info ul li {
+  padding-bottom: 10px;
+  color: #fff;
+}
+.footer_7_0_0__info ul li i {
+  color: #EFB958;
+}
+.footer_7_0_0__info ul li a {
+  color: #fff;
+  transition: all 0.4s;
+  font-size: 16px;
+}
+.footer_7_0_0__info ul li a p {
+  margin: 0;
+  color: #98B1B0;
+  font-weight: 600;
+}
+.footer_7_0_0__info ul li:hover a {
+  color: #EF810A;
+  transition: all 0.4s;
+}
+
+.footer_7_0_0__regist input {
+  padding: 15px 20px;
+  border: none;
+  margin-bottom: 10px;
+  width: 100%;
+}
+.footer_7_0_0__regist button {
+  background: #EF810A;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  width: 100%;
+  border: none;
+  text-align: center;
+  padding: 15px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.footer_7_0_0__regist button:hover {
+  background: #E0C38B;
+  transition: all 0.4s;
+  color: #333;
+}
+.footer_7_0_0__regist a img {
+  width: 80%;
+}
+
+.footer_7_0_0__copyright ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  padding-left: 100px;
+  margin-top: 30px;
+}
+.footer_7_0_0__copyright ul li {
+  padding-bottom: 6px;
+  color: #fff;
+}
+.footer_7_0_0__copyright ul li span {
+  color: #efb957;
+}
+
+@media (max-width: 1440px) {
+  .footer_7_0_0__container {
+    width: 100%;
+  }
+}
+@media (max-width: 1366px) {
+  .footer_7_0_0__social {
+    width: 76%;
+    margin-top: 40px;
+  }
+
+  .footer_7_0_0__copyright ul {
+    padding-left: 90px;
+  }
+}
+@media (max-width: 1280px) {
+  .footer_7_0_0 h2 {
+    font-size: 18px;
+  }
+
+  .footer_7_0_0__social {
+    width: 80%;
+  }
+
+  .footer_7_0_0__copyright ul {
+    padding-left: 70px;
+  }
+}
+@media (max-width: 1024px) {
+  .footer_7_0_0 {
+    padding-top: 25px;
+  }
+
+  .footer_7_0_0__container {
+    width: 90%;
+  }
+
+  .footer_7_0_0 h2 {
+    font-size: 16px;
+  }
+
+  .footer_7_0_0__social {
+    width: 100%;
+    text-align: center;
+  }
+  .footer_7_0_0__social a {
+    margin: 0 5px;
+  }
+
+  .footer_7_0_0__sub {
+    font-size: 14px;
+  }
+
+  .footer_7_0_0__info p {
+    font-size: 14px;
+    margin-right: 0;
+  }
+  .footer_7_0_0__info ul li {
+    font-size: 12px;
+    padding-bottom: 17px;
+  }
+
+  .footer_7_0_0__regist a img {
+    width: 100%;
+  }
+
+  .footer_7_0_0__copyright ul {
+    padding-left: 10px;
+  }
+}
+@media (max-width: 812px) {
+  .footer_7_0_0__logo img {
+    width: 70%;
+    height: auto;
+  }
+
+  .footer_7_0_0__social a {
+    margin: 0 2px;
+  }
+
+  .footer_7_0_0 h2 {
+    font-size: 14px;
+    text-align: center;
+  }
+
+  .footer_7_0_0__sub {
+    font-size: 12px;
+    padding-top: 20px;
+  }
+
+  .footer_7_0_0__info ul li {
+    padding-bottom: 13px;
+  }
+
+  .footer_7_0_0 .col-md-4:nth-child(2) {
+    text-align: center;
+  }
+
+  .footer_7_0_0__regist input {
+    padding: 10px;
+  }
+  .footer_7_0_0__regist button {
+    padding: 10px;
+    font-size: 14px;
+  }
+
+  .footer_7_0_0__copyright {
+    font-size: 14px;
+  }
+}
+@media (max-width: 414px) {
+  .footer_7_0_0 {
+    padding-top: 25px;
+    padding-bottom: 50px;
+  }
+
+  .footer_7_0_0__container {
+    width: 90%;
+    padding-bottom: 10px;
+  }
+
+  .footer_7_0_0 .mb {
+    display: block;
+  }
+  .footer_7_0_0 .pc {
+    display: none;
+  }
+
+  .footer_7_0_0__img {
+    padding-top: 10px;
+  }
+
+  .footer_7_0_0__logo img {
+    width: 40%;
+  }
+
+  .footer_7_0_0__social {
+    width: 100%;
+    margin-top: 10px;
+  }
+
+  .footer_7_0_0 .col-md-3 {
+    margin-bottom: 10px;
+  }
+  .footer_7_0_0 .col-md-3:nth-child(4), .footer_7_0_0 .col-md-3:nth-child(1) {
+    margin-bottom: 0;
+  }
+  .footer_7_0_0 h2 {
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-size: 16px;
+    text-align: left;
+  }
+
+  .footer_7_0_0__info {
+    text-align: left;
+  }
+  .footer_7_0_0__info p {
+    font-size: 16px;
+  }
+  .footer_7_0_0__info ul li {
+    padding-bottom: 10px;
+    font-size: 14px;
+  }
+  .footer_7_0_0__info ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+  }
+  .footer_7_0_0__info ul li a p {
+    padding-right: 10px;
+  }
+
+  .footer_7_0_0__regist {
+    padding-top: 20px;
+  }
+  .footer_7_0_0__regist input {
+    padding: 5px 10px;
+    margin-bottom: 5px;
+  }
+  .footer_7_0_0__regist button {
+    padding: 5px;
+  }
+
+  .footer_7_0_0__copyright {
+    font-size: 14px;
+  }
+  .footer_7_0_0__copyright ul {
+    padding-left: 0;
+  }
+  .footer_7_0_0__copyright br {
+    display: block;
+  }
+
+  .footer_7_0_0__boxif p:last-child {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 375px) {
+  .footer_7_0_0 h2 {
+    font-size: 18px;
+  }
+}
+@media (max-width: 360px) {
+  .footer_7_0_0__copyright {
+    font-size: 14px;
+  }
+}
+@media (max-width: 320px) {
+  .footer_7_0_0__container {
+    width: 95%;
+  }
+
+  .footer_7_0_0__info ul li {
+    font-size: 12px;
+  }
+  .footer_7_0_0__info ul li a {
+    font-size: 12px;
+  }
+}
+
+/*# sourceMappingURL=footer_7_0_0.css.map */
