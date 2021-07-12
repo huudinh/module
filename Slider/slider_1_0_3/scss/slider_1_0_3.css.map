@@ -1,7 +1,7 @@
 {
 "version": 3,
 "mappings": "AACA,aAAc;EACV,OAAO,EAAE,CAAC;EACV,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,CAAC;EACX,iBAAG;IACC,KAAK,EAAE,IAAI",
-"sources": ["../sass/slider_5_0_0.scss"],
+"sources": ["slider_1_0_3.scss"],
 "names": [],
-"file": "slider_5_0_0.css"
+"file": "slider_1_0_3.css"
 }
