@@ -1,3 +1,4 @@
+<style>
 .post_author_1_0_0 {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial
 }
@@ -13,26 +14,26 @@
 }
 
 .post_author_1_0_0__iconDate {
-    background: url(../images/date.png) no-repeat;
+    background: url(<?php echo $path ?>/images/date.png) no-repeat;
     width: 25px;
     height: 30px
 }
 
 .post_author_1_0_0__iconPerson {
-    background: url(../images/person.png) no-repeat;
+    background: url(<?php echo $path ?>/images/person.png) no-repeat;
     width: 25px;
     height: 30px;
     margin-top: 2px
 }
 
 .post_author_1_0_0__iconDoctor {
-    background: url(../images/doctor.png) no-repeat;
+    background: url(<?php echo $path ?>/images/doctor.png) no-repeat;
     width: 25px;
     height: 30px
 }
 
 .post_author_1_0_0__iconview {
-    background: url(../images/view.png) no-repeat;
+    background: url(<?php echo $path ?>/images/view.png) no-repeat;
     width: 25px;
     height: 30px;
     margin-top: 3px
@@ -69,3 +70,4 @@
         padding-left: 0
     }
 }
+</style>

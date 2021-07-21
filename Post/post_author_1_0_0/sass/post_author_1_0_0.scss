@@ -1,39 +1,39 @@
-.post_author_1_0_0{
+.post_author_1_0_0 {
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial;
-    &__navg{
+    &__navg {
         display: flex;
     }
-    li{
+    li {
         list-style-type: none;
-      display: flex;
-      padding-left: 10px;
+        display: flex;
+        padding-left: 10px;
     }
-    &__iconDate{
+    &__iconDate {
         background: url(../images/date.png) no-repeat;
         width: 25px;
         height: 30px;
     }
-    &__iconPerson{
+    &__iconPerson {
         background: url(../images/person.png) no-repeat;
         width: 25px;
         height: 30px;
         margin-top: 2px;
     }
-    &__iconDoctor{
+    &__iconDoctor {
         background: url(../images/doctor.png) no-repeat;
         width: 25px;
         height: 30px;
     }
-    &__iconview{
+    &__iconview {
         background: url(../images/view.png) no-repeat;
         width: 25px;
         height: 30px;
         margin-top: 3px;
     }
-    p{
+    p {
         font-weight: 600;
         color: #000;
-        a{
+        a {
             color: #105496;
         }
     }
@@ -43,15 +43,17 @@
         padding-right: 5px;
         color: #000;
     }
-    @media(max-width:768px){
-        &__navg{
+    .line {
+        border-top: 2px solid #ddeeff;
+    }
+    @media (max-width: 768px) {
+        &__navg {
             flex-wrap: wrap;
         }
     }
-    @media(max-width:480px){
-        &__navg{
+    @media (max-width: 480px) {
+        &__navg {
             padding-left: 0;
         }
     }
-  
 }
