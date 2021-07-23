@@ -1,0 +1,94 @@
+.commit_1_0_0{
+    .container{
+        max-width: 480px;
+    }
+    &__Title{
+        margin-top: 20px;
+        text-align: center;
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    }
+    &__tieude{
+        padding: 20px 0;
+        color: #0056a2;
+        font-size: 20px;
+        font-weight: 600;
+    }
+    &__boxItem{
+        position: relative;
+        img{
+            width: 100%;
+            height: 111px;
+        }
+    }
+    &__Content{
+        width: 50%;
+        display: flex;
+        position: absolute;
+        left: 32px;
+        top: 15px;
+        align-items: center;
+        justify-content: center;
+        img{
+          width: 20%;
+          height: 20%;
+          margin-right: 30px;
+        }
+    }
+    &__text{
+        color: #000;
+    }
+    &__regist{
+        padding-top: 10px;
+        text-align: center;
+        p{
+            color: #000;
+        }
+    }
+    &__button{
+        background: #e43d3b;
+        padding: 5px 10px;
+        width: 50%;
+        margin: 0 auto;
+        border-radius: 15px;
+        a{
+            color: #fff;
+        }
+    }
+@media(max-width: 375px){
+    &__text{
+        font-size: 13px;
+    }
+    &__regist{
+        p{
+            font-size: 13px;
+        }
+    }
+}
+@media(max-width: 320px){
+    &__boxItem{
+        img{
+       
+            height: 83px;
+
+        }
+    }
+    &__Content{
+        img{
+            width: 20%;
+            height:20%;
+        }
+    }
+    &__text{
+        font-size: 10px;
+    }
+    &__regist{
+        p{
+            font-size: 11px;
+        }
+        a{
+            font-size: 13px;
+
+        }
+    }
+}
+}
