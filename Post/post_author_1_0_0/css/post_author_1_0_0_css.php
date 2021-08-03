@@ -1,10 +1,12 @@
 <style>
 .post_author_1_0_0 {
+    font-size:14px;
     font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial
 }
 
 .post_author_1_0_0__navg {
-    display: flex
+    display: flex;
+    padding:0;
 }
 
 .post_author_1_0_0 li {
