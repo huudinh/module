@@ -1,0 +1,20 @@
+
+.sidebar_6_0_0{
+    text-align: center;
+    &__newother {
+        margin-top: 30px;
+        a {
+            text-decoration: none;
+            display: flex;
+            margin-bottom: 20px;
+            justify-content: center;
+            img {
+                max-width: 30%;
+                padding-right: 10px;
+            }
+            p {
+                color: #000;
+            }
+        }
+    }
+}

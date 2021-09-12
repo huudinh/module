@@ -1,0 +1,51 @@
+.regist_8_0_0 {
+  text-align: center;
+  hr {
+    width: 15%;
+  }
+  &__title {
+    color: #0084d0;
+    font-size: 30px;
+  }
+  form {
+    padding: 50px;
+    input[type="text"] {
+      width: 25%;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+  }
+  .row {
+    padding-bottom: 15px;
+    textarea {
+      width: 50%;
+      height: 150px;
+      padding: 0px 25px;
+    }
+  }
+  &__regist {
+    button {
+      background: #007ac1;
+      padding: 12px 25px;
+      color: #fff;
+      border:0px;
+      &:hover {
+        box-shadow: 0px 8px 16px rgba($color: #b4b3b3, $alpha: 1.0);
+    
+      }
+    }
+  }
+  @media(max-width: 480px){
+    form {
+      input[type="text"] {
+        width: 100%;
+      }
+    }
+    .row {
+      textarea {
+        width:100%;
+        padding:0  20px 0 0 ;
+      }
+    }
+  }
+}
