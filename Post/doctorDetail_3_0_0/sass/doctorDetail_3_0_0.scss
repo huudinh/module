@@ -1,0 +1,73 @@
+.doctorDetail_3_0_0 {
+    font-family: Roboto, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+
+    &__box {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px 0;
+        border-bottom: 2px solid#0328ff;
+
+    }
+
+    &__item1 {
+        display: flex;
+
+        img {
+            max-width: 100%;
+        }
+    }
+
+    &_info {
+        padding-left: 20px;
+        color: #000;
+        text-align: justify;
+        line-height: 2;
+
+        p {
+            font-size: 18px;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        span {
+            font-weight: 600;
+        }
+
+        ul {
+            margin: 0;
+            padding-left: 132px;
+
+            li {
+                list-style: none;
+            }
+        }
+    }
+
+    &__item2 {
+        padding-top: 30px;
+        color: #000;
+
+        p {
+            text-align: justify;
+        }
+
+    }
+
+    @media(max-width: 768px) {
+        &__item1,
+        &__item2 {
+            width: 100%;
+        }
+    }
+
+    @media(max-width: 480px) {
+        &__item1{
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &_info {
+            padding-left: 0;
+        }
+    }
+}

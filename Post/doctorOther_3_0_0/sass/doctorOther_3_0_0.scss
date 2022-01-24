@@ -1,0 +1,43 @@
+.doctorOther_3_0_0{
+    font-family: Roboto, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+    &__box{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px 0;
+
+    }
+    &_item{
+        width: 33.3%;
+        text-align: center;
+        padding: 10px;
+        img{
+            max-width: 100%;
+        }
+    }
+    &_content{
+        border-bottom: 2px solid#0328ff;
+        padding-bottom: 10px;
+        color: #000;
+        font-size: 17px;
+        font-weight: 600;
+        span{
+            font-size: 15px;
+            font-weight: normal;
+        }
+    }
+    @media(max-width: 480px){
+        &__box{
+            flex-wrap: wrap;
+        }
+        &_item{
+            width: 50%;
+        }
+        &_content{
+            font-size: 14px;
+            span{
+                font-size: 13px;
+            }
+        }
+    }
+}
