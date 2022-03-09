@@ -18,7 +18,7 @@ img {
     margin: 0 auto;
 }
 
-.basis_3_0_0 {
+.person_3_0_0 {
     background-color: #eef6ff;
     padding-bottom: 50px;
     &__title {
@@ -61,7 +61,7 @@ img {
     &__more {
         background-color: #0054fd;
         width: 98px;
-        height: 23px;
+        height: 19px;
         text-decoration: none;
         border-radius: 2px;
         color: white;
@@ -71,7 +71,7 @@ img {
 }
 
 @media (max-width: 1023px) {
-    .basis_3_0_0 {
+    .person_3_0_0 {
         &__item {
             width: 46%;
             margin-bottom: 15px;
@@ -80,7 +80,7 @@ img {
 }
 
 @media (max-width: 425px) {
-    .basis_3_0_0 {
+    .person_3_0_0 {
         &__item {
             width: 100%;
             margin-bottom: 15px;
