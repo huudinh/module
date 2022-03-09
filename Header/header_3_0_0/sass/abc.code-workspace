@@ -1,0 +1,13 @@
+{
+    "folders": [
+		{
+			"path": "..\\..\\..\\..\\benhvienkangnam.com.vn\\tao-hinh-moi"
+		},
+		{
+			"path": "..\\..\\..\\.."
+		}
+	],
+    "settings": {
+        "liveServer.settings.multiRootWorkspaceName": "SCI_Code"
+    }
+}
