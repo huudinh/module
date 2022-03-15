@@ -1,0 +1,84 @@
+.doctor_3_1_0 {
+  background-image: url(../media/images/slide_bg.jpg);
+  background-size: 100%;
+  height: 1200px;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+  .doctor_3_1_0__box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 65%;
+    margin: 0 auto; }
+  .doctor_3_1_0__item1 {
+    display: flex; }
+    .doctor_3_1_0__item1 img {
+      width: 30%;
+      margin-right: 30px; }
+  .doctor_3_1_0__title {
+    text-align: center;
+    color: #00f7ff;
+    padding-top: 50px;
+    font-size: 20px; }
+    .doctor_3_1_0__title h2 {
+      margin-top: 20px; }
+  .doctor_3_1_0_info {
+    padding-left: 40px;
+    color: white;
+    text-align: justify;
+    line-height: 2;
+    width: 65%;
+    background-color: rgba(255, 255, 255, 0.1); }
+    .doctor_3_1_0_info p {
+      font-size: 18px; }
+    .doctor_3_1_0_info h2 {
+      font-size: 30px; }
+  .doctor_3_1_0__item2 {
+    padding-top: 30px;
+    margin: 0 auto;
+    color: white;
+    display: flex;
+    text-align: center; }
+    .doctor_3_1_0__item2 img {
+      width: 155px;
+      height: 155px;
+      margin: 0 10px;
+      border: #00b7ff 4px solid;
+      border-radius: 15px; }
+    .doctor_3_1_0__item2 .infor {
+      text-align: center; }
+
+.modal {
+  display: none;
+  color: #000000;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: rgba(3, 15, 54, 0.6); }
+  .modal .modal-header {
+    position: relative; }
+    .modal .modal-header .modal-close {
+      cursor: pointer;
+      position: absolute;
+      right: 20px;
+      top: 10px;
+      font-size: 20px;
+      color: red; }
+  .modal .modal-title {
+    text-align: center; }
+    .modal .modal-title h3 {
+      padding-top: 20px; }
+  .modal p {
+    padding: 20px; }
+  .modal .animate-top {
+    width: 40%;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin: 50px auto; }
+  .modal .modal-body {
+    padding-bottom: 20px; }
+
+/*# sourceMappingURL=main.css.map */
