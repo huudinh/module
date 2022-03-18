@@ -1,0 +1,148 @@
+
+
+%font1 {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+$color1:#004689;
+
+%icon {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: 400;
+    speak: none;
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1em;
+    margin-left: .2em;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.news_3_3_0 {
+    padding: 30px 0;
+    background-color: rgb(241, 241, 241);
+    .container{
+        width: 60%;
+        margin: 0 auto;
+        @media (max-width:600px) {
+            width: 100%;
+        }
+    }
+    &__title {
+        h2{
+            font-size: 30px;
+            font-weight: 700;
+        }
+        text-align: center;
+        color: #e01111;
+    }
+
+    &__box {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+        flex-wrap: wrap;
+    }
+
+    &__boxLeft {
+        width: 50%;
+        @media (max-width: 600px) {
+            width: 100%;
+        }
+        &__detail {
+            padding: 5px 20px;
+            color: #0329FF;
+            background-color: white;
+            h3{
+                font-size: 20px;
+                font-weight: 700;
+                text-transform: uppercase;
+            }
+            p {
+                color: #000;
+            }
+        }
+
+        &__time {
+            color: #666161;
+            width: 20%;
+            font-size: 14px;
+            padding: 2px 8px 2px 21px;
+            position: relative;
+            top: -10px;
+            &::before{
+                content: '';
+                background: url('../images/date.jpg')center 0 no-repeat;
+                background-size: 100%;
+                width: 18px;
+                height: 18px;
+                left: 0;
+                position: absolute ;
+            }
+        }
+
+        &__picBig {
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    &__boxRight {
+        width: 48%;
+        @media (max-width: 600px) {
+            width: 100%;
+            margin-top: 20px;
+        }
+    }
+
+    &__smallItem {
+        display: flex;
+        margin-bottom: 10px;
+        &__detail {
+            padding: 0px 0px 0px 15px;
+            flex: 1;
+            color: #0329FF;
+            background-color: white;
+        }
+
+        &__pic {
+            width: 30%;
+            img {
+                max-width: 100%;
+            }
+        }
+
+        &__time {
+            color: #666161;
+            width: 38%;
+            font-size: 14px;
+            padding: 0px 8px 0px 21px;
+            position: relative;
+            &::before{
+                content: '';
+                background: url('../images/date.jpg')center 0 no-repeat;
+                background-size: 100%;
+                width: 18px;
+                height: 18px;
+                left: 0;
+                position: absolute ;
+            }
+        }
+    }
+
+    &__detail {
+        padding: 5px 0px;
+        color: #0329FF;
+
+        p {
+            color: #000;
+        }
+    }
+}

@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0; }
+
+.doctor_3_1_0 {
+  background-image: url(../media/images/slide_bg.jpg);
+  background-size: 100%;
+  height: 700px; }
+  .doctor_3_1_0 .title {
+    padding-top: 20px;
+    color: #23facb;
+    font-size: 25px;
+    text-align: center; }
+  .doctor_3_1_0_container {
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+    display: flex; }
+    .doctor_3_1_0_container .infor {
+      width: 100%; }
+      .doctor_3_1_0_container .infor .slide1 {
+        background-image: url(../media/images/BSTram.png);
+        background-repeat: no-repeat;
+        background-size: 30%;
+        height: 500px; }
+        .doctor_3_1_0_container .infor .slide1 img {
+          float: left; }
+      .doctor_3_1_0_container .infor .description {
+        float: left; }
+
+/*# sourceMappingURL=style.css.map */
