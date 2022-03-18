@@ -1,0 +1,36 @@
+.person_12_0_0 {
+    &-pc {
+        width: 100%;
+    }
+    &-mb {
+        display: none;
+        position: relative;
+    }
+    &__title {
+        width: 100%;
+        display: block;
+    }
+    &__person {
+        position: absolute;
+        top: 180px;
+        width: 100%;
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+    @media (max-width: 540px) {
+        &-pc {
+            display: none;
+        }
+        &-mb {
+            display: block;
+            width: 100%;
+        }
+    }
+    @media (max-width:320px) {
+        &__person {
+            top: 140px
+        }
+    }
+}
