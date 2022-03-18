@@ -15,13 +15,17 @@
 
 <body>
     <section class="person_12_0_0">
-        <div class="person_12_0_0-pc container">
-            <img class="person_12_0_0-pc" src='images/person-pc.jpg' alt='' />
-        </div>
-        <div class="person_12_0_0-mb">
-            <img class="person_12_0_0__title" src="images/tt-mb.jpg" />
-            <div class="person_12_0_0__person container">
-                <img src='images/person-mb.jpg' alt='' />
+        <div class="person_12_0_0__container container">
+
+            <picture>
+                <source media="(max-width:540px) " srcset="images/person-mb.jpg">
+                <img class="person_12_0_0__person" src="images/person-pc.jpg">
+
+            </picture>
+            <div class="person_12_0_0__box">
+                <div class="person_12_0_0__title">
+                    <img src='images/person-title.png' class="person_12_0_0__title-img" />
+                </div>
             </div>
         </div>
     </section>
