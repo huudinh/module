@@ -1,0 +1,50 @@
+.tool_info_1_2_0 {
+    .container {
+        max-width: 480px;
+        padding: 0;
+        margin: 0 auto;
+    }
+    &__box {
+        display: flex;
+    }
+    &__item {
+        width: 20%;
+        text-align: center;
+        padding: 10px 0;
+        border-left: 1px solid #1475bc;
+        a {
+            text-decoration: none;
+            color: #fff;
+        }
+    }
+    .icon {
+        padding-top: 5px;
+    }
+
+    .call {
+        background: #07a738;
+    }
+
+    .zalo {
+        background: #246a9a;
+    }
+
+    .messengers {
+        background: #1999f1;
+    }
+
+    .baogia {
+        background: #daa236;
+    }
+
+    .vitri {
+        background: #ff8212;
+    }
+    @media(max-width:375px){
+        &__item{
+            a{
+                font-size: 14px;
+            }
+        }
+    }
+}
