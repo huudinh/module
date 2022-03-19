@@ -1,0 +1,78 @@
+.basis_9_0_0 {
+    background: url(../images/basis-bg.jpg) center 0 no-repeat;
+    &-mb {
+        display: none;
+    }
+    &__box {
+        display: flex;
+        align-items: center;
+        height: 750px;
+    }
+    &__title {
+        width: 50%;
+        color: #636363;
+        font-size: 32px;
+        padding: 15px;
+        p {
+            margin: 0;
+        }
+    }
+    .basis_9_0_0_tt {
+        font-weight: 600;
+        color: #ff8c60;
+    }
+    .basis_9_0_0_cn {
+        b {
+            color: #003366
+        }
+    }
+    .basis_9_0_0_tp {
+        font-size: 15px;
+        font-style: italic;
+    }
+    @media (max-width:540px) {
+        &__box {
+            flex-direction: column;
+            height: unset !important;
+        }
+        &-mb {
+            display: block;
+            width: 100%;
+        }
+        &__title {
+            width: 100%;
+            text-align: center;
+            font-size: 18px !important;
+            margin-bottom: 10px;
+        }
+        background: unset;
+    }
+}
+
+@media (max-width:1440px) {
+    .basis_9_0_0 {
+        background-size: 100%;
+        &__box {
+            height: 580px;
+        }
+    }
+}
+
+@media (max-width:1024px) {
+    .basis_9_0_0 {
+        &__box {
+            height: 420px;
+        }
+    }
+}
+
+@media (max-width:912px) {
+    .basis_9_0_0 {
+        &__title {
+            font-size: 25px;
+        }
+        &__box {
+            height: 350px;
+        }
+    }
+}
