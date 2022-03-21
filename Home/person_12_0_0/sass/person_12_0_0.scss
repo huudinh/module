@@ -1,0 +1,68 @@
+.person_12_0_0 {
+    &__container {
+        position: relative;
+    }
+    &__person {
+        display: block;
+        width: 100%;
+    }
+    &__box {
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        &-img {
+            max-width: 80%;
+        }
+    }
+    &__title {
+        background-color: #0a4285;
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: translateY(18%);
+        height: 50%;
+        border: 3px solid #ff5f11;
+        &-img {
+            max-width: 81%;
+        }
+    }
+    @media (max-width:540px) {
+        &__container {
+            padding: 0;
+        }
+        &__person {
+            position: absolute;
+            top: 220px;
+            padding: 0 20px;
+        }
+        &__box {
+            width: 100%;
+            height: fit-content;
+            z-index: -1;
+        }
+        &__title {
+            width: 100%;
+            height: 100%;
+            transform: unset;
+            padding: 70px 20px;
+        }
+    }
+    @media (max-width: 425px) {
+        &__person {
+            top: 180px;
+        }
+    }
+    @media (max-width: 320px) {
+        &__person {
+            top: 120px;
+        }
+        &__title {
+            padding: 50px 20px;
+        }
+    }
+}
