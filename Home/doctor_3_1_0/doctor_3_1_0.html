@@ -1,164 +1,128 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3c.org/1999/xhtml">
+<html lang="en">
 
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>doctor_3_1_0</title>
-    <meta name="Resource-type" content="Document" />
-    <meta name="viewport"
-        content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="scss/main.css">
+    <link rel="stylesheet" type="text/css" href="../../media/css/style.css" />
     <script src="../../media/js/lib-min.js"></script>
-    <script type="text/javascript" src="media/js/lib.js"></script>  
 </head>
 
 <body>
-    <section class="container">
-        <div class="doctor_3_1_0">
-            <div class="doctor_3_1_0__title">
-                <h2>100% BỘ ĐÔI BÁC SỸ RĂNG HÀM MẶT - THẨM MỸ <br> THĂM KHÁM - CHUẨN ĐOÁN VÀ GIẢI PHÁP CHUYÊN SÂU </h2>
+    <div class="modal" id="modal-pop">
+        <div class="modal-bg"></div>
+        <div class="modal-box animate-pop">
+            <div class="modal-header">
+                <div class="modal-close">×</div>
+                <div class="modal-title">TS.BS. ĐÀM NGỌC TRÂM</div>
             </div>
-            <div class="doctor_3_1_0__box">
-                <div class="doctor_3_1_0__item1">
-                    <div class="doctor_3_1_0__background">
-                        <img id="doctor_3_1_0__background" src="media/images/BSTram.png" alt="">
-                    </div>
-                    <div class="doctor_3_1_0_info">
-                        <h2 class="doctor_3_1_0_name">TS. BS. Đàm Ngọc Trâm</h2>
-                        <span class="doctor_3_1_0_description">- Giám đốc chuyên môn hệ thống chuỗi nha khoa Paris.<br>
-                        • Thành viên Hiệp hội nha khoa thẩm mỹ châu Âu ESCD<br>
-                        • Thành viên Hiệp hội implant thế giới ( ICOI : International Congress of <br>
-                         Oral Implantologists được thành lập từ năm 1972 tại Hoa Kì)<br>
-                        • Thành viên hiệp hội nha sĩ Mĩ (ADA: American Dental Association )<br>
-                        • Thành viên hiệp hội ITI (International Team for Implantology)</span>
-                    </div>
-                </div>
-                <div class="doctor_3_1_0__item2">
-                    <div class="col-xl-2 col-lg-2 col-md-2 doctor1">
-                        <a href="#" onclick="pop(0)" class="modal-btn btn" data-modal="modal-top">
-                            <img src="media/images/doctor1.jpg" alt="">
-                        </a>
-                        <div class="title_name">TS. BS. <br> ĐÀM NGỌC TRÂM </div>
-
-                    </div>
-                    <div class="col-xl-2 col-lg-2 col-md-2 doctor2">
-                        <a href="#" onclick="pop(1)" class="modal-btn btn" data-modal="modal-top">
-                            <img src="media/images/doctor2.jpg" alt="">
-                        </a>
-                        <div class="title_name"> BS. <br> VICTOR VŨ </div>
-
-                    </div>
-                    <div class="col-xl-2 col-lg-2 col-md-2 doctor3">
-                        <a href="#" onclick="pop(2)" class="modal-btn btn" data-modal="modal-top">
-                            <img src="media/images/doctor3.jpg" alt="">
-                        </a>
-                        <div class="title_name">PGS. TS. <br> PHILIP TAROTS </div>
-
-                    </div>
-                    <div class="col-xl-2 col-lg-2 col-md-2 doctor4">
-                        <a href="#" onclick="pop(3)" class="modal-btn btn" data-modal="modal-top">
-                            <img src="media/images/doctor4.jpg" alt="">
-                        </a>
-                        <div class="title_name"> BS. <br> NGUYỄN NGỌC LINH </div>
-
-                    </div>
-                    <div class="col-xl-2 col-lg-2 col-md-2 doctor5">
-                        <a href="#" onclick="pop(4)" class="modal-btn btn" data-modal="modal-top">
-                            <img src="media/images/doctor5.jpg " alt="">
-                        </a>
-                        <div class="title_name"> BS. <br> VŨ MINH TÂN </div>
-
-                    </div>
-                    <div class="col-xl-2 col-lg-2 col-md-2 doctor6">
-                        <a href="#" onclick="pop(5)" class="modal-btn btn" data-modal="modal-top">
-                            <img src="media/images/doctor6.jpg" alt="">
-                        </a>
-                        <div class="title_name"> BS. <br> VŨ CÔNG NAM </div>
-
-                    </div>
-                </div>
-                <div class="modal" id="modal-top">
-                    <div class="modal-bg"></div>
-                    <div class="modal-box animate-top">
-                        <div class="modal-header">
-                            <div class="modal-close">X</div>
-                            <div class="modal-title"><h3>TS. BS. ĐÀM NGỌC TRÂM</h3></div>
-                        </div>
-                        <div class="modal-body">
-                            <p>Lorem ipsum dolor sit amet</p>
-            
-                        </div>
-                    </div>
-                </div>
+            <div class="modal-body">
+                <p>- Giám đốc chuyên môn hệ thống chuỗi nha khoa Paris.<br>- Thành viên Hiệp hội nha khoa thẩm mỹ châu Âu ESCD<br>- Thành viên Hiệp hội implant thế giới ( ICOI : International Congress of <br>Oral Implantologists được thành lập từ năm 1972
+                    tại Hoa Kì)<br>- Thành viên hiệp hội nha sĩ Mĩ (ADA: American Dental Association )<br>- Thành viên hiệp hội ITI (International Team for Implantology)</p>
             </div>
         </div>
+    </div>
+    <section class="doctor_3_1_0">
+        <div class="container">
+            <div class="doctor_3_1_0__title">
+                100% BỘ ĐÔI BÁC SỸ RĂNG HÀM MẶT - THẨM MỸ <br> THĂM KHÁM - CHUẨN ĐOÁN VÀ GIẢI PHÁP CHUYÊN SÂU
+            </div>
+            <div class="doctor_3_1_0__information">
+                <img class="img_title" src="media/BSTram.png" alt="">
+                <div class="description">
+                    <h4 class="name">TS.BS. ĐÀM NGỌC TRÂM</h4>
+                    <span class="des">. Giám đốc chuyên môn hệ thống chuỗi nha khoa PARIS <br>
+                        . Thành viên Hiệp hội nha khoa thẩm mỹ châu âu ESCD</span>
+                </div>
+                <div class="doctor_3_1_0__list_doctor">
+                    <div class="doctor">
+                        <a href="#" class="modal-btn" data-modal="modal-pop"><img src="media/doctor1.jpg" alt=""></a>
+                        <h4>TS. BS. ĐÀM NGỌC TRÂM</h4>
+                    </div>
+                    <div class="doctor">
+                        <a href="#" class="modal-btn" data-modal="modal-pop"><img src="media/doctor2.jpg" alt=""></a>
+                        <h4>BS. VICTOR VŨ</h4>
+                    </div>
+                    <div class="doctor">
+                        <a href="#" class="modal-btn" data-modal="modal-pop"><img src="media/doctor3.jpg" alt=""></a>
+                        <h4>PGS. TS. PHILIP TAROTS</h4>
+                    </div>
+                    <div class="doctor">
+                        <a href="#" class="modal-btn" data-modal="modal-pop"><img src="media/doctor4.jpg" alt=""></a>
+                        <h4>BS. NGUYỄN NGỌC LINH</h4>
+                    </div>
+                    <div class="doctor">
+                        <a href="#" class="modal-btn" data-modal="modal-pop"><img src="media/doctor5.jpg" alt=""></a>
+                        <h4>BS. VŨ MINH TÂN</h4>
+                    </div>
+                    <div class="doctor">
+                        <a href="#" class="modal-btn" data-modal="modal-pop"><img src="media/doctor6.jpg" alt=""></a>
+                        <h4>BS. VÕ CÔNG NAM</h4>
+                    </div>
+                </div>
     </section>
+
+    <<<<<<< HEAD=======c onst doctor=[ { name: "<h3>ĐÀM NGỌC TRÂM</h3>", pic: "", description:
+        "- Giám đốc chuyên môn hệ thống chuỗi nha khoa Paris.<br>- Thành viên Hiệp hội nha khoa thẩm mỹ châu Âu ESCD<br>- Thành viên Hiệp hội implant thế giới ( ICOI : International Congress of <br>Oral Implantologists được thành lập từ năm 1972 tại Hoa Kì)<br>- Thành viên hiệp hội nha sĩ Mĩ (ADA: American Dental Association )<br>- Thành viên hiệp hội ITI (International Team for Implantology)", id: 1, src: '' }, { name: "<h3>VICTOR VŨ</h3>", pic: "", description: " ", id: 2, src: '' }, { name: "<h3>PHILIP TAROTS</h3>", pic: "", description:
+        "- Giám đốc chuyên môn hệ thống chuỗi nha khoa Paris <br>- GS chuyên ngành RHM  ĐH Montpelier Pháp <br>- Thành viên Hiệp hội chỉnh hình răng hàm mặt Pháp<br>- Thành viên “Tổ chức nghiên cứu chỉnh nha quốc tế Charles Tweed” TUCSON USA<br>- Chứng nhận xuất sắc về Thực hành chỉnh nha  Hội đồng chỉnh nha Pháp.<br>- Thực hành độc quyền chỉnh nha khay trong tại Avignon từ 1991 đến 2019", id: 3, src: '' }, { name: "<h3>NGUYỄN NGỌC LINH</h3>", pic: "", description: "- Tốt nghiệp Đại học Y Hà Nội, chuyên khoa răng hàm mặt<br>- Chuyên gia phục hình răng Implant<br> - Chứng chỉ chỉnh nha cơ bản", id: 4, src: '' }, { name:
+        "<h3>VŨ MINH TÂN</h3>", pic: "", description: "description", id: 5, src: '' }, { name: "<h3>VŨ CÔNG NAM</h3>", pic: "", description: "description", id: 6, src: '' },>>>>>>> origin/main
+
+        <script>
+            const doctor = [{
+                    name: "ĐÀM NGỌC TRÂM",
+                    pic: "",
+                    description: "- Giám đốc chuyên môn hệ thống chuỗi nha khoa Paris.<br>- Thành viên Hiệp hội nha khoa thẩm mỹ châu Âu ESCD<br>- Thành viên Hiệp hội implant thế giới ( ICOI : International Congress of <br>Oral Implantologists được thành lập từ năm 1972 tại Hoa Kì)<br>- Thành viên hiệp hội nha sĩ Mĩ (ADA: American Dental Association )<br>- Thành viên hiệp hội ITI (International Team for Implantology)",
+                    id: 1,
+                    src: ''
+                }, {
+                    name: "VICTOR VŨ",
+                    pic: "",
+                    description: " ",
+                    id: 2,
+                    src: ''
+                }, {
+                    name: "PHILIP TAROTS",
+                    pic: "",
+                    description: "- Giám đốc chuyên môn hệ thống chuỗi nha khoa Paris <br>- GS chuyên ngành RHM  ĐH Montpelier Pháp <br>- Thành viên Hiệp hội chỉnh hình răng hàm mặt Pháp<br>- Thành viên “Tổ chức nghiên cứu chỉnh nha quốc tế Charles Tweed” TUCSON USA<br>- Chứng nhận xuất sắc về Thực hành chỉnh nha  Hội đồng chỉnh nha Pháp.<br>- Thực hành độc quyền chỉnh nha khay trong tại Avignon từ 1991 đến 2019",
+                    id: 3,
+                    src: ''
+                }, {
+                    name: "NGUYỄN NGỌC LINH",
+                    pic: "",
+                    description: "- Tốt nghiệp Đại học Y Hà Nội, chuyên khoa răng hàm mặt<br>- Chuyên gia phục hình răng Implant<br> - Chứng chỉ chỉnh nha cơ bản",
+                    id: 4,
+                    src: ''
+                }, {
+                    name: "VŨ MINH TÂN",
+                    pic: "",
+                    description: "description",
+                    id: 5,
+                    src: ''
+                }, {
+                    name: "VŨ CÔNG NAM",
+                    pic: "",
+                    description: "description",
+                    id: 6,
+                    src: ''
+                },
+
+            ]
+
+            let id = 0;
+
+            setInterval(() => {
+                if (id < doctor.length) {
+                    document.querySelector(".name").innerHTML = doctor[id].name;
+                    document.querySelector(".des").innerHTML = doctor[id].description;
+                    id++;
+                } else {
+                    id = 0
+                }
+            }, 5000)
+        </script>
 </body>
-<script>
-    function pop(id){
-        document.querySelector(".modal-title").innerHTML = doctor[id].name
-        document.querySelector(".modal-body").innerHTML = doctor[id].description
-    }
-
-    const doctor = [
-        {
-            name: "<h3>ĐÀM NGỌC TRÂM</h3>",
-            pic: "",
-            description: "- Giám đốc chuyên môn hệ thống chuỗi nha khoa Paris.<br>- Thành viên Hiệp hội nha khoa thẩm mỹ châu Âu ESCD<br>- Thành viên Hiệp hội implant thế giới ( ICOI : International Congress of <br>Oral Implantologists được thành lập từ năm 1972 tại Hoa Kì)<br>- Thành viên hiệp hội nha sĩ Mĩ (ADA: American Dental Association )<br>- Thành viên hiệp hội ITI (International Team for Implantology)",
-            id: 1,
-            src: ''
-        },
-        {
-            name: "<h3>VICTOR VŨ</h3>",
-            pic: "",
-            description: " ",
-            id: 2,
-            src: ''
-        },
-        {
-            name: "<h3>PHILIP TAROTS</h3>",
-            pic: "",
-            description: "- Giám đốc chuyên môn hệ thống chuỗi nha khoa Paris <br>- GS chuyên ngành RHM  ĐH Montpelier Pháp <br>- Thành viên Hiệp hội chỉnh hình răng hàm mặt Pháp<br>- Thành viên “Tổ chức nghiên cứu chỉnh nha quốc tế Charles Tweed” TUCSON USA<br>- Chứng nhận xuất sắc về Thực hành chỉnh nha  Hội đồng chỉnh nha Pháp.<br>- Thực hành độc quyền chỉnh nha khay trong tại Avignon từ 1991 đến 2019",
-            id: 3,
-            src: ''
-        },
-        {
-            name: "<h3>NGUYỄN NGỌC LINH</h3>",
-            pic: "",
-            description: "- Tốt nghiệp Đại học Y Hà Nội, chuyên khoa răng hàm mặt<br>- Chuyên gia phục hình răng Implant<br> - Chứng chỉ chỉnh nha cơ bản",
-            id: 4,
-            src: ''
-        },
-        {
-            name: "<h3>VŨ MINH TÂN</h3>",
-            pic: "",
-            description: "description",
-            id: 5,
-            src: ''
-        },
-        {
-            name: "<h3>VŨ CÔNG NAM</h3>",
-            pic: "",
-            description: "description",
-            id: 6,
-            src: ''
-        },
-
-    ]
-
-    let id = 0;
-
-    setInterval(() => {
-        if(id < doctor.length){
-            document.querySelector(".doctor_3_1_0_name").innerHTML = doctor[id].name;
-            document.querySelector(".doctor_3_1_0_description").innerHTML = doctor[id].description;
-            id++;
-        }else{
-            id=0
-        }
-        console.log(id)
-    }, 5000)
-</script>
 
 </html>
