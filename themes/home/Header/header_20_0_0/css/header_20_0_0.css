@@ -29,6 +29,7 @@ a {
     .header_20_0_0__box__section {
       display: flex;
       align-items: center;
+      justify-content: flex-end;
       width: 75%; }
     .header_20_0_0__box__item {
       padding: 18px 20px;
