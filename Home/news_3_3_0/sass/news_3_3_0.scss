@@ -31,10 +31,6 @@ $color1:#004689;
         width: 80%;
         margin: 0 auto;
         
-        @media (max-width:820px) {
-            width: 100%;
-            font-display: initial;
-        }
     }
     &__title {
         h2{
@@ -147,4 +143,31 @@ $color1:#004689;
             color: #000;
         }
     }
+    @media (max-width: 600px) {
+        &__smallItem{
+            flex-wrap: wrap;
+            &__pic{
+                width: 20%;
+            }
+            &__detail{
+                p{
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+    @media (max-width: 350px) {
+        &__smallItem{
+            flex-wrap: wrap;
+            &__pic{
+                width: 100%;
+            }
+            &__detail{
+                p{
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+    
 }
