@@ -61,6 +61,7 @@
       padding: 8px 5px; }
   .video_12_0_0 .desc2 {
     width: 55%;
+    font-size: 18px;
     padding-left: 10px;
     color: #636363; }
   @media (max-width: 540px) {
@@ -70,6 +71,8 @@
     .video_12_0_0__video2 {
       width: 100%; }
     .video_12_0_0 .pic2 {
-      width: 68%; } }
+      width: 68%; }
+    .video_12_0_0 .desc2 {
+      font-size: 14px; } }
 
 /*# sourceMappingURL=video_12_0_0.css.map */
