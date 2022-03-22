@@ -1,11 +1,15 @@
 .basis_3_1_0 {
-  width: 60%;
+  width: 80%;
   display: flex;
-  margin: 0 auto; }
+  margin: 0 auto;
+  flex-wrap: wrap; }
   .basis_3_1_0__temp {
     margin: 0 auto;
     color: white;
     text-align: center; }
+  @media (max-width: 1441px) {
+    .basis_3_1_0 .temp2 img {
+      display: none; } }
   .basis_3_1_0 .temp1__t1 img {
     margin-bottom: 10px; }
   .basis_3_1_0 .temp1__t1 h3 {

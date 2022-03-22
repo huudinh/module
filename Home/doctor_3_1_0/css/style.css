@@ -85,20 +85,14 @@
       display: none; }
     .doctor_3_1_0__list_doctor .doctor {
       width: 25%; } }
-  @media (max-width: 782px) {
-    .doctor_3_1_0__title {
-      font-size: 15px; } }
+  @media (max-width: 989px) {
+    .doctor_3_1_0__information .description .name {
+      text-align: center; } }
   @media (max-width: 600px) {
-    .doctor_3_1_0__title {
+    .doctor_3_1_0__information .description h2 {
       font-size: 14px; }
-    .doctor_3_1_0__information img {
-      max-width: 50%; }
-    .doctor_3_1_0__information .description {
-      max-width: 35%; }
-      .doctor_3_1_0__information .description h2 {
-        font-size: 14px; }
-      .doctor_3_1_0__information .description .des {
-        display: none; }
+    .doctor_3_1_0__information .description .des {
+      display: none; }
     .doctor_3_1_0__list_doctor {
       margin-right: 15px; }
       .doctor_3_1_0__list_doctor .doctor h3 {

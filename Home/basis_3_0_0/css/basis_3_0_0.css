@@ -1,2 +1,61 @@
-.basis_3_0_0{background-color:#0a5faa;width:100%;padding:32px}.basis_3_0_0__container{max-width:1170px;margin:0 auto;display:flex;flex-direction:column;align-items:center}.basis_3_0_0__title{margin-top:0;margin-bottom:20px;font-size:32px;text-align:center;color:#00fff6}.basis_3_0_0__main{display:flex;gap:30px}.basis_3_0_0__left{position:relative}.basis_3_0_0__left h3{position:absolute;color:#fff;font-size:32px;text-align:center;margin:40px 60px;line-height:60px;text-transform:uppercase}.basis_3_0_0__pic1{display:block}.basis_3_0_0__wrapper{display:flex;justify-content:space-between;flex-wrap:wrap;gap:30px}.basis_3_0_0__item{width:30%}.basis_3_0_0__item img{width:100%}.basis_3_0_0__item span{font-size:20px;display:block;color:#fff;text-align:center}@media (max-width: 820px){.basis_3_0_0__left{display:none}}@media (max-width: 540px){.basis_3_0_0{padding:24px}.basis_3_0_0__title{font-size:18px}.basis_3_0_0__wrapper{gap:10px}.basis_3_0_0__item{width:45%}.basis_3_0_0__item span{font-size:13px}}
+.basis_3_0_0 {
+  background-color: #0a5faa;
+  width: 100%;
+  padding: 32px; }
+  .basis_3_0_0__container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .basis_3_0_0__title {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 32px;
+    text-align: center;
+    color: #00fff6; }
+  .basis_3_0_0__main {
+    display: flex;
+    gap: 30px; }
+  .basis_3_0_0__left {
+    position: relative; }
+    .basis_3_0_0__left h3 {
+      position: absolute;
+      color: #fff;
+      font-size: 32px;
+      text-align: center;
+      margin: 40px 60px;
+      line-height: 60px;
+      text-transform: uppercase; }
+  .basis_3_0_0__pic1 {
+    display: block; }
+  .basis_3_0_0__wrapper {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 30px; }
+  .basis_3_0_0__item {
+    width: 30%; }
+    .basis_3_0_0__item img {
+      width: 100%; }
+    .basis_3_0_0__item span {
+      font-size: 20px;
+      display: block;
+      color: #fff;
+      text-align: center; }
+  @media (max-width: 820px) {
+    .basis_3_0_0__left {
+      display: none; } }
+  @media (max-width: 540px) {
+    .basis_3_0_0 {
+      padding: 24px; }
+      .basis_3_0_0__title {
+        font-size: 18px; }
+      .basis_3_0_0__wrapper {
+        gap: 10px; }
+      .basis_3_0_0__item {
+        width: 45%; }
+        .basis_3_0_0__item span {
+          font-size: 13px; } }
+
 /*# sourceMappingURL=basis_3_0_0.css.map */

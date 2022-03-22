@@ -1,2 +1,44 @@
-.doctorDetail_3_0_0{font-family:Roboto, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif}.doctorDetail_3_0_0__box{display:flex;justify-content:center;flex-direction:column;padding:20px 0;border-bottom:2px solid #0328ff}.doctorDetail_3_0_0__item1{display:flex}.doctorDetail_3_0_0__item1 img{max-width:100%}.doctorDetail_3_0_0_info{padding-left:20px;color:#000;text-align:justify;line-height:2}.doctorDetail_3_0_0_info p{font-size:18px;font-weight:600;margin:0}.doctorDetail_3_0_0_info span{font-weight:600}.doctorDetail_3_0_0_info ul{margin:0;padding-left:132px}.doctorDetail_3_0_0_info ul li{list-style:none}.doctorDetail_3_0_0__item2{padding-top:30px;color:#000}.doctorDetail_3_0_0__item2 p{text-align:justify}@media (max-width: 768px){.doctorDetail_3_0_0__item1,.doctorDetail_3_0_0__item2{width:100%}}@media (max-width: 480px){.doctorDetail_3_0_0__item1{flex-wrap:wrap;justify-content:center}.doctorDetail_3_0_0_info{padding-left:0}}
+.doctorDetail_3_0_0 {
+  font-family: Roboto, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Helvetica Neue", Arial, sans-serif; }
+  .doctorDetail_3_0_0__box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 0;
+    border-bottom: 2px solid #0328ff; }
+  .doctorDetail_3_0_0__item1 {
+    display: flex; }
+    .doctorDetail_3_0_0__item1 img {
+      max-width: 100%; }
+  .doctorDetail_3_0_0_info {
+    padding-left: 20px;
+    color: #000;
+    text-align: justify;
+    line-height: 2; }
+    .doctorDetail_3_0_0_info p {
+      font-size: 18px;
+      font-weight: 600;
+      margin: 0; }
+    .doctorDetail_3_0_0_info span {
+      font-weight: 600; }
+    .doctorDetail_3_0_0_info ul {
+      margin: 0;
+      padding-left: 132px; }
+      .doctorDetail_3_0_0_info ul li {
+        list-style: none; }
+  .doctorDetail_3_0_0__item2 {
+    padding-top: 30px;
+    color: #000; }
+    .doctorDetail_3_0_0__item2 p {
+      text-align: justify; }
+  @media (max-width: 768px) {
+    .doctorDetail_3_0_0__item1, .doctorDetail_3_0_0__item2 {
+      width: 100%; } }
+  @media (max-width: 480px) {
+    .doctorDetail_3_0_0__item1 {
+      flex-wrap: wrap;
+      justify-content: center; }
+    .doctorDetail_3_0_0_info {
+      padding-left: 0; } }
+
 /*# sourceMappingURL=doctorDetail_3_0_0.css.map */
