@@ -4,7 +4,6 @@
   margin: 0 auto;
   flex-wrap: wrap; }
   .basis_3_1_0__temp {
-    margin: 0 auto;
     color: white;
     text-align: center; }
   @media (max-width: 1441px) {
@@ -13,7 +12,8 @@
   .basis_3_1_0 .temp1__t1 img {
     margin-bottom: 10px; }
   .basis_3_1_0 .temp1__t1 h3 {
-    margin-top: -40px; }
+    margin-top: -60px;
+    padding-bottom: 20px; }
   .basis_3_1_0 .temp1__t2 img {
     margin-bottom: 10px; }
   .basis_3_1_0 .temp1__t2 h3 {
@@ -21,12 +21,31 @@
   .basis_3_1_0 .temp1__t3 img {
     margin-bottom: 10px; }
   .basis_3_1_0 .temp1__t3 h3 {
-    margin-top: -40px; }
-  .basis_3_1_0 .temp2 {
-    margin: 0 10px; }
-  .basis_3_1_0 .temp3 img {
-    margin-bottom: 10px; }
-  .basis_3_1_0 .temp3 h3 {
     margin-top: -60px; }
+  .basis_3_1_0 .temp2 {
+    position: relative;
+    margin: 0 10px; }
+    .basis_3_1_0 .temp2 img {
+      margin-top: 0px; }
+    .basis_3_1_0 .temp2 h3 {
+      width: 50%;
+      margin-left: 25%;
+      position: absolute;
+      top: 130px;
+      font-size: 23px; }
+  .basis_3_1_0 .temp3__t5 h3 {
+    margin-top: -75px;
+    padding-bottom: 20px; }
+  .basis_3_1_0 .temp3__t6 img {
+    margin-bottom: 10px; }
+  .basis_3_1_0 .temp3__t6 h3 {
+    margin-top: -60px; }
+  .basis_3_1_0 .temp3__t7 img {
+    margin-bottom: 10px; }
+  .basis_3_1_0 .temp3__t7 h3 {
+    margin: -90px 5px 0; }
+  @media (max-width: 1440px) {
+    .basis_3_1_0 .temp2 {
+      display: none; } }
 
 /*# sourceMappingURL=basis_3_1_0__main.css.map */

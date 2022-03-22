@@ -1,0 +1,27 @@
+.basis_3_1_0 {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    &__temp1 {
+        .basis_3_1_0 {
+            &__t1 {
+                background-image: url(../img/t1-bg.jpg);
+                width: 100%;
+                background-repeat: no-repeat;
+                height: 400px;
+            }
+            &__t2 {
+                background-image: url(../img/t2-bg.jpg);
+                background-size: 100%;
+                background-repeat: no-repeat;
+                height: 400px;
+            }
+            &__t3 {
+                background-image: url(../img/t3-bg.jpg);
+                background-size: 100%;
+                background-repeat: no-repeat;
+                height: 400px;
+            }
+        }
+    }
+}

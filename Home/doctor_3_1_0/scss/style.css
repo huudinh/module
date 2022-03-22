@@ -23,7 +23,7 @@
       margin-left: 5%; }
     .doctor_3_1_0__information .description {
       width: 60%;
-      padding: 30px;
+      padding: 0 30px;
       background-color: rgba(255, 255, 255, 0.1);
       border-radius: 5px; }
     .doctor_3_1_0__information .overlay {
@@ -69,8 +69,10 @@
       width: 14%;
       margin-left: 20px;
       text-align: center;
-      font-size: 13px;
       margin-bottom: 20px; }
+      .doctor_3_1_0__list_doctor .doctor p {
+        margin-top: 10px;
+        font-size: 13px; }
       .doctor_3_1_0__list_doctor .doctor img {
         max-width: 100%;
         border: #2998ff 3px solid;
@@ -88,27 +90,20 @@
   @media (max-width: 989px) {
     .doctor_3_1_0__information .description .name {
       text-align: center; } }
-  @media (max-width: 782px) {
-    .doctor_3_1_0__title {
-      font-size: 15px; } }
   @media (max-width: 600px) {
-    .doctor_3_1_0__title {
+    .doctor_3_1_0__information .description h2 {
       font-size: 14px; }
-    .doctor_3_1_0__information img {
-      max-width: 50%; }
-    .doctor_3_1_0__information .description {
-      max-width: 35%; }
-      .doctor_3_1_0__information .description h2 {
-        font-size: 14px; }
-      .doctor_3_1_0__information .description .des {
-        display: none; }
+    .doctor_3_1_0__information .description .des {
+      display: none; }
     .doctor_3_1_0__list_doctor {
       margin-right: 15px; }
       .doctor_3_1_0__list_doctor .doctor h3 {
         margin-top: 0px; } }
   @media (max-width: 375px) {
+    .doctor_3_1_0__title {
+      font-size: 17px; }
     .doctor_3_1_0__list_doctor .doctor {
-      width: 100%; }
+      width: 40%; }
     .doctor_3_1_0__information .description h2 {
       font-size: 11px; } }
   @media (max-width: 280px) {

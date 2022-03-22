@@ -27,7 +27,7 @@
         }
         .description {
             width: 60%;
-            padding: 30px;
+            padding: 0 30px;
             background-color: rgba(255, 255, 255, 0.1);
             border-radius: 5px;
         }
@@ -83,11 +83,13 @@
             width: 14%;
             margin-left: 20px;
             text-align: center;
-            font-size: 13px;
             margin-bottom: 20px;
+            p{
+                margin-top: 10px;
+                font-size: 13px;
+            }
             img {
                 max-width: 100%;
-
                 border: rgb(41, 152, 255) 3px solid;
                 border-radius: 10px;
             }
@@ -147,9 +149,12 @@
         }
     }
     @media (max-width: 375px) {
+        &__title{
+            font-size: 17px;
+        }
         &__list_doctor{
             .doctor{
-                width: 100%;
+                width: 40%;
             }
         }
         &__information{
