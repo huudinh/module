@@ -1,0 +1,217 @@
+.post_4_4_0-title {
+    display: block;
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #0b365b;
+    margin-bottom: 15px;
+    text-align: start;
+    @media (max-width: 540px) {
+        text-align: center;
+    }
+    @media (max-width: 320px) {
+        font-size: 18px;
+    }
+}
+
+.post_4_0_0_byt {
+    background: url(../images/bg-byt.jpg?ver=1) center 0 no-repeat;
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    &__logo {
+        display: block;
+    }
+    &__wrapper {
+        display: flex;
+        align-items: center;
+    }
+    &__container {
+        margin-left: 40px;
+        color: #0b365b;
+        text-transform: uppercase;
+        font-weight: 600;
+    }
+    &__title {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 36px;
+    }
+    &__desc {
+        display: block;
+        font-size: 24px;
+        margin-left: 10px;
+    }
+    @media (max-width:1180px) {
+        &__title {
+            font-size: 30px;
+        }
+        &__desc {
+            font-size: 20px;
+        }
+    }
+    @media (max-width:540px) {
+        background: url(../images/bg-byt-m.jpg?ver=1) center 0 no-repeat;
+        min-height: 525px;
+        &__wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+            text-align: center;
+        }
+        &__container {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        &__logo {
+            margin: 20px auto 40px;
+        }
+        &__title {
+            margin-bottom: 10px;
+        }
+    }
+    @media (max-width:320px) {
+        &__title {
+            font-size: 24px;
+        }
+        &__desc {
+            font-size: 16px;
+        }
+    }
+}
+
+.post_4_0_0_history {
+    margin-top: 60px;
+    &__wrapper {
+        display: flex;
+        align-items: center;
+        img {
+            width: 100%;
+            display: block;
+        }
+    }
+    &__content {
+        margin-right: 70px;
+        p {
+            font-size: 16px;
+        }
+    }
+    @media (max-width: 912px) {
+        &__wrapper {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        &__content {
+            margin: 0;
+            text-align: justify;
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}
+
+.post_4_0_0_intro {
+    margin-top: 40px;
+    &-img {
+        display: block;
+        width: 100%;
+        margin: 0 auto;
+    }
+    &-btn {
+        display: none;
+    }
+    @media (max-width:514px) {
+        &-btn {
+            max-width: 200px;
+            text-align: center;
+            display: block;
+            margin: 20px auto 0;
+            background-color: #dc721c;
+            color: #fff;
+            font-size: 14px;
+            border: none;
+            padding: 10px;
+            border-radius: 20px;
+        }
+    }
+}
+
+.post_4_0_0_hr {
+    margin: 40px 0;
+    &__content {
+        color: #fff;
+        font-size: 18px;
+    }
+    &__main {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        margin-top: 15px;
+    }
+    &__title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-self: stretch;
+        width: 30%;
+        background-color: #035aa4;
+        text-transform: uppercase;
+        font-weight: 600;
+        text-align: center;
+        border-radius: 8px 0 0 8px;
+    }
+    &__box1 {
+        width: 35%;
+        align-self: stretch;
+        background-color: #0e2e4a;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-weight: 600;
+        li {
+            margin-left: 20px;
+            padding: 27px 0;
+            border-bottom: 1px solid #2675b9;
+        }
+    }
+    &__box2 {
+        align-self: stretch;
+        background-color: #0e2e4a;
+        width: 35%;
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        border-radius: 0 8px 8px 0;
+        li {
+            margin-right: 20px;
+            padding: 27px 0;
+            border-bottom: 1px solid #2675b9;
+        }
+    }
+    @media (max-width: 912px) {
+        &__content {
+            font-size: 14px;
+        }
+    }
+    @media (max-width:540px) {
+        &__content {
+            font-size: 10px;
+        }
+        &__title {
+            width: 20%;
+        }
+        &__box1 {
+            width: 40%;
+            li {
+                margin-left: 10px;
+            }
+        }
+        &__box2 {
+            width: 40%;
+            li {
+                margin-right: 10px;
+            }
+        }
+    }
+}
