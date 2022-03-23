@@ -1,2 +1,62 @@
-.commit_1_0_0 .container{max-width:480px}.commit_1_0_0__Title{margin-top:20px;text-align:center;font-family:-apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif}.commit_1_0_0__tieude{padding:20px 0;color:#0056a2;font-size:20px;font-weight:600}.commit_1_0_0__boxItem{position:relative}.commit_1_0_0__boxItem img{width:100%;height:111px}.commit_1_0_0__Content{width:50%;display:flex;position:absolute;left:32px;top:15px;align-items:center;justify-content:center}.commit_1_0_0__Content img{width:20%;height:20%;margin-right:30px}.commit_1_0_0__text{color:#000}.commit_1_0_0__regist{padding-top:10px;text-align:center}.commit_1_0_0__regist p{color:#000}.commit_1_0_0__button{background:#e43d3b;padding:5px 10px;width:50%;margin:0 auto;border-radius:15px}.commit_1_0_0__button a{color:#fff}@media (max-width: 375px){.commit_1_0_0__text{font-size:13px}.commit_1_0_0__regist p{font-size:13px}}@media (max-width: 320px){.commit_1_0_0__boxItem img{height:83px}.commit_1_0_0__Content img{width:20%;height:20%}.commit_1_0_0__text{font-size:10px}.commit_1_0_0__regist p{font-size:11px}.commit_1_0_0__regist a{font-size:13px}}
+.commit_1_0_0 .container {
+  max-width: 480px; }
+.commit_1_0_0__Title {
+  margin-top: 20px;
+  text-align: center;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
+.commit_1_0_0__tieude {
+  padding: 20px 0;
+  color: #0056a2;
+  font-size: 20px;
+  font-weight: 600; }
+.commit_1_0_0__boxItem {
+  position: relative; }
+  .commit_1_0_0__boxItem img {
+    width: 100%;
+    height: 111px; }
+.commit_1_0_0__Content {
+  width: 50%;
+  display: flex;
+  position: absolute;
+  left: 32px;
+  top: 15px;
+  align-items: center;
+  justify-content: center; }
+  .commit_1_0_0__Content img {
+    width: 20%;
+    height: 20%;
+    margin-right: 30px; }
+.commit_1_0_0__text {
+  color: #000; }
+.commit_1_0_0__regist {
+  padding-top: 10px;
+  text-align: center; }
+  .commit_1_0_0__regist p {
+    color: #000; }
+.commit_1_0_0__button {
+  background: #e43d3b;
+  padding: 5px 10px;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 15px; }
+  .commit_1_0_0__button a {
+    color: #fff; }
+@media (max-width: 375px) {
+  .commit_1_0_0__text {
+    font-size: 13px; }
+  .commit_1_0_0__regist p {
+    font-size: 13px; } }
+@media (max-width: 320px) {
+  .commit_1_0_0__boxItem img {
+    height: 83px; }
+  .commit_1_0_0__Content img {
+    width: 20%;
+    height: 20%; }
+  .commit_1_0_0__text {
+    font-size: 10px; }
+  .commit_1_0_0__regist p {
+    font-size: 11px; }
+  .commit_1_0_0__regist a {
+    font-size: 13px; } }
+
 /*# sourceMappingURL=commit_1_0_0.css.map */
