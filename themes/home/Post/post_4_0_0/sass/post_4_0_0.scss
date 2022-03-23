@@ -106,6 +106,7 @@
             text-align: justify;
             p {
                 font-size: 14px;
+                text-align: justify;
             }
         }
     }
@@ -116,9 +117,12 @@
     img {
         display: block;
         margin: 0 auto 20px;
+        max-width: 417px;
+        width: 100%;
     }
     p {
         font-size: 16px;
+        text-align: justify;
     }
 }
 
