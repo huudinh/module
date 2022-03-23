@@ -38,9 +38,18 @@
             font-weight: 400;
         }
     }
-    @media (max-width: 600px) {
+    @media (max-width: 1179px) {
+        .basis_3_1_0__title{
+            
+        }
+    }
+    @media (max-width: 820px) {
         &__group{
             flex-direction: column-reverse;
+            .basis_3_1_0__title{
+                margin: 380px 0 ;
+            }
         }
+
     }
 }
