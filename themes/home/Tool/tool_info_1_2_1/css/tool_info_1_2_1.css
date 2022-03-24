@@ -47,6 +47,8 @@
     }
     
     .tool_info_1_2_1__item a {
+        padding: 5px;
+        display: block;
         text-decoration: none;
         color: #fff
     }
@@ -86,6 +88,9 @@
         }
         .tool_info_1_2_1__box {
             flex-direction: row;
+        }
+        .tool_info_1_2_1__item {
+            width: 25%;
         }
     }
     

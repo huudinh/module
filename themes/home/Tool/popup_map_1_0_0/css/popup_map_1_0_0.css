@@ -55,15 +55,13 @@
     right: auto; } }
 @media (max-width: 414px) {
   .popup_map_1_0_0__box article {
-    max-width: 350px;
-    height: 460px; }
+    max-width: 350px; }
   .popup_map_1_0_0__tt img {
     width: auto; }
   .popup_map_1_0_0__ct img {
     width: 100%; } }
 @media (max-width: 360px) {
   .popup_map_1_0_0__box article {
-    max-width: 300px;
-    height: 400px; } }
+    max-width: 300px; } }
 
 /*# sourceMappingURL=popup_map_1_0_0.css.map */
