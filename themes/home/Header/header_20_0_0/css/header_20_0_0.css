@@ -267,6 +267,9 @@ a {
       top: 85px; }
     .header_20_0_0.menufix .header_20_0_0__boxMain .search-2 {
       margin: 30px auto 0; }
+  @media (max-width: 320px) {
+    .header_20_0_0__task {
+      display: none; } }
 
 @media (max-width: 1180px) {
   body {

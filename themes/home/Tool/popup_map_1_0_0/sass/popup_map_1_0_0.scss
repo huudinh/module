@@ -1,0 +1,124 @@
+$r1440: "(max-width:1440px)";
+$r1366: "(max-width:1366px)";
+$r1280: "(max-width:1280px)";
+$r1024: "(max-width:1024px)";
+$r768: "(max-width:812px)";
+$r414: "(max-width:414px)";
+$r375: "(max-width:375px)";
+$r360: "(max-width:360px)";
+$r320: "(max-width:320px)";
+$main:#00619b;
+%font1 {
+    font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.popup_map_1_0_0 {
+    &__bg {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        background: url(../images/overlay1.png);
+        opacity: 0.7;
+    }
+    &__form {
+        display: flex;
+        justify-content: center;
+    }
+    &__box {
+        position: fixed;
+        top: 150px;
+        z-index: 11;
+        article {
+            background: #E1E1E1;
+            z-index: 11;
+            margin: 0 auto;
+            max-width: 420px;
+            position: relative;
+            border-radius: 8px;
+            box-shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+        }
+    }
+    &__content {
+        padding: 30px;
+        img {
+            width: auto;
+        }
+    }
+    &__ct {
+        display: flex;
+        margin-bottom: 15px;
+        a {
+            img {
+                border-radius: 0 10px 10px 0;
+            }
+        }
+    }
+    &__pic {
+        img {
+            border-radius: 10px 0 0 10px;
+            ;
+        }
+    }
+    &__tt {
+        margin-bottom: 5px;
+    }
+    #popup_map_1_0_0__close {
+        background: url(../images/pucb-close2.png) 0 0 no-repeat;
+        width: 17px;
+        height: 17px;
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        transition: all 0.5s ease 0s;
+        font-family: arial;
+        cursor: pointer;
+        &:hover {
+            transform: rotate(360deg)
+        }
+    }
+}
+
+@media #{$r1440} {
+    .popup_map_1_0_0 {
+        &__box {
+            top: 80px;
+            left: auto;
+            right: auto;
+        }
+    }
+}
+
+@media #{$r414} {
+    .popup_map_1_0_0 {
+        &__box {
+            article {
+                max-width: 350px;
+                height: 460px;
+            }
+        }
+        &__tt {
+            img {
+                width: auto;
+            }
+        }
+        &__ct {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media #{$r360} {
+    .popup_map_1_0_0 {
+        &__box {
+            article {
+                max-width: 300px;
+                height: 400px;
+            }
+        }
+    }
+}
