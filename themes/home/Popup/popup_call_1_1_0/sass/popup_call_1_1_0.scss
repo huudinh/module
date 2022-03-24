@@ -12,7 +12,7 @@ $r320: "(max-width:320px)";
     background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABEAAAARCAYAAAA7bUf6AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAMBJREFUeNqc0z0KAjEQhuFx8E5qrqFeQdBCu0WwF2zsxd7fG+QCC+reyW8kgRjza+DdIksedgLb01rfiWiPWqpfA9QwHjt0QaM/gJucF+SFxpWQBabowWbTQucC6AuQDXZeCjTJQD+Aj+SgIBBCfEjlgBjiQie0SAGy+okLFGiLDmgeA1JfYkfYoBlaO6MVI0Mzgox0dEZTpYgAV3PwGbgjlUNCAOUgLgSSEFcAUYgrAfL+tQ8kyKoSsKsz0PItwAC6cz7Ubz7EKgAAAABJRU5ErkJggg==)
 }
 
-.popup_call_1_0_0 {
+.popup_call_1_1_0 {
     font-size: 14px;
     input,
     textarea {
@@ -22,7 +22,7 @@ $r320: "(max-width:320px)";
     .overlay_form {
         font-size: 14px;
     }
-    .popup_call_1_0_0_overlay {
+    .popup_call_1_1_0_overlay {
         position: fixed;
         left: 0px;
         top: 0px;
@@ -57,7 +57,7 @@ $r320: "(max-width:320px)";
                 width: 300px;
             }
         }
-        #popup_call_1_0_0_closePopup {
+        #popup_call_1_1_0_closePopup {
             @extend %icon1;
             display: block;
             cursor: pointer;
@@ -114,7 +114,7 @@ $r320: "(max-width:320px)";
             font-style: italic;
         }
         img {
-            width: 100%;
+            width: 70%;
             display: block;
             padding: 0 0 20px;
             margin: 0 auto;
@@ -177,7 +177,7 @@ $r320: "(max-width:320px)";
             }
         }
     }
-    .popup_call_1_0_0_clickPopup2 {
+    .popup_call_1_1_0_clickPopup2 {
         color: #fff;
         width: 100px;
         height: 20px;
