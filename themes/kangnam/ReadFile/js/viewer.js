@@ -24,7 +24,7 @@
 
 'use strict';
 
-var DEFAULT_URL = data;
+var DEFAULT_URL = report;
 var DEFAULT_SCALE = 'auto';
 var DEFAULT_SCALE_DELTA = 1.1;
 var UNKNOWN_SCALE = 0;

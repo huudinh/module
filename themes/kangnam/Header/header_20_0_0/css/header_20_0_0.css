@@ -230,6 +230,23 @@ a {
         position: relative;
         margin-bottom: 10px;
         margin-top: 0; }
+  .header_20_0_0 .menuSubDown {
+    position: relative; }
+  .header_20_0_0__menuSubDown {
+    display: none;
+    position: absolute;
+    width: 200px;
+    background-color: #0b365b; }
+  .header_20_0_0__dropDownItem {
+    padding: 10px 15px;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: 600; }
+  .header_20_0_0__dropDownItem:hover {
+    color: #F26649; }
+  .header_20_0_0 .menuSubDown:hover .header_20_0_0__menuSubDown {
+    display: block; }
   .header_20_0_0 .modal .modal-title {
     font-size: 20px;
     text-align: center;
@@ -280,6 +297,12 @@ a {
     position: absolute;
     right: 0;
     top: 10px; }
+  .header_20_0_0__menuSubDown {
+    position: unset;
+    width: 100%;
+    background-color: #fff; }
+  .header_20_0_0__dropDownItem {
+    color: #035aa4; }
   .header_20_0_0__box {
     height: 60px; }
     .header_20_0_0__box__section {
