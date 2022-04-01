@@ -77,7 +77,7 @@
         background: #ff8212
     }
     
-    @media (max-width: 600px) {
+    @media (max-width: 767px) {
         .tool_info_1_2_1 {
             width: 100%;
             bottom: 0;

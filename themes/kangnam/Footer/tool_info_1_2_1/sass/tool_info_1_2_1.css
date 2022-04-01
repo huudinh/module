@@ -1,0 +1,54 @@
+.tool_info_1_2_0 .container {
+  max-width: 480px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.tool_info_1_2_0__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.tool_info_1_2_0__item {
+  width: 20%;
+  text-align: center;
+  padding: 10px 0;
+  border-left: 1px solid #1475bc;
+}
+
+.tool_info_1_2_0__item a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.tool_info_1_2_0 .icon {
+  padding-top: 5px;
+}
+
+.tool_info_1_2_0 .call {
+  background: #07a738;
+}
+
+.tool_info_1_2_0 .zalo {
+  background: #246a9a;
+}
+
+.tool_info_1_2_0 .messengers {
+  background: #1999f1;
+}
+
+.tool_info_1_2_0 .baogia {
+  background: #daa236;
+}
+
+.tool_info_1_2_0 .vitri {
+  background: #ff8212;
+}
+
+@media (max-width: 375px) {
+  .tool_info_1_2_0__item a {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=tool_info_1_2_1.css.map */

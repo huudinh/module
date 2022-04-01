@@ -36,6 +36,8 @@
     margin-top: 30px; }
   .post_4_3_0__part3 img {
     width: 100%; }
+  .post_4_3_0__table a {
+    display: none; }
   @media (max-width: 540px) {
     .post_4_3_0__header {
       font-size: 24px; }
@@ -51,6 +53,12 @@
       flex-wrap: wrap; }
     .post_4_3_0 img {
       width: 100%;
-      margin: 0 auto; } }
+      margin: 0 auto; }
+    .post_4_3_0__table a {
+      display: block;
+      font-weight: 600;
+      color: #1264ba; }
+    .post_4_3_0__table img {
+      display: none; } }
 
 /*# sourceMappingURL=post_4_3_0.css.map */
