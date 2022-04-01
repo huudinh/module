@@ -1,0 +1,90 @@
+.basis_9_0_0 {
+  background: url(../images/basis-bg.jpg) center 0 no-repeat;
+}
+
+.basis_9_0_0-mb {
+  display: none;
+}
+
+.basis_9_0_0__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 750px;
+}
+
+.basis_9_0_0__title {
+  width: 50%;
+  color: #636363;
+  font-size: 32px;
+  padding: 15px;
+}
+
+.basis_9_0_0__title p {
+  margin: 0;
+}
+
+.basis_9_0_0 .basis_9_0_0_tt {
+  font-weight: 600;
+  color: #ff8c60;
+}
+
+.basis_9_0_0 .basis_9_0_0_cn b {
+  color: #003366;
+}
+
+.basis_9_0_0 .basis_9_0_0_tp {
+  font-size: 15px;
+  font-style: italic;
+}
+
+@media (max-width: 540px) {
+  .basis_9_0_0 {
+    background: unset;
+  }
+  .basis_9_0_0__box {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    height: unset !important;
+  }
+  .basis_9_0_0-mb {
+    display: block;
+    width: 100%;
+  }
+  .basis_9_0_0__title {
+    width: 100%;
+    text-align: center;
+    font-size: 18px !important;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .basis_9_0_0 {
+    background-size: 100%;
+  }
+  .basis_9_0_0__box {
+    height: 580px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .basis_9_0_0__box {
+    height: 420px;
+  }
+}
+
+@media (max-width: 912px) {
+  .basis_9_0_0__title {
+    font-size: 25px;
+  }
+  .basis_9_0_0__box {
+    height: 350px;
+  }
+}
+/*# sourceMappingURL=basis_9_0_0.css.map */
