@@ -66,25 +66,26 @@
 
                             </li>
                             <li class="menuSub menuSubDown">
-
                                 <a href="#" class="header_20_0_0__box__item arr">Danh mục</a>
                                 <div class="header_20_0_0__menuSubDown">
                                     <a href="ReadFile/bang-gia.html" class="header_20_0_0__dropDownItem" target="_blank">Bảng giá dịch vụ</a>
-                                    <a href="ReadFile/danh-muc-ky-thuat-1.html" class="header_20_0_0__dropDownItem" target="_blank">Danh mục kỹ thuật 1</a>
-                                    <a href="ReadFile/danh-muc-ky-thuat-2.html" class="header_20_0_0__dropDownItem" target="_blank">Danh mục kỹ thuật 2</a>
-                                    <a href="ReadFile/danh-muc-ky-thuat-3.html" class="header_20_0_0__dropDownItem" target="_blank">Danh mục kỹ thuật 3</a>
+                                    <a href="ReadFile/danh-muc-ky-thuat-1.html" class="header_20_0_0__dropDownItem" target="_blank">Danh mục kỹ thuật <br>(Ban hành lần 1)</a>
+                                    <a href="ReadFile/danh-muc-ky-thuat-2.html" class="header_20_0_0__dropDownItem" target="_blank">Danh mục kỹ thuật 2 <br>(Ban hành lần 2)</a>
+                                    <a href="ReadFile/danh-muc-ky-thuat-3.html" class="header_20_0_0__dropDownItem" target="_blank">Danh mục kỹ thuật 3 <br>(Ban hành lần 3)</a>
 
                                 </div>
                             </li>
                             <li class=" menuSub ">
                                 <a href="lien-he.html " class="header_20_0_0__box__item arr ">Liên hệ</a>
                             </li>
-                            <li class="menuSub ">
-                                <a href="ReadFile/chat-luong.html " class="header_20_0_0__box__item arr " target="_blank ">Chất lượng</a>
+                            <li class="menuSub menuSubDown">
+                                <a href="#" class="header_20_0_0__box__item arr">Chất lượng</a>
+                                <div class="header_20_0_0__menuSubDown">
+                                    <a href="ReadFile/chat-luong.html" class="header_20_0_0__dropDownItem" target="_blank">Đánh giá chất lượng</a>
+                                    <a href="ReadFile/ke-hoach-phat-trien-nguon-nhan-luc.html" class="header_20_0_0__dropDownItem" target="_blank">Kế hoạch phát triển nguồn nhân lực</a>
+                                </div>
                             </li>
                         </ul>
-
-
                     </div>
                     <div class="header_20_0_0__task">
                         <span href="#" class="header_20_0_0__boxSearch ">
@@ -313,32 +314,28 @@
     <section class="doctor_10_0_0">
         <div class="container">
             <div class="doctor_10_0_0__box">
-                <div class="doctor_10_0_0__item">
+                <div class="doctor_10_0_0__logo">
                     <img src="images/person-logo.jpg" />
                 </div>
-                <div class="doctor_10_0_0__item">
-                    <img src="images/doctor-1.jpg" />
-                    <span>BS. Hà Văn Dần</span>
-                </div>
-                <div class="doctor_10_0_0__item">
-                    <img src="images/doctor-2.jpg" />
-                    <span>BS. Nguyễn Quốc Chí</span>
+                <div class="doctor_10_0_0__wrapper">
+                    <div class="doctor_10_0_0__item">
+                        <img src="images/doctor-1.jpg" />
+                        <span>BS. Hà Văn Dần</span>
+                    </div>
+                    <div class="doctor_10_0_0__item">
+                        <img src="images/doctor-2.jpg" />
+                        <span>BS. Đàm Ngọc Trâm</span>
 
-                </div>
-                <div class="doctor_10_0_0__item">
-                    <img src="images/doctor-3.jpg" />
-                    <span>BS. Hoàng Hữu Tùng</span>
+                    </div>
+                    <div class="doctor_10_0_0__item">
+                        <img src="images/doctor-3.jpg" />
+                        <span>BS. Hà Thúy Hoa</span>
 
-                </div>
-                <div class="doctor_10_0_0__item">
-                    <img src="images/doctor-4.jpg" />
-                    <span>BS. Huỳnh Luân</span>
-
-                </div>
-                <div class="doctor_10_0_0__item">
-                    <img src="images/doctor-5.jpg" />
-                    <span>BS. Bùi Đức Nhiên</span>
-
+                    </div>
+                    <div class="doctor_10_0_0__item">
+                        <img src="images/doctor-4.jpg" />
+                        <span>BS. Nguyễn Hữu Trình</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -545,7 +542,25 @@
 </body>
 <script src="media/js/jquery.js"></script>
 <script type="text/javascript" src="https://benhvienthammykangnam.vn/quangcao247/contact/template/js/js.js?t=112346"></script>
-
+<script type="text/javascript">
+    function loadJsAsync(t, e) {
+        var n = document.createElement("script");
+        n.type = "text/javascript", n.src = t, n.addEventListener("load", function(t) {
+            e(null, t)
+        }, !1);
+        var a = document.getElementsByTagName("head")[0];
+        a.appendChild(n)
+    }
+    window.addEventListener("DOMContentLoaded", function() {
+        loadJsAsync("https://webchat.caresoft.vn:8090/js/CsChat.js?v=4.0", function() {
+            var t = {
+                domain: "kangnam",
+                domainId: 8989
+            };
+            embedCsChat(t)
+        })
+    }, !1);
+</script>
 <script>
     function imgTheme(path, tag) {
         let x = document.querySelectorAll(tag);
