@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3c.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Nha Khoa Paris - Thẩm mỹ răng tiêu chuẩn Pháp</title>
+    <meta name="viewport" content="initial-scale=1, width=device-width, maximum-scale=1, minimum-scale=1, user-scalable=no" />
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="css/style-min.css" />
+    <link id="pagestyle" rel="stylesheet" type="text/css" href="css/footer_pr_1_0_0.css" />
+</head>
+
+<body>
+    <section class="footer_2_1_0">
+        <div class="refuse">
+            <div class="container">Hiệu quả phụ thuộc vào cơ địa mỗi người (*)</div>
+        </div>
+        <div class="footer_2_1_0__container container">
+            <div class="footer_2_1_0__box">
+                <div class="footer_2_1_0__box1">
+                    <div class="footer_2_1_0__box1-logo">
+                        <a href="#">
+                            <img class="lazy" data-src="images/logo1.png?ver=2" alt="" />
+                        </a>
+                    </div>
+                </div>
+                <div class="footer_2_1_0__box2">
+                    <div class="footer_2_1_0__box2__item item1">
+                        <div class="footer_2_1_0__box2__ct">
+                            <div class="footer_2_1_0__box2-title">
+                                <h3>hệ thống chuỗi nha khoa tiêu chuẩn pháp</h3>
+                                <p><b>Bác sĩ tư vấn 24/7</b> 0943.776.699</p>
+                            </div>
+                            <div class="footer_2_1_0__box2-Social">
+                                <a class="boxtop__call-2" href="tel:19006900">
+                                    <img class="lazy" data-src="images/boxtop-call.png" alt="" />1900.6900
+                                </a>
+                                <a href="https://www.facebook.com/NhaKhoaParis/" target="_blank" rel="nofollow" class="footer_2_1_0__box2-Social-facebook">
+                                    <img class="lazy" data-src="images/ft-fb.png" alt="" />
+                                </a>
+                                <a href="https://www.youtube.com/channel/UCHMf1HRdqpBRqP6p-qZyGog" target="_blank" rel="nofollow" class="footer_2_1_0__box2-Social-youtube">
+                                    <img class="lazy" data-src="images/ft-yt.png" alt="" />
+                                </a>
+                            </div>
+                        </div>
+                        <div class="footer_2_1_0__box2__pic">
+                            <a href=" https://www.facebook.com/NhaKhoaParis/" target="_blank" rel="nofollow">
+                                <img class="lazy" data-src="images/fb.png?ver=2" alt="" />
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="footer_2_1_0__box2__item">
+                        <div class="footer_2_1_0__box2__DoiTac dt2">
+                            <ul>
+                                <li class="fra">
+                                    <img class="lazy" data-src="images/flag-france.png" alt="" />
+                                    <b>Đối tác Pháp:</b> Cabinet Dentaire Philippe Tarot - 9 Rue Rempart de l'Oulle, 84000 Avignon, France
+                                </li>
+                                <li class="vn">
+                                    <img class="lazy" data-src="images/flag-vn.png" alt="" />
+                                    <b>Cơ sở Việt Nam:</b> Hà Nội - Hải Phòng - Quảng Ninh - Nghệ An - Đà Nẵng - TP. HCM - Bình Dương
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="footer_2_1_0__box2__protect">
+                            <a href="https://www.dmca.com/Protection/Status.aspx?ID=b192a6ce-8f99-437e-8933-163c70a4523c">
+                                <img class="lazy" data-src="images/protect.jpg?ver=2" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        document.addEventListener("scroll", function() {
+
+            myLazy("img.lazy", "src");
+            myLazy("source.lazy", "srcset");
+            myLazy(".lazy-bg", "img-bg");
+            myLazy(".load", "loaded");
+        });
+        LazyShowScreen("img.lazy", "src");
+
+        function myLoad(sec, name) {
+            const section_loads = document.querySelectorAll(sec);
+            let winTop = document.documentElement.scrollTop;
+
+            for (let i = 0; i < section_loads.length; i++) {
+                let pos = section_loads[i].offsetTop;
+                if (pos < winTop + 600) {
+                    section_loads[i].classList.add(name);
+                    document.getElementById("demo").innerHTML = name;
+                }
+            }
+        }
+        // Lazy load
+        function addImgDefault(sec, attr) {
+            const section_loads = document.querySelectorAll(sec);
+            let data =
+                "data:image/gif;base64,R0lGODlhAQABAPAAAMzMzAAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==";
+
+            for (let i = 0; i < section_loads.length; i++) {
+                // add src default
+                switch (attr) {
+                    case "src":
+                        section_loads[i].src = data;
+                        break;
+                    case "srcset":
+                        section_loads[i].srcset = data;
+                        break;
+                    default:
+                        console.log(`Sorry, we are out of ${attr}.`);
+                }
+            }
+        }
+
+        function myLazy(sec, attr) {
+            const section_loads = document.querySelectorAll(sec);
+            let winTop = window.innerHeight;
+
+            for (let i = 0; i < section_loads.length; i++) {
+                let pos_top = section_loads[i].getBoundingClientRect().top;
+                let pos_bottom = section_loads[i].getBoundingClientRect().bottom;
+                if (pos_top <= winTop && pos_bottom >= 0) {
+                    switch (attr) {
+                        case "src":
+                            section_loads[i].src = section_loads[i].dataset.src;
+                            section_loads[i].classList.remove("lazy");
+                            break;
+                        case "srcset":
+                            section_loads[i].srcset = section_loads[i].dataset.srcset;
+                            section_loads[i].classList.remove("lazy");
+                            break;
+                        case "img-bg":
+                            section_loads[i].classList.remove("lazy-bg");
+                            section_loads[i].classList.add("img-bg");
+                            break;
+                        case "loaded":
+                            section_loads[i].classList.remove("load");
+                            section_loads[i].classList.add("loaded");
+                            break;
+                        case "slide":
+                            section_loads[i].classList.add("slide");
+                            break;
+                        default:
+                            console.log(`Sorry, we are out of ${attr}.`);
+                    }
+                }
+            }
+        }
+
+        function autoLazy(sec, attr) {
+            const section_loads = document.querySelectorAll(sec);
+            for (let i = 0; i < section_loads.length; i++) {
+                setTimeout(() => {
+                    switch (attr) {
+                        case "loaded":
+                            section_loads[i].classList.add("loaded");
+                            break;
+                        case "src":
+                            section_loads[i].src = section_loads[i].dataset.src;
+                            section_loads[i].classList.remove("lazy");
+                            break;
+                        case "srcset":
+                            section_loads[i].srcset = section_loads[i].dataset.srcset;
+                            section_loads[i].classList.remove("lazy");
+                            break;
+                        case "img-bg":
+                            section_loads[i].classList.remove("lazy-bg");
+                            section_loads[i].classList.add("img-bg");
+                            break;
+                        default:
+                            console.log(`Sorry, we are out of ${attr}.`);
+                    }
+                }, 5000);
+            }
+        }
+
+        function LazyShowScreen(sec, attr) {
+            const section_loads = document.querySelectorAll(sec);
+            let win_height = screen.height;
+
+            for (let i = 0; i < section_loads.length; i++) {
+                if (section_loads[i].getBoundingClientRect().top < win_height) {
+                    switch (attr) {
+                        case "loaded":
+                            section_loads[i].classList.add("loaded");
+                            break;
+                        case "src":
+                            section_loads[i].src = section_loads[i].dataset.src;
+                            section_loads[i].classList.remove("lazy");
+                            break;
+                        case "srcset":
+                            section_loads[i].srcset = section_loads[i].dataset.srcset;
+                            section_loads[i].classList.remove("lazy");
+                            break;
+                        case "img-bg":
+                            section_loads[i].classList.remove("lazy-bg");
+                            section_loads[i].classList.add("img-bg");
+                            break;
+                        case "slide":
+                            section_loads[i].classList.remove("slide");
+                            section_loads[i].classList.add("slide");
+                            break;
+                        default:
+                            console.log(`Sorry, we are out of ${attr}.`);
+                    }
+                }
+            }
+        }
+    </script>
+
+    <script type="text/javascript">
+        document.addEventListener("DOMContentLoaded", function() {
+            const popup_regist = document.getElementsByClassName("popup_regist");
+            const popup_regist_1_0_1 =
+                document.getElementById("popup_regist_1_0_1");
+            const popup_regist_1_0_1_overlayClickForm = document.getElementById(
+                "popup_regist_1_0_1_overlayClickForm"
+            );
+            const popup_regist_1_0_1_overlay = document.getElementById(
+                "popup_regist_1_0_1_overlay"
+            );
+            const popup_regist_1_0_1_closePopup = document.getElementById(
+                "popup_regist_1_0_1_closePopup"
+            );
+
+            for (const call of popup_regist) {
+                call.addEventListener("click", function() {
+                    popup_regist_1_0_1.style.display = "block";
+                    popup_regist_1_0_1_overlayClickForm.style.display = "block";
+                    popup_regist_1_0_1_overlay.style.display = "block";
+                });
+            }
+
+            popup_regist_1_0_1_closePopup.addEventListener("click", function() {
+                popup_regist_1_0_1.style.display = "none";
+                popup_regist_1_0_1_overlayClickForm.style.display = "none";
+                popup_regist_1_0_1_overlay.style.display = "none";
+            });
+
+            popup_regist_1_0_1_overlay.addEventListener("click", function() {
+                popup_regist_1_0_1.style.display = "none";
+                popup_regist_1_0_1_overlayClickForm.style.display = "none";
+                popup_regist_1_0_1_overlay.style.display = "none";
+            });
+        });
+    </script>
+</body>
+
+</html>
+<!-- G:\SCI_Code\nhakhoaparis.vn\tham-my-rang-tieu-chuan-phap \ css by Đức 05/03/2022 -->
