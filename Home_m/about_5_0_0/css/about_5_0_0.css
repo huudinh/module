@@ -1,2 +1,30 @@
-.about_5_0_0{font-family:Myriad Pro}.about_5_0_0 .container{max-width:480px}.about_5_0_0__Title{margin-top:20px}.about_5_0_0__Title img{width:100%}.about_5_0_0__tieude{margin-top:20px;text-align:center;color:#0056a2;font-size:20px;font-weight:600}.about_5_0_0 img{width:100%}.about_5_0_0__Content{text-align:center;color:#000;font-size:19px;font-weight:500;padding:10px 0}@media (max-width: 375px){.about_5_0_0__Content{font-size:17px}}@media (max-width: 320px){.about_5_0_0__Content{font-size:14px}}
+.about_5_0_0 {
+  font-family: Myriad Pro; }
+  .about_5_0_0 .container {
+    max-width: 480px; }
+  .about_5_0_0__Title {
+    margin-top: 20px; }
+    .about_5_0_0__Title img {
+      width: 100%; }
+  .about_5_0_0__tieude {
+    margin-top: 20px;
+    text-align: center;
+    color: #0056a2;
+    font-size: 20px;
+    font-weight: 600; }
+  .about_5_0_0 img {
+    width: 100%; }
+  .about_5_0_0__Content {
+    text-align: center;
+    color: #000;
+    font-size: 19px;
+    font-weight: 500;
+    padding: 10px 0; }
+  @media (max-width: 375px) {
+    .about_5_0_0__Content {
+      font-size: 17px; } }
+  @media (max-width: 320px) {
+    .about_5_0_0__Content {
+      font-size: 14px; } }
+
 /*# sourceMappingURL=about_5_0_0.css.map */

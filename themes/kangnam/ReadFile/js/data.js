@@ -1,0 +1,7 @@
+const price = 'pdf/price.pdf'
+const report = 'pdf/quality-report.pdf'
+const techCatalog1 = 'pdf/techCatalog1.pdf'
+const techCatalog2 = 'pdf/techCatalog2.pdf'
+const techCatalog3 = 'pdf/techCatalog3.pdf'
+const summary = 'pdf/summary.pdf'
+const hrPlan = 'pdf/hrPlan.pdf'

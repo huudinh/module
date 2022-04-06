@@ -1,0 +1,35 @@
+.news_10_0_0 {
+    padding:30px 0;
+    &__box{
+        display: flex;
+        justify-content: space-between;
+        margin:30px auto 0;
+    }
+    &__title {
+        text-align: center;
+        color: #0b365b;
+        font-size: 32px;
+        padding-bottom: 10px;
+        font-weight: 600;
+    }
+
+    &__item {
+       width: 31.5%;
+       border:2px solid  #efefef;
+       border-radius:0 0 20px 20px;
+       box-shadow: rgba(247, 247, 247, 0.95) 0px 2px 8px;
+       img{
+           width: 100%;
+           display: block;
+       }
+    }
+    &__intro{
+        font-weight: 600;
+        color: #0b365b;
+        font-size: 20px;
+        text-align: center;
+    }
+    &__ct{
+        padding:30px 20px;
+    }
+}

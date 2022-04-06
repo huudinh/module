@@ -1,0 +1,180 @@
+.doctor_3_1_0 {
+    background-image: url(../media/slide_bg.jpg);
+    background-size: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    &__container {
+        width: 70%;
+        margin: 0px auto;
+        color: white;
+    }
+    &__title {
+        width: 100%;
+        padding: 20px 0;
+        text-align: center;
+        font-size: 25px;
+        margin: 0 auto;
+        color: rgb(49, 255, 186);
+    }
+    &__information {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        img {
+            margin-right: 20px;
+            margin-left: 5%;
+        }
+        .description {
+            width: 60%;
+            padding: 0 30px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+        }
+        .overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 44, 110, 0.5);
+            
+            .popup {
+                margin: 70px auto;
+                padding: 20px;
+                background: rgb(233, 233, 233);
+                border-radius: 5px;
+                width: 30%;
+                position: relative;
+                color: rgb(0, 0, 0);
+
+                .h2 {
+                    margin-top: 0;
+                    color: #333;
+                    font-family: Tahoma, Arial, sans-serif;
+                }
+                .close {
+                    position: absolute;
+                    top: 20px;
+                    right: 30px;
+                    font-size: 30px;
+                    font-weight: 900;
+                    text-decoration: none;
+                    color: rgb(7, 7, 7);
+                }
+                .close:hover {
+                    color: #06d85f;
+                }
+                .pop-description {
+                    max-height: 30%;
+                }
+            }
+        }
+    }
+    &__list_doctor {
+        max-width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-bottom: 20px;
+        margin: 20px 0;
+        .doctor {
+            width: 14%;
+            margin-left: 20px;
+            text-align: center;
+            margin-bottom: 20px;
+            p{
+                margin-top: 10px;
+                font-size: 13px;
+            }
+            img {
+                max-width: 100%;
+                border: rgb(41, 152, 255) 3px solid;
+                border-radius: 10px;
+            }
+        }
+    }
+    @media (max-width: 1600px) {
+        &__information{
+            .description{
+                max-width: 70%;
+            }
+        }
+    }
+    @media (max-width: 1100px) {
+        &__title{
+            font-size: 20px;
+        }
+        &__information{
+            .description{
+                .des{
+                    display: none;
+                }
+            }
+        }
+        &__list_doctor{
+            .doctor{
+                width: 25%;
+            }
+        }
+    }
+    @media (max-width: 989px) {
+        &__information{
+            .description{
+                .name{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    @media (max-width: 600px) {
+        &__information{
+            .description{
+                h2{
+                    font-size: 14px;
+                }
+                .des{
+                    display: none;
+                }
+            }
+        }
+        &__list_doctor{
+            margin-right: 15px;
+            .doctor{
+                h3{
+                    margin-top: 0px;
+                }
+            }
+        }
+    }
+    @media (max-width: 375px) {
+        &__title{
+            font-size: 17px;
+        }
+        &__list_doctor{
+            .doctor{
+                width: 40%;
+            }
+        }
+        &__information{
+            .description{
+                h2{
+                    font-size: 11px;
+                }
+            }
+        }
+    }
+    @media (max-width: 280px) {
+        &__information{
+            .img_title, .description{
+                display: none;
+            }
+        }
+        &__list_doctor{
+            .doctor{
+                width: 40%;
+            }
+        }
+    }
+}

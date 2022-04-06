@@ -1,0 +1,89 @@
+.person_12_0_0__container {
+  position: relative;
+}
+
+.person_12_0_0__person {
+  display: block;
+  width: 100%;
+}
+
+.person_12_0_0__box {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.person_12_0_0__box-img {
+  max-width: 80%;
+}
+
+.person_12_0_0__title {
+  background-color: #0a4285;
+  width: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transform: translateY(18%);
+          transform: translateY(18%);
+  height: 50%;
+  border: 3px solid #ff5f11;
+}
+
+.person_12_0_0__title-img {
+  max-width: 81%;
+}
+
+@media (max-width: 540px) {
+  .person_12_0_0__container {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  .person_12_0_0__person {
+    position: relative;
+    padding: 0 20px;
+    top: -50px;
+  }
+  .person_12_0_0__box {
+    width: 100%;
+    position: unset;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .person_12_0_0__title {
+    width: 100%;
+    height: 100%;
+    -webkit-transform: unset;
+            transform: unset;
+    padding: 70px 20px;
+  }
+}
+
+@media (max-width: 320px) {
+  .person_12_0_0__title {
+    padding: 50px 20px;
+  }
+}
+/*# sourceMappingURL=person_12_0_0.css.map */
