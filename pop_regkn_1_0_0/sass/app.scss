@@ -14,7 +14,10 @@
         }
         .modal-box {
             max-width: 350px;
-            min-width: 250px;
+            min-width: 300px;
+            @media (max-width: 280px) {
+                min-width: 250px;
+            }
         }
         .modal-close {
             font-size: 23px;
@@ -85,7 +88,10 @@
         }
         .modal-box {
             max-width: 350px;
-            min-width: 250px;
+            min-width: 300px;
+            @media (max-width: 280px) {
+                min-width: 250px;
+            }
         }
         .modal-close {
             font-size: 23px;
@@ -100,6 +106,9 @@
         font-weight: 600;
         font-style: italic;
         font-size: 14px;
+        @media (max-width: 280px) {
+            font-size: 13px;
+        }
         p {
             margin: 0;
         }
