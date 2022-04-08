@@ -106,13 +106,7 @@
         &__title{
             font-size: 20px;
         }
-        &__information{
-            .description{
-                .des{
-                    display: none;
-                }
-            }
-        }
+        
         &__list_doctor{
             .doctor{
                 width: 25%;
@@ -124,6 +118,13 @@
             .description{
                 .name{
                     text-align: center;
+                }
+            }
+        }
+        &__information{
+            .description{
+                .des{
+                    display: none;
                 }
             }
         }
