@@ -30,13 +30,20 @@ a {
         top: 0;
     }
     &__task {
-        border-left: 1px solid #6b859a;
-        border-right: 1px solid #6b859a;
-        padding: 6px 10px
+        padding: 6px 10px;
+        margin-left: 20px;
+        span {
+            color: #fff;
+            font-size: 15px;
+            font-weight: 600;
+            padding: 4px 8px 3px;
+            background: #1264ba;
+            border-radius: 6px;
+        }
     }
     &__box {
         display: flex;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
         &__section2 {
             display: flex;
@@ -215,7 +222,6 @@ a {
             display: none;
         }
         &Nav {
-          
             font-size: 25px;
             color: #fff;
             background-color: #1264ba;
@@ -357,6 +363,11 @@ a {
             }
         }
     }
+    @media (max-width: 320px) {
+        &__task {
+            display: none;
+        }
+    }
 }
 
 @media (max-width:1180px) {
@@ -371,7 +382,6 @@ a {
             top: 10px;
         }
         &__box {
-            display: block;
             height: 60px;
             &__section {
                 display: block;
@@ -379,7 +389,7 @@ a {
             }
             &__section2 {
                 display: block;
-                width: 100%;
+                width: unset;
                 text-align: center;
             }
             &-bg {
@@ -403,7 +413,7 @@ a {
                 font-weight: 600;
                 border-top: 1px dotted #d4d4d4;
                 text-align: left;
-                color: #333;
+                color: #035aa4;
                 br {
                     display: none;
                 }
@@ -558,9 +568,7 @@ a {
             }
             &Logo {
                 img {
-                    position: absolute;
-                    top: 15px;
-                    margin-left: -40px;
+                    display: block;
                 }
             }
         }
