@@ -1,5 +1,5 @@
 //popup đăng ký tư vấn
-.pop_regkn_1_0_0 {
+.pop_regpr_1_0_0 {
     &__box {
         .modal-header {
             padding: 0;
@@ -27,9 +27,9 @@
         }
     }
     &__des {
-        background: #286C9D;
+        background: #286c9d;
         padding: 13px 15px 12px 15px;
-        font-size: 18px;
+        font-size: 15px;
         font-weight: 500;
         text-transform: uppercase;
         color: #fff;
@@ -45,15 +45,26 @@
         border: none;
         padding: 7px 12px;
     }
+    textarea {
+        width: 100%;
+        font-family: arial;
+        font-size: 13px;
+        margin-bottom: 4px;
+        resize: none;
+        height: 96px;
+        background: #ddd;
+        border: none;
+        padding: 7px 12px;
+    }
     &__clicknow {
         input {
             width: 100%;
-            background: #DD4A39;
+            background: #dd4a39;
             color: #fff;
             border: none;
             cursor: pointer;
             font-size: 14px;
-            margin-bottom: 5px
+            margin-bottom: 5px;
         }
     }
     &__contact {
@@ -73,7 +84,7 @@
 }
 
 //popup call
-.pop_callkn_1_0_0 {
+.pop_callpr_1_0_0 {
     &__box {
         .modal-header {
             padding: 0;
@@ -99,11 +110,14 @@
             margin-right: 9px;
             margin-top: 5px;
         }
+        .modal-body {
+            padding: 0px 20px;
+        }
     }
     &__des {
-        padding: 20px 0 10px;
-        color: #777;
-        font-weight: 600;
+        padding: 5px 0 10px;
+        color: #666;
+        font-weight: 700;
         font-style: italic;
         font-size: 14px;
         @media (max-width: 280px) {
@@ -117,25 +131,24 @@
         width: 100%;
         margin-bottom: 4px;
         font-size: 14px;
-        padding: 15px 0;
+        padding: 12px 0;
         text-align: center;
         color: #333;
-        border: 1px solid #b7b7b7;
-        border-radius: 4px;
+        border-radius: 5px;
     }
     &__click {
         input {
             width: 100%;
-            background: #00abe2;
+            background: #3491cc;
             color: #fff;
             border: none;
             cursor: pointer;
             font-size: 14px;
             margin-top: 5px;
+            margin-bottom: 20px;
             border-radius: 4px;
-            text-transform: uppercase;
-            padding: 15px 0;
-            font-weight: bold;
+            padding: 12px 0;
+            font-weight: 600;
         }
     }
     &__contact {
@@ -144,5 +157,25 @@
         font-weight: 600;
         font-style: italic;
         text-align: center;
+        .icon{
+            &__call{
+                width: 22px;
+                height: 22px;
+                display: inline-block;
+                vertical-align: middle;
+            }
+        }
+        a {
+            background: #ea3b41;
+            color: #fff;
+            text-transform: uppercase;
+            display: block;
+            padding: 12px 0;
+            border-radius: 4px;
+            font-weight: bold;
+            text-transform: uppercase;
+            text-decoration: none;
+            margin: 0 auto;
+        }
     }
 }

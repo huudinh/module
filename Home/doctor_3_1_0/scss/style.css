@@ -84,13 +84,13 @@
   @media (max-width: 1100px) {
     .doctor_3_1_0__title {
       font-size: 20px; }
-    .doctor_3_1_0__information .description .des {
-      display: none; }
     .doctor_3_1_0__list_doctor .doctor {
       width: 25%; } }
   @media (max-width: 989px) {
     .doctor_3_1_0__information .description .name {
-      text-align: center; } }
+      text-align: center; }
+    .doctor_3_1_0__information .description .des {
+      display: none; } }
   @media (max-width: 600px) {
     .doctor_3_1_0__information .description h2 {
       font-size: 14px; }
