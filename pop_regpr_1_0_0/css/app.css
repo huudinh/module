@@ -56,7 +56,8 @@
   color: #696969;
   font-size: 13px; }
   .pop_regpr_1_0_0__contact p {
-    margin: 6px 0 12px;
+    margin: 0px;
+    padding: 0px;
     font-style: italic; }
   .pop_regpr_1_0_0__contact a {
     color: #cc431d;
@@ -66,6 +67,20 @@
 .pop_callpr_1_0_0__box .modal-header {
   padding: 0;
   border-bottom: unset; }
+  .pop_callpr_1_0_0__box .modal-header .pop_callpr_1_0_0__des1 {
+    padding: 5px 0 10px;
+    color: #666;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 14px; }
+    @media (max-width: 280px) {
+      .pop_callpr_1_0_0__box .modal-header .pop_callpr_1_0_0__des1 {
+        font-size: 13px; } }
+    .pop_callpr_1_0_0__box .modal-header .pop_callpr_1_0_0__des1 p {
+      margin: 0; }
+    @media (min-width: 1280px) {
+      .pop_callpr_1_0_0__box .modal-header .pop_callpr_1_0_0__des1 {
+        display: none; } }
 .pop_callpr_1_0_0__box .modal-title {
   text-align: center;
   padding-top: 20px; }
@@ -84,6 +99,9 @@
   margin-top: 5px; }
 .pop_callpr_1_0_0__box .modal-body {
   padding: 0px 20px; }
+@media (min-width: 1280px) {
+  .pop_callpr_1_0_0__box .pop_callpr_1_0_0__contact {
+    display: none; } }
 .pop_callpr_1_0_0__des {
   padding: 5px 0 10px;
   color: #666;
