@@ -24,10 +24,10 @@ header {
   @media (max-width: 1200px) {
     header .container {
       width: 95%; } }
-  header .siteHeader {
+  header .header_pr_1_0_0 {
     display: flex;
     justify-content: space-between; }
-    header .siteHeader-bg {
+    header .header_pr_1_0_0-bg {
       background: rgba(0, 0, 0, 0.8);
       width: 100%;
       height: 100%;
@@ -38,12 +38,12 @@ header {
       left: 0;
       z-index: 2;
       animation: opacity 0.4s; }
-      header .siteHeader-bg.active {
+      header .header_pr_1_0_0-bg.active {
         display: block; }
-    header .siteHeader__section {
+    header .header_pr_1_0_0__section {
       display: flex;
       align-items: center; }
-    header .siteHeader__item {
+    header .header_pr_1_0_0__item {
       color: #0157a4;
       margin-left: 5px;
       padding: 35px 12px;
@@ -51,27 +51,27 @@ header {
       text-transform: uppercase;
       cursor: pointer;
       font-weight: 600; }
-      header .siteHeader__item-logosb {
+      header .header_pr_1_0_0__item-logo__sb {
         display: none; }
-        header .siteHeader__item-logosb img {
+        header .header_pr_1_0_0__item-logo__sb img {
           max-width: 90%;
           margin: 20px 0 0; }
-    header .siteHeaderMain {
+    header .header_pr_1_0_0__Main {
       display: flex;
       align-items: center; }
-      header .siteHeaderMain.active {
+      header .header_pr_1_0_0__Main.active {
         display: block;
         animation: animateleft 0.4s; }
-      header .siteHeaderMain .menu {
+      header .header_pr_1_0_0__Main .menu {
         display: flex;
         list-style: none;
         padding: 0; }
-        header .siteHeaderMain .menuSub:hover .menuSubBox {
+        header .header_pr_1_0_0__Main .menuSub:hover .menuSubBox {
           display: block;
           animation: opac 0.4s; }
-        header .siteHeaderMain .menuSub:hover > a {
+        header .header_pr_1_0_0__Main .menuSub:hover > a {
           color: #e3a261; }
-        header .siteHeaderMain .menuSubBox {
+        header .header_pr_1_0_0__Main .menuSubBox {
           display: none;
           position: absolute;
           width: 80%;
@@ -80,55 +80,55 @@ header {
           background: #2f3d6b;
           padding: 30px 40px;
           color: #fff; }
-          header .siteHeaderMain .menuSubBox ul {
+          header .header_pr_1_0_0__Main .menuSubBox ul {
             list-style: none;
             padding: 0; }
-            header .siteHeaderMain .menuSubBox ul li {
+            header .header_pr_1_0_0__Main .menuSubBox ul li {
               border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
               padding: 10px 0;
               font-size: 13px; }
-              header .siteHeaderMain .menuSubBox ul li:last-child {
+              header .header_pr_1_0_0__Main .menuSubBox ul li:last-child {
                 border-bottom: none; }
-          header .siteHeaderMain .menuSubBox a {
+          header .header_pr_1_0_0__Main .menuSubBox a {
             color: #fff;
             transition: 0.1s; }
-            header .siteHeaderMain .menuSubBox a:hover {
+            header .header_pr_1_0_0__Main .menuSubBox a:hover {
               color: rgba(255, 255, 255, 0.7); }
-        header .siteHeaderMain .menuSubTitle {
+        header .header_pr_1_0_0__Main .menuSubTitle {
           text-transform: uppercase;
           font-size: 16px;
           font-weight: 600;
           position: relative;
           padding-bottom: 15px;
           margin-bottom: 10px; }
-          header .siteHeaderMain .menuSubTitle:after, header .siteHeaderMain .menuSubTitle::before {
+          header .header_pr_1_0_0__Main .menuSubTitle:after, header .header_pr_1_0_0__Main .menuSubTitle::before {
             content: "";
             display: block;
             position: absolute; }
-          header .siteHeaderMain .menuSubTitle:before {
+          header .header_pr_1_0_0__Main .menuSubTitle:before {
             width: 80px;
             height: 3px;
             background: #fff;
             left: 0;
             bottom: -1px; }
-          header .siteHeaderMain .menuSubTitle:after {
+          header .header_pr_1_0_0__Main .menuSubTitle:after {
             width: 100px;
             width: 100%;
             height: 1px;
             background: rgba(255, 255, 255, 0.2);
             left: 0;
             bottom: 0; }
-    header .siteHeaderLogo {
+    header .header_pr_1_0_0__Logo {
       height: 90px;
       display: flex;
       align-items: center; }
-      header .siteHeaderLogo img {
+      header .header_pr_1_0_0__Logo img {
         height: 65px; }
-    header .siteHeaderNav, header .siteHeaderCall {
+    header .header_pr_1_0_0__Nav, header .header_pr_1_0_0__Call {
       position: absolute;
       top: 20px;
       display: none; }
-    header .siteHeaderphonee {
+    header .header_pr_1_0_0phonee {
       font-size: 20px;
       width: 40px;
       height: 40px;
@@ -141,7 +141,7 @@ header {
       position: absolute;
       top: 20px;
       display: none; }
-    header .siteHeaderNav {
+    header .header_pr_1_0_0__Nav {
       cursor: pointer;
       font-size: 30px;
       width: 40px;
@@ -149,7 +149,7 @@ header {
       left: 5px;
       color: #1564ab;
       padding-right: 35px; }
-    header .siteHeaderCall {
+    header .header_pr_1_0_0__Call {
       font-size: 20px;
       width: 30px;
       height: 30px;
@@ -158,26 +158,28 @@ header {
       line-height: 16px;
       border-radius: 4px;
       color: #fff; }
-    header .siteHeader .icon-phone-1 img {
+    header .header_pr_1_0_0 .icon-phone-1 img {
       cursor: pointer;
       width: 40px;
       height: 40px; }
-    header .siteHeaderRegist, header .siteHeaderPhonee {
+    header .header_pr_1_0_0__Regist, header .header_pr_1_0_0Phonee {
       border-radius: 25px;
       color: #fff;
       padding: 9px 15px;
       font-size: 14px;
       font-weight: 600;
       text-transform: uppercase; }
-    header .siteHeaderPhone svg {
+    header .header_pr_1_0_0__Phone svg {
       width: 20px;
       height: 20px;
       fill: #fff;
       margin-bottom: -5px; }
-    header .siteHeaderRegist {
+    header .header_pr_1_0_0__Regist {
       background: #ef5655;
-      margin-left: 10px; }
-    header .siteHeaderPhone {
+      margin-left: 10px;
+      cursor: pointer; }
+    header .header_pr_1_0_0__Phone {
+      cursor: pointer;
       background: #0157a4;
       margin-left: 20px;
       border-radius: 25px;
@@ -186,25 +188,25 @@ header {
       font-size: 14px;
       font-weight: 600;
       text-transform: uppercase; }
-    header .siteHeaderLogo img {
+    header .header_pr_1_0_0__Logo img {
       transition: 0.3s; }
-    header .siteHeaderMain .menuSubBox {
+    header .header_pr_1_0_0__Main .menuSubBox {
       top: 65px; }
     @media (max-width: 1180px) {
-      header .siteHeader__section {
+      header .header_pr_1_0_0__section {
         display: block;
         width: 100%; }
-      header .siteHeader__item {
+      header .header_pr_1_0_0__item {
         color: #fff;
         padding: 9px 12px;
         display: block;
         border-top: 1px dotted rgba(255, 255, 255, 0.2); }
-        header .siteHeader__item-menuHome {
+        header .header_pr_1_0_0__item-menuHome {
           display: none; }
-        header .siteHeader__item-logosb {
+        header .header_pr_1_0_0__item-logo__sb {
           display: block;
           text-align: center; }
-      header .siteHeaderMain {
+      header .header_pr_1_0_0__Main {
         display: none;
         width: 80%;
         max-width: 414px;
@@ -216,80 +218,80 @@ header {
         z-index: 3;
         overflow: auto;
         padding-bottom: 20px; }
-        header .siteHeaderMain .menu {
+        header .header_pr_1_0_0__Main .menu {
           display: block; }
-          header .siteHeaderMain .menuSub:hover .menuSubBox {
+          header .header_pr_1_0_0__Main .menuSub:hover .menuSubBox {
             display: none; }
-          header .siteHeaderMain .menuSubBox {
+          header .header_pr_1_0_0__Main .menuSubBox {
             position: inherit;
             width: 100%;
             padding: 10px 15px; }
-          header .siteHeaderMain .menuSubTitle {
+          header .header_pr_1_0_0__Main .menuSubTitle {
             margin-top: 10px; }
-      header .siteHeaderLogo {
+      header .header_pr_1_0_0__Logo {
         text-align: center;
         width: 140px;
         margin: 0 auto;
         position: relative;
         display: block; }
-        header .siteHeaderLogo img {
+        header .header_pr_1_0_0__Logo img {
           position: absolute;
           top: 10px;
           left: 0;
           height: auto;
           max-width: 100%; }
-      header .siteHeaderNav, header .siteHeaderCall {
+      header .header_pr_1_0_0__Nav, header .header_pr_1_0_0__Call {
         display: flex; }
-      header .siteHeaderphonee {
+      header .header_pr_1_0_0phonee {
         display: flex; }
-        header .siteHeaderphonee svg {
+        header .header_pr_1_0_0phonee svg {
           width: 16px;
           height: 20px;
           fill: #1564ab; }
-      header .siteHeaderCall {
+      header .header_pr_1_0_0__Call {
         top: 26px; }
-      header .siteHeaderRegist, header .siteHeaderPhonee {
+      header .header_pr_1_0_0__Regist, header .header_pr_1_0_0Phonee {
         margin: 0 5px;
         display: block;
         text-align: center;
         border-radius: 6px; }
-      header .siteHeaderRegist {
+      header .header_pr_1_0_0__Regist {
         margin-left: 5px;
         margin-top: 6px; }
-      header .siteHeaderPhone {
+      header .header_pr_1_0_0__Phone {
         margin: 0 5px;
         display: block;
         text-align: center;
         border-radius: 6px;
         margin-left: 5px; } }
     @media (max-width: 820px) {
-      header .siteHeader__item {
+      header .header_pr_1_0_0__item {
         padding: 9px 12px; }
-      header .siteHeaderphonee {
+      header .header_pr_1_0_0phonee {
         right: 10px; }
-      header .siteHeaderNav {
+      header .header_pr_1_0_0__Nav {
         left: 20px; }
-      header .siteHeaderCall {
+      header .header_pr_1_0_0__Call {
         right: 10px; } }
     @media (max-width: 540px) {
-      header .siteHeaderLogo {
+      header .header_pr_1_0_0__Logo {
         width: 125px;
         height: 80px; }
-        header .siteHeaderLogo img {
+        header .header_pr_1_0_0__Logo img {
           top: 15px; }
-      header .siteHeaderphonee {
+      header .header_pr_1_0_0phonee {
         right: 15px;
         font-size: 18px;
         width: 30px;
         height: 30px;
         top: 25px; }
-      header .siteHeaderNav {
+      header .header_pr_1_0_0__Nav {
         left: 30px; }
-      header .siteHeaderCall {
+      header .header_pr_1_0_0__Call {
         right: 15px;
         width: 30px;
         height: 30px; }
-      header .siteHeader .icon-phone-1 img {
+      header .header_pr_1_0_0 .icon-phone-1 img {
         width: 30px;
         height: 30px; } }
 

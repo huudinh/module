@@ -36,7 +36,7 @@ header {
             width: 95%;
         }
     }
-    .siteHeader {
+    .header_pr_1_0_0 {
         display: flex;
         justify-content: space-between;
         &-bg {
@@ -66,7 +66,7 @@ header {
             text-transform: uppercase;
             cursor: pointer;
             font-weight: 600;
-            &-logosb {
+            &-logo__sb {
                 display: none;
                 img {
                     max-width: 90%;
@@ -74,7 +74,7 @@ header {
                 }
             }
         }
-        &Main {
+        &__Main {
             display: flex;
             align-items: center;
             &.active {
@@ -156,7 +156,7 @@ header {
                 }
             }
         }
-        &Logo {
+        &__Logo {
             height: 90px;
             display: flex;
             align-items: center;
@@ -164,8 +164,8 @@ header {
                 height: 65px;
             }
         }
-        &Nav,
-        &Call {
+        &__Nav,
+        &__Call {
             position: absolute;
             top: 20px;
             display: none;
@@ -184,7 +184,7 @@ header {
             top: 20px;
             display: none;
         }
-        &Nav {
+        &__Nav {
             cursor: pointer;
             font-size: 30px;
             width: 40px;
@@ -193,7 +193,7 @@ header {
             color: #1564ab;
             padding-right: 35px;
         }
-        &Call {
+        &__Call {
             font-size: 20px;
             width: 30px;
             height: 30px;
@@ -212,7 +212,7 @@ header {
                 }
             }
         }
-        &Regist,
+        &__Regist,
         &Phonee {
             border-radius: 25px;
             color: #fff;
@@ -221,17 +221,19 @@ header {
             font-weight: 600;
             text-transform: uppercase;
         }
-        &Phone svg {
+        &__Phone svg {
             width: 20px;
             height: 20px;
             fill: #fff;
             margin-bottom: -5px;
         }
-        &Regist {
+        &__Regist {
             background: #ef5655;
             margin-left: 10px;
+            cursor: pointer;
         }
-        &Phone {
+        &__Phone {
+            cursor: pointer;
             background: #0157a4;
             margin-left: 20px;
             border-radius: 25px;
@@ -241,12 +243,12 @@ header {
             font-weight: 600;
             text-transform: uppercase;
         }
-        &Logo {
+        &__Logo {
             img {
                 transition: 0.3s;
             }
         }
-        &Main {
+        &__Main {
             .menu {
                 &Sub {
                     &Box {
@@ -268,12 +270,12 @@ header {
                 &-menuHome {
                     display: none;
                 }
-                &-logosb {
+                &-logo__sb {
                     display: block;
                     text-align: center;
                 }
             }
-            &Main {
+            &__Main {
                 display: none;
                 width: 80%;
                 max-width: 414px;
@@ -304,7 +306,7 @@ header {
                     }
                 }
             }
-            &Logo {
+            &__Logo {
                 text-align: center;
                 width: 140px;
                 margin: 0 auto;
@@ -318,8 +320,8 @@ header {
                     max-width: 100%;
                 }
             }
-            &Nav,
-            &Call {
+            &__Nav,
+            &__Call {
                 display: flex;
             }
             &phonee {
@@ -330,21 +332,21 @@ header {
                     fill: #1564ab;
                 }
             }
-            &Call {
+            &__Call {
                 top: 26px;
             }
-            &Regist,
+            &__Regist,
             &Phonee {
                 margin: 0 5px;
                 display: block;
                 text-align: center;
                 border-radius: 6px;
             }
-            &Regist {
+            &__Regist {
                 margin-left: 5px;
                 margin-top: 6px;
             }
-            &Phone {
+            &__Phone {
                 margin: 0 5px;
                 display: block;
                 text-align: center;
@@ -359,15 +361,15 @@ header {
             &phonee {
                 right: 10px;
             }
-            &Nav {
+            &__Nav {
                 left: 20px;
             }
-            &Call {
+            &__Call {
                 right: 10px;
             }
         }
         @media (max-width: 540px) {
-            &Logo {
+            &__Logo {
                 width: 125px;
                 height: 80px;
                 img {
@@ -381,10 +383,10 @@ header {
                 height: 30px;
                 top: 25px;
             }
-            &Nav {
+            &__Nav {
                 left: 30px;
             }
-            &Call {
+            &__Call {
                 right: 15px;
                 width: 30px;
                 height: 30px;
