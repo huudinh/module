@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Popup__Paris</title>
+    <link rel="stylesheet" href="https://huudinh.github.io/media/css/style-min.css">
+    <script src="https://huudinh.github.io/media/js/lib-min.js"></script>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+    <a href="#" class="modal-btn btn " data-modal="modal-pop"> click để nhận tư vấn</a>
+    <a href="#" class="modal-btn btn" data-modal="modal-top"> click để lại sđt</a>
+    <section class="pop_regpr_1_0_0">
+        <div class="pop_regpr_1_0_0__box">
+            <div class="modal" id="modal-pop">
+                <div class="modal-bg"></div>
+                <div class="modal-box animate-pop">
+                    <div class="modal-header">
+                        <div class="modal-close" id="modal-close">×</div>
+                        <div class="modal-title">
+                            <img src="./images/logo.png" alt="">
+                            <div class="pop_regpr_1_0_0__des">
+                                <p>MIỄN PHÍ THĂM KHÁM BỞI CHUYÊN GIA</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div>
+                            <input id="iname" name="iname" type="textbox" required="" placeholder="Họ tên*:">
+                            <input id="imob" name="imob" type="textbox" required="" placeholder="Điện thoại*:">
+                            <textarea placeholder="Dịch vụ quan tâm: " rows="1" cols="1" id="itext"
+                                name="itext"></textarea>
+                            <input type="hidden" style="display:none" id="iemail" name="iemail" placeholder="Email:">
+                            <input type="hidden" id="gclid_field" name="gclid_field"
+                                value="CjwKCAjw0a-SBhBkEiwApljU0sOEVx0tIm-qtsCqZu7BvUWPMxZGLsyRg2g7qFzBmvaxeskHidBaRBoCs1kQAvD_BwE">
+                            <input type="hidden" id="code_campaign" name="code_campaign" value="584304804">
+                            <input type="hidden" id="name_campaign" name="name_campaign" value="[Kangnam] Thẩm Mỹ Môi">
+                        </div>
+                        <div class="pop_regpr_1_0_0__clicknow">
+                            <input id="pop_regpr_1_0_0_clicknow" onclick="ants_send_contact(this);" type="button"
+                                value="NHẬN ƯU ĐÃI NGAY">
+                            <div class="pop_regpr_1_0_0__contact">
+                                <p>Mọi thông tin của bạn đều được bảo mật</p>
+                                <p>Tư vấn trực tiếp 24/7: <a href="tel:19006466">1900.6466</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pop_callpr_1_0_0">
+        <div class="pop_callpr_1_0_0__box">
+            <div class="modal" id="modal-top">
+                <div class="modal-bg"></div>
+                <div class="modal-box animate-top">
+                    <div class="modal-header">
+                        <div class="modal-close">×</div>
+                        <div class="modal-title">
+                            <img src="./images/logo.png" alt="">
+                            <div class="pop_callpr_1_0_0__des">
+                                <p>Gọi ngay để được tư vấn & đặt lịch hẹn!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="pop_callpr_1_0_0__contact">
+                            <a href="tel:19006900" class="pop-call"
+                                onclick="gtag('event','touch', {event_category: 'call',event_label: '19006900'});">
+                                <svg class="icon__call" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    viewBox="0 0 24 24">
+                                    <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                        stroke-linejoin="round">
+                                        <path
+                                            d="M5 4h4l2 5l-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2">
+                                        </path>
+                                        <path d="M15 7a2 2 0 0 1 2 2"></path>
+                                        <path d="M15 3a6 6 0 0 1 6 6"></path>
+                                    </g>
+                                </svg> 1900 6900</a>
+                        </div>
+                        <div class="modal-header">
+                            <div class="modal-title">
+                                <div class="pop_callpr_1_0_0__des">
+                                    <p>Hoặc để lại số điện thoại của bạn <br>
+                                        để nhận cuộc gọi từ Nha Khoa Paris</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div style="display:none">
+
+                                <input type="text" placeholder="Họ và tên (*)" value="Yêu Cầu Gọi Lại" id="iname"
+                                    name="iname">
+                                <textarea type="text" placeholder="Nhu cầu tư vấn" id="itext" name="itext"></textarea>
+                                <input id="iemail" name="iemail" value="no@email.benhvienthammykangnam.vn" type="hidden"
+                                    placeholder="Email">
+                                <input type="hidden" id="gclid_field" name="gclid_field"
+                                    value="CjwKCAjw9LSSBhBsEiwAKtf0n5dsr_8Iz-GGzjyU_1NzaY3gd3tSKS7aSHplpkAu9LLCRH-BCJTRlxoCNo8QAvD_BwE">
+                                <input type="hidden" id="name_campaign" name="name_campaign"
+                                    value="[Kangnam] Thẩm Mỹ Mắt">
+                                <input type="hidden" id="code_campaign" name="code_campaign" value="584304803">
+                            </div>
+                            <input id="imob" name="imob" type="textbox" placeholder="Nhập số điện thoại của bạn*:">
+                        </div>
+                        <div class="pop_callpr_1_0_0__click">
+                            <input onclick="ants_sent_phone(this);" id="pop_sent" type="button" value="Yêu cầu tư vấn">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
