@@ -225,12 +225,13 @@
   margin-left: 0 !important;
 }
 
-.pop_callkn_1_1_0__phone p a {
+.pop_callkn_1_1_0__phone p span {
   font-size: 20px;
   margin-left: 5px;
   color: #fd4810;
   -webkit-text-decoration: revert;
           text-decoration: revert;
+  text-decoration: underline;
 }
 
 .pop_callkn_1_1_0 input {
@@ -306,8 +307,8 @@
 }
 
 .pop_callkn_1_1_0__more img {
-  margin-left: 5px !important;
-  width: 6%;
+  margin-left: 10px !important;
+  width: 8%;
 }
 
 @media (max-width: 1920px) and (min-width: 768px) {

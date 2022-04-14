@@ -173,11 +173,12 @@
                 margin-right: 5px;
                 margin-left: 0 !important;
             }
-            a {
+            span {
                 font-size: 20px;
                 margin-left: 5px;
                 color: #fd4810;
                 text-decoration: revert;
+                text-decoration: underline;
             }
         }
     }
@@ -236,8 +237,8 @@
             border-bottom: 1px solid white;
         }
         img {
-            margin-left: 5px !important;
-            width: 6%;
+            margin-left: 10px !important;
+            width: 8%;
         }
     }
     .mb {
