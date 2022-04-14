@@ -22,7 +22,7 @@
                     <div class="modal-header">
                         <div class="modal-close" id="modal-close">×</div>
                         <div class="modal-title">
-                            <img src="./images/logo.png" alt="">
+                            <img src="images/logo.png" alt="">
                             <div class="pop_regkn_1_0_0__des">
                                 <p>ĐĂNG KÝ NHẬN ƯU ĐÃI</p>
                             </div>
@@ -48,18 +48,23 @@
             </div>
         </div>
     </section>
-
     <section class="pop_callkn_1_0_0">
         <div class="pop_callkn_1_0_0__box">
-            <div class="modal" id="modal-top">
+            <div class="modal" id="modal-top" style="display: block;">
                 <div class="modal-bg"></div>
                 <div class="modal-box animate-top">
                     <div class="modal-header">
                         <div class="modal-close">×</div>
                         <div class="modal-title">
-                            <img src="./images/logo.png" alt="">
+                            <img src="images/logo.png" alt="">
                             <div class="pop_callkn_1_0_0__des">
-                                <p>Nhập số điện thoại để được gọi tư vấn!</p>
+                                <p class="pop_callkn_1_0_0__mb">Gọi ngay để được tư vấn & đặt lịch hẹn</p>
+                                <p class="pop_callkn_1_0_0__pc">Nhập số điện thoại để được gọi tư vấn!</p>
+                                <a href="tel:19006466" class="pop_callkn_1_0_0__mb mb20">
+                                    <img class="pop_callkn_1_0_0__call" src="images/call_form.png" alt="">
+                                    <span>19006466</span>
+                                </a>
+                                <p class="pop_callkn_1_0_0__mb">Hoặc để lại số điện thoại của bạn <br> để nhận cuộc gọi từ BVTM KangNam</p>
                             </div>
                         </div>
                     </div>
@@ -70,16 +75,18 @@
                                 <textarea type="text" placeholder="Nhu cầu tư vấn" id="itext" name="itext"></textarea>
                                 <input id="iemail" name="iemail" value="no@email.benhvienthammykangnam.vn" type="hidden" placeholder="Email">
                                 <input type="hidden" id="gclid_field" name="gclid_field" value="CjwKCAjw9LSSBhBsEiwAKtf0n5dsr_8Iz-GGzjyU_1NzaY3gd3tSKS7aSHplpkAu9LLCRH-BCJTRlxoCNo8QAvD_BwE">
-                                <input type="hidden" id="name_campaign" name="name_campaign" value="[Kangnam] Thẩm Mỹ Mắt">
-                                <input type="hidden" id="code_campaign" name="code_campaign" value="584304803">
+                                <input type="hidden" id="name_campaign" name="name_campaign" value="[Kangnam] Yêu Cầu Gọi Lại">
+                                <input type="hidden" id="code_campaign" name="code_campaign" value="533588630">
                             </div>
                             <input id="imob" name="imob" type="textbox" placeholder="Nhập số điện thoại của bạn*:">
                         </div>
                         <div class="pop_callkn_1_0_0__click">
-                            <input onclick="ants_sent_phone(this);" id="pop_sent" type="button" value="Yêu cầu tư vấn">
+                            <input onclick="ants_sent_phone(this);" id="pop_sent" type="button" value="NHẬN TƯ VẤN NGAY">
                         </div>
                         <div class="pop_callkn_1_0_0__contact">
-                            <p>* Hoặc gọi ngay hotline <a href="tel:19006466">19006466</a></p>
+                            <p class="pop_callkn_1_0_0__pc">* Hoặc gọi ngay hotline
+                                <a href="tel:19006466">19006466</a>
+                            </p>
                         </div>
                     </div>
 
@@ -87,6 +94,7 @@
             </div>
         </div>
     </section>
+
 </body>
 <script type="text/javascript" src="https://benhvienthammykangnam.com.vn/css/custom_v2.js"></script>
 <script type="text/javascript" src="https://benhvienthammykangnam.vn/quangcao247/contact/template/js/js.js?t=112346"></script>
