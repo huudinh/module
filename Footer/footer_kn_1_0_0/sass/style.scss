@@ -15,7 +15,7 @@
     &__left {
         display: flex;
         flex-direction: column;
-        width: 25%;
+        width: 20%;
         gap: 20px;
         a {
             display: block;
@@ -49,13 +49,18 @@
         margin-top: 20px;
         display: flex;
         flex-direction: column;
-        gap: 20px;
+        gap: 15px;
     }
     &__text {
         display: flex;
         align-items: center;
         img {
             margin-right: 10px;
+        }
+        &.address {
+            a {
+                color: #F26649;
+            }
         }
     }
     &__bottom {
@@ -65,13 +70,16 @@
             text-transform: uppercase;
             margin-bottom: 10px;
             display: block;
+            font-size: 12px;
         }
         p {
             display: inline;
             color: #f69679;
+            font-size: 12px;
         }
         span {
             display: block;
+            font-size: 12px;
         }
     }
     &__policy {
@@ -84,15 +92,16 @@
     }
     @media (max-width:912px) {
         &__left {
-            width: 35%;
+            width: 40%;
         }
     }
     @media (max-width:767px) {
+        padding-bottom: 60px;
         &__wrapper {
             flex-wrap: wrap;
         }
         &__left {
-            width: 80%;
+            width: 50%;
             margin: 0 auto;
         }
         &__bct {
@@ -111,11 +120,13 @@
             margin-top: 10px;
             gap: 10px;
         }
-        &__bottom {
-            span,
-            a {
-                font-size: 11px;
-            }
+        &__text {
+            font-size: 12px;
+        }
+    }
+    @media (max-width:320px) {
+        &__left {
+            width: 80%;
         }
     }
 }
