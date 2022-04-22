@@ -23,8 +23,8 @@
     &__wrapper {
         display: flex;
         width: 100%;
-        justify-content: space-between;
         margin-bottom: 30px;
+        gap: 10%
     }
     &__left {
         display: flex;
@@ -46,7 +46,7 @@
     &__right {
         display: flex;
         gap: 40px;
-        justify-content: flex-end;
+        width: 80%;
     }
     &__info {
         width: 40%;
