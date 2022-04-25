@@ -142,12 +142,11 @@ body {
     justify-content: space-between;
     flex-wrap: wrap; }
   .footer_pr_1_0_0__logo {
-    width: 18%;
     text-align: center;
-    padding-top: 90px; }
-    .footer_pr_1_0_0__logo img {
-      margin-top: 10px;
-      width: 100%; }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red; }
   @media (max-width: 1180px) {
     .footer_pr_1_0_0 {
       padding: 20px 0 35px; }

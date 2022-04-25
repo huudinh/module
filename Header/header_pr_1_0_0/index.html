@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=k, initial-scale=1.0">
     <title>header_pr_1_0_0</title>
     <link rel="stylesheet" href="css/style-min.css">
+    <link rel="stylesheet" href="css/popup.css">
     <link rel="stylesheet" href="css/main.css">
 </head>
 
@@ -84,7 +85,7 @@
                         <div class="modal-title">
                             <img src="images/logo.png" alt="">
                             <div class="pop_regpr_1_0_0__des">
-                                <p>MIỄN PHÍ THĂM KHÁM BỞI CHUYÊN GIA</p>
+                                MIỄN PHÍ THĂM KHÁM BỞI <br> CHUYÊN GIA
                             </div>
                         </div>
                     </div>
@@ -113,7 +114,6 @@
             </div>
         </div>
     </section>
-
     <section class="pop_callpr_1_0_0">
         <div class="pop_callpr_1_0_0__box">
             <div class="modal" id="modal-top">
@@ -127,6 +127,11 @@
                     </div>
                     <div class="modal-body">
                         <div class="pop_callpr_1_0_0__contact">
+                            <div class="modal-title">
+                                <div class="pop_callpr_1_0_0__des">
+                                    Gọi ngay để được tư vấn & đặt lịch hẹn
+                                </div>
+                            </div>
                             <a href="tel:19006900" class="pop-call"
                                 onclick="gtag('event','touch', {event_category: 'call',event_label: '19006900'});">
                                 <svg class="icon__call" xmlns="http://www.w3.org/2000/svg"
@@ -162,11 +167,12 @@
                                 <input type="hidden" id="name_campaign" name="name_campaign"
                                     value="[Paris] Cấy ghép Implant 4S">
                             </div>
-                            
+
                             <input id="imob" name="imob" type="textbox" placeholder="Nhập số điện thoại*:">
                         </div>
                         <div class="pop_callpr_1_0_0__click">
-                            <input id="pop_sents" type="button" onclick="ants_send_contact(this);" value="NHẬN ƯU ĐÃI NGAY">
+                            <input id="pop_sents" type="button" onclick="ants_send_contact(this);"
+                                value="NHẬN ƯU ĐÃI NGAY">
                         </div>
 
                     </div>
@@ -175,17 +181,60 @@
             </div>
         </div>
     </section>
+
     <script src="js/lib-min.js"></script>
 
-    <script>  //mob menu
+    <script>
+        //mob menu
         addClass('.header_pr_1_0_0__Nav', '.header_pr_1_0_0__Main', 'active');
         addClass('.header_pr_1_0_0__Nav', '.header_pr_1_0_0-bg', 'active');
         removeClass('.header_pr_1_0_0-bg', '.header_pr_1_0_0__Main', 'active');
         removeClass('.header_pr_1_0_0-bg', '.header_pr_1_0_0-bg', 'active');
         removeClass('.header_pr_1_0_0 a', '.header_pr_1_0_0__Main', 'active');
         removeClass('.header_pr_1_0_0 a', '.header_pr_1_0_0-bg', 'active');
+
+        // Scroll to anchors
+        (function () {
+
+            const smoothScroll = function (targetEl, duration) {
+                const headerElHeight = document.querySelector('.menu, .regist,.siteHeaderLogo,.siteHeaderMain,.regft').clientHeight;
+                let target = document.querySelector(targetEl);
+                let targetPosition = target.getBoundingClientRect().top - headerElHeight;
+                let startPosition = window.pageYOffset;
+                let startTime = null;
+
+                const ease = function (t, b, c, d) {
+                    t /= d / 2;
+                    if (t < 1) return c / 2 * t * t + b;
+                    t--;
+                    return -c / 2 * (t * (t - 2) - 1) + b;
+                };
+
+                const animation = function (currentTime) {
+                    if (startTime === null) startTime = currentTime;
+                    const timeElapsed = currentTime - startTime;
+                    const run = ease(timeElapsed, startPosition, targetPosition, duration);
+                    window.scrollTo(0, run);
+                    if (timeElapsed < duration) requestAnimationFrame(animation);
+                };
+                requestAnimationFrame(animation);
+
+            };
+
+            const scrollTo = function () {
+                const links = document.querySelectorAll('.menu a');
+                links.forEach(each => {
+                    each.addEventListener('click', function () {
+                        const currentTarget = this.getAttribute('href');
+                        smoothScroll(currentTarget, 1000);
+                    });
+                });
+            };
+            scrollTo();
+        }());
     </script>
 </body>
+
 </html>
 
 <!-- E:\SCI_Code_Backup\module\Header\header_pr_1_0_0 \ css by Cường 13/04/2022 -->

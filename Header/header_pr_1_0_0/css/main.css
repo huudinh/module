@@ -1,6 +1,3 @@
-body {
-  padding-top: 0; }
-
 header {
   position: fixed;
   z-index: 10;
@@ -47,7 +44,6 @@ header {
       color: #0157a4;
       margin-left: 5px;
       padding: 35px 12px;
-      font-size: 15px;
       text-transform: uppercase;
       cursor: pointer;
       font-weight: 600; }
@@ -85,8 +81,7 @@ header {
             padding: 0; }
             header .header_pr_1_0_0__Main .menuSubBox ul li {
               border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
-              padding: 10px 0;
-              font-size: 13px; }
+              padding: 10px 0; }
               header .header_pr_1_0_0__Main .menuSubBox ul li:last-child {
                 border-bottom: none; }
           header .header_pr_1_0_0__Main .menuSubBox a {
@@ -166,7 +161,6 @@ header {
       border-radius: 25px;
       color: #fff;
       padding: 9px 15px;
-      font-size: 14px;
       font-weight: 600;
       text-transform: uppercase; }
     header .header_pr_1_0_0__Phone svg {
@@ -185,7 +179,6 @@ header {
       border-radius: 25px;
       color: #fff;
       padding: 9px 15px;
-      font-size: 14px;
       font-weight: 600;
       text-transform: uppercase; }
     header .header_pr_1_0_0__Logo img {
@@ -294,159 +287,5 @@ header {
       header .header_pr_1_0_0 .icon-phone-1 img {
         width: 30px;
         height: 30px; } }
-
-.pop_regpr_1_0_0__box .modal-header {
-  padding: 0;
-  border-bottom: unset; }
-.pop_regpr_1_0_0__box .modal-title {
-  text-align: center;
-  padding-top: 20px; }
-  .pop_regpr_1_0_0__box .modal-title img {
-    margin-left: 30px; }
-.pop_regpr_1_0_0__box .modal-box {
-  max-width: 350px;
-  min-width: 300px; }
-  @media (max-width: 280px) {
-    .pop_regpr_1_0_0__box .modal-box {
-      min-width: 250px; } }
-.pop_regpr_1_0_0__box .modal-close {
-  font-size: 23px;
-  line-height: 0.9;
-  margin-right: 9px;
-  margin-top: 5px; }
-.pop_regpr_1_0_0__des {
-  background: #286c9d;
-  padding: 13px 15px 12px 15px;
-  font-size: 15px;
-  font-weight: 500;
-  text-transform: uppercase;
-  color: #fff; }
-  .pop_regpr_1_0_0__des p {
-    margin: 0; }
-.pop_regpr_1_0_0 input {
-  width: 100%;
-  margin-bottom: 10px;
-  font-size: 13px;
-  background: #ddd;
-  border: none;
-  padding: 7px 12px; }
-.pop_regpr_1_0_0 textarea {
-  width: 100%;
-  font-family: arial;
-  font-size: 13px;
-  margin-bottom: 4px;
-  resize: none;
-  height: 96px;
-  background: #ddd;
-  border: none;
-  padding: 7px 12px; }
-.pop_regpr_1_0_0__clicknow input {
-  width: 100%;
-  background: #dd4a39;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  font-size: 14px;
-  margin-bottom: 5px; }
-.pop_regpr_1_0_0__contact {
-  text-align: center;
-  color: #696969;
-  font-size: 13px; }
-  .pop_regpr_1_0_0__contact p {
-    margin: 0px;
-    padding: 0px; }
-  .pop_regpr_1_0_0__contact a {
-    color: #cc431d;
-    text-decoration: none;
-    font-weight: bold; }
-
-.pop_callpr_1_0_0__box .modal-header {
-  padding: 0;
-  border-bottom: unset; }
-  .pop_callpr_1_0_0__box .modal-header .pop_callpr_1_0_0__des1 {
-    padding: 5px 0 10px;
-    color: #666;
-    font-weight: 700;
-    font-size: 14px; }
-    @media (max-width: 280px) {
-      .pop_callpr_1_0_0__box .modal-header .pop_callpr_1_0_0__des1 {
-        font-size: 13px; } }
-    .pop_callpr_1_0_0__box .modal-header .pop_callpr_1_0_0__des1 p {
-      margin: 0; }
-    @media (min-width: 1280px) {
-      .pop_callpr_1_0_0__box .modal-header .pop_callpr_1_0_0__des1 {
-        display: none; } }
-.pop_callpr_1_0_0__box .modal-title {
-  text-align: center;
-  padding-top: 20px; }
-  .pop_callpr_1_0_0__box .modal-title img {
-    margin-left: 30px; }
-.pop_callpr_1_0_0__box .modal-box {
-  max-width: 350px;
-  min-width: 300px; }
-  @media (max-width: 280px) {
-    .pop_callpr_1_0_0__box .modal-box {
-      min-width: 250px; } }
-.pop_callpr_1_0_0__box .modal-close {
-  font-size: 23px;
-  line-height: 0.9;
-  margin-right: 9px;
-  margin-top: 5px; }
-.pop_callpr_1_0_0__box .modal-body {
-  padding: 0px 20px; }
-@media (min-width: 1280px) {
-  .pop_callpr_1_0_0__box .pop_callpr_1_0_0__contact {
-    display: none; } }
-.pop_callpr_1_0_0__des {
-  padding: 5px 0 10px;
-  color: #666;
-  font-weight: 700;
-  font-size: 14px; }
-  @media (max-width: 280px) {
-    .pop_callpr_1_0_0__des {
-      font-size: 13px; } }
-  .pop_callpr_1_0_0__des p {
-    margin: 0; }
-.pop_callpr_1_0_0 input {
-  width: 100%;
-  margin-bottom: 4px;
-  font-size: 14px;
-  padding: 12px 0;
-  text-align: center;
-  color: #333;
-  border-radius: 5px; }
-.pop_callpr_1_0_0__click input {
-  width: 100%;
-  background: #3491cc;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  font-size: 14px;
-  margin-top: 5px;
-  margin-bottom: 20px;
-  border-radius: 4px;
-  padding: 12px 0;
-  font-weight: 600; }
-.pop_callpr_1_0_0__contact {
-  padding: 10px 0 0px;
-  color: #777;
-  font-weight: 600;
-  text-align: center; }
-  .pop_callpr_1_0_0__contact .icon__call {
-    width: 22px;
-    height: 22px;
-    display: inline-block;
-    vertical-align: middle; }
-  .pop_callpr_1_0_0__contact a {
-    background: #ea3b41;
-    color: #fff;
-    text-transform: uppercase;
-    display: block;
-    padding: 12px 0;
-    border-radius: 4px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: none;
-    margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */

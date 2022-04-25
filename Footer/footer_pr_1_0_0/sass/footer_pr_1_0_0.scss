@@ -188,7 +188,7 @@ body {
         width: 70%;
         b {
             color: #67c5ea;
-        }    
+        }
     }
     .container {
         display: flex;
@@ -196,13 +196,11 @@ body {
         flex-wrap: wrap;
     }
     &__logo {
-        width: 18%;
         text-align: center;
-        padding-top: 90px;
-        img {
-            margin-top: 10px;
-            width: 100%;
-        }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid red;
     }
     @media (max-width: 1180px) {
         padding: 20px 0 35px;
