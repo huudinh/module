@@ -1,0 +1,401 @@
+
+header {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    top: 0;
+    background-color: white;
+    .container {
+        width: 75%;
+    }
+    @media (max-width: 1570px) {
+        .container {
+            width: 80%;
+        }
+    }
+    @media (max-width: 1440px) {
+        .container {
+            width: 84%;
+        }
+    }
+    @media (max-width: 1366px) {
+        .container {
+            width: 89%;
+        }
+    }
+    @media (max-width: 1290px) {
+        .container {
+            width: 96%;
+        }
+    }
+    @media (max-width: 1200px) {
+        .container {
+            width: 95%;
+        }
+    }
+    .header_pr_1_0_0 {
+        display: flex;
+        justify-content: space-between;
+        &-bg {
+            background: rgba(0, 0, 0, 0.8);
+            width: 100%;
+            height: 100%;
+            content: "";
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 2;
+            animation: opacity 0.4s;
+            &.active {
+                display: block;
+            }
+        }
+        &__section {
+            display: flex;
+            align-items: center;
+        }
+        &__item {
+            color: #0157a4;
+            margin-left: 5px;
+            padding: 35px 12px;
+
+            text-transform: uppercase;
+            cursor: pointer;
+            font-weight: 600;
+            &-logo__sb {
+                display: none;
+                img {
+                    max-width: 90%;
+                    margin: 20px 0 0;
+                }
+            }
+        }
+        &__Main {
+            display: flex;
+            align-items: center;
+            &.active {
+                display: block;
+                animation: animateleft 0.4s;
+            }
+            .menu {
+                display: flex;
+                list-style: none;
+                padding: 0;
+                &Sub {
+                    &:hover {
+                        .menuSubBox {
+                            display: block;
+                            animation: opac 0.4s;
+                        }
+                        & > a {
+                            color: #e3a261;
+                        }
+                    }
+                    &Box {
+                        display: none;
+                        position: absolute;
+                        width: 80%;
+                        right: 16px;
+                        top: 95px;
+                        background: #2f3d6b;
+                        padding: 30px 40px;
+                        color: #fff;
+                        ul {
+                            list-style: none;
+                            padding: 0;
+                            li {
+                                border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+                                padding: 10px 0;
+
+                                &:last-child {
+                                    border-bottom: none;
+                                }
+                            }
+                        }
+                        a {
+                            color: #fff;
+                            transition: 0.1s;
+                            &:hover {
+                                color: rgba(255, 255, 255, 0.7);
+                            }
+                        }
+                    }
+                    &Title {
+                        text-transform: uppercase;
+                        font-size: 16px;
+                        font-weight: 600;
+                        position: relative;
+                        padding-bottom: 15px;
+                        margin-bottom: 10px;
+                        &:after,
+                        &::before {
+                            content: "";
+                            display: block;
+                            position: absolute;
+                        }
+                        &:before {
+                            width: 80px;
+                            height: 3px;
+                            background: #fff;
+                            left: 0;
+                            bottom: -1px;
+                        }
+                        &:after {
+                            width: 100px;
+                            width: 100%;
+                            height: 1px;
+                            background: rgba(255, 255, 255, 0.2);
+                            left: 0;
+                            bottom: 0;
+                        }
+                    }
+                }
+            }
+        }
+        &__Logo {
+            height: 90px;
+            display: flex;
+            align-items: center;
+            img {
+                height: 65px;
+            }
+        }
+        &__Nav,
+        &__Call {
+            position: absolute;
+            top: 20px;
+            display: none;
+        }
+        &phonee {
+            font-size: 20px;
+            width: 40px;
+            height: 40px;
+            right: -15px;
+            line-height: 16px;
+            border-radius: 4px;
+            color: #1564ab;
+            border: 2px solid #1564ab;
+            border-radius: 100%;
+            position: absolute;
+            top: 20px;
+            display: none;
+        }
+        &__Nav {
+            cursor: pointer;
+            font-size: 30px;
+            width: 40px;
+            height: 40px;
+            left: 5px;
+            color: #1564ab;
+            padding-right: 35px;
+        }
+        &__Call {
+            font-size: 20px;
+            width: 30px;
+            height: 30px;
+            right: 0;
+            top: 16px;
+            line-height: 16px;
+            border-radius: 4px;
+            color: #fff;
+        }
+        .icon-phone {
+            &-1 {
+                img {
+                    cursor: pointer;
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+        }
+        &__Regist,
+        &Phonee {
+            border-radius: 25px;
+            color: #fff;
+            padding: 9px 15px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        &__Phone svg {
+            width: 20px;
+            height: 20px;
+            fill: #fff;
+            margin-bottom: -5px;
+        }
+        &__Regist {
+            background: #ef5655;
+            margin-left: 10px;
+            cursor: pointer;
+        }
+        &__Phone {
+            cursor: pointer;
+            background: #0157a4;
+            margin-left: 20px;
+            border-radius: 25px;
+            color: #fff;
+            padding: 9px 15px;
+
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+        &__Logo {
+            img {
+                transition: 0.3s;
+            }
+        }
+        &__Main {
+            .menu {
+                &Sub {
+                    &Box {
+                        top: 65px;
+                    }
+                }
+            }
+        }
+        @media (max-width: 1180px) {
+            &__section {
+                display: block;
+                width: 100%;
+            }
+            &__item {
+                color: #fff;
+                padding: 9px 12px;
+                display: block;
+                border-top: 1px dotted rgba(255, 255, 255, 0.2);
+                &-menuHome {
+                    display: none;
+                }
+                &-logo__sb {
+                    display: block;
+                    text-align: center;
+                }
+            }
+            &__Main {
+                display: none;
+                width: 80%;
+                max-width: 414px;
+                background: #004689;
+                position: fixed;
+                height: 100%;
+                left: 0;
+                top: 0;
+                z-index: 3;
+                overflow: auto;
+                padding-bottom: 20px;
+                .menu {
+                    display: block;
+                    &Sub {
+                        &:hover {
+                            .menuSubBox {
+                                display: none;
+                            }
+                        }
+                        &Box {
+                            position: inherit;
+                            width: 100%;
+                            padding: 10px 15px;
+                        }
+                        &Title {
+                            margin-top: 10px;
+                        }
+                    }
+                }
+            }
+            &__Logo {
+                text-align: center;
+                width: 140px;
+                margin: 0 auto;
+                position: relative;
+                display: block;
+                img {
+                    position: absolute;
+                    top: 10px;
+                    left: 0;
+                    height: auto;
+                    max-width: 100%;
+                }
+            }
+            &__Nav,
+            &__Call {
+                display: flex;
+            }
+            &phonee {
+                display: flex;
+                svg {
+                    width: 16px;
+                    height: 20px;
+                    fill: #1564ab;
+                }
+            }
+            &__Call {
+                top: 26px;
+            }
+            &__Regist,
+            &Phonee {
+                margin: 0 5px;
+                display: block;
+                text-align: center;
+                border-radius: 6px;
+            }
+            &__Regist {
+                margin-left: 5px;
+                margin-top: 6px;
+            }
+            &__Phone {
+                margin: 0 5px;
+                display: block;
+                text-align: center;
+                border-radius: 6px;
+                margin-left: 5px;
+            }
+        }
+        @media (max-width: 820px) {
+            &__item {
+                padding: 9px 12px;
+            }
+            &phonee {
+                right: 10px;
+            }
+            &__Nav {
+                left: 20px;
+            }
+            &__Call {
+                right: 10px;
+            }
+        }
+        @media (max-width: 540px) {
+            &__Logo {
+                width: 125px;
+                height: 80px;
+                img {
+                    top: 15px;
+                }
+            }
+            &phonee {
+                right: 15px;
+                font-size: 18px;
+                width: 30px;
+                height: 30px;
+                top: 25px;
+            }
+            &__Nav {
+                left: 30px;
+            }
+            &__Call {
+                right: 15px;
+                width: 30px;
+                height: 30px;
+            }
+            .icon-phone {
+                &-1 {
+                    img {
+                        width: 30px;
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
