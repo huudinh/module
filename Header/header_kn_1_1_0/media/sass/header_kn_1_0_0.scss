@@ -5,20 +5,24 @@
     width: 100%;
     top: 0;
     background-color: #fff;
+
     &__box {
         display: flex;
         justify-content: space-between;
     }
+
     &__section {
         display: flex;
         align-items: center;
     }
-    &main {
+
+    &__main {
         &.active {
             display: block;
             animation: animateleft 0.4s;
         }
     }
+
     &__item {
         padding: 36px 12px;
         font-size: 14px;
@@ -27,13 +31,23 @@
         color: #333;
         font-weight: 600;
     }
+
+    &__logo img {
+        width: 192px;
+        height: 55px;
+        display: block;
+
+    }
+
     &__logo2 {
         display: none;
+
         img {
-            max-width: 90%;
-            margin: 20px 0 0;
+            max-width: 70%;
+            margin: 20px 0 0 20px;
         }
     }
+
     &__bg {
         background: rgba(0, 0, 0, .8);
         width: 100%;
@@ -45,26 +59,31 @@
         left: 0;
         z-index: 2;
         animation: opac 0.4s;
+
         &.active {
             display: block;
         }
     }
+
     &__list {
         display: flex;
         list-style: none;
         padding: 0;
     }
+
     &__logo {
-        height: 90px;
+        height: 60px;
         display: flex;
         align-items: center;
     }
+
     &__menu,
     &__call {
         position: absolute;
-        top: 13px;
+        top: 8px;
         display: none;
     }
+
     &__menu {
         font-size: 30px;
         width: 40px;
@@ -74,53 +93,63 @@
         padding-right: 35px;
         border-right: 1px solid #eee;
     }
+
     &__call {
         width: 40px;
         height: 40px;
         right: -15px;
     }
+
     &__item.active {
         background-color: #eee;
     }
+
     &__phone,
     &__regist {
         border-radius: 4px;
         color: #fff;
-        padding: 10px 25px;
+        padding: 10px 20px 10px 10px;
         font-size: 14px;
         font-weight: 600;
         text-transform: uppercase;
     }
-    &__regist {
-        background: #d2322f;
-        margin-left: 10px;
-        margin-top: -9px;
-        cursor: pointer;
-    }
+
     &__phone {
-        margin-bottom: 9px;
-        margin-left: 10px;
+        display: flex;
+        background: #DCDCDC;
         font-size: 15px;
         cursor: pointer;
-        color: #00597D;
-        background: #DCDCDC;
-    }
-    @media (max-width:1180px) {
-        &__item {
-            padding: 36px 6px;
+        margin-left: 10px;
+
+        a {
+            color: #194081;
         }
     }
-    @media(max-width:1024px) {
+
+    &__regist {
+        cursor: pointer;
+        background: #d2322f;
+        margin-left: 10px;
+        display: flex;
+
+        a {
+            color: #fff;
+        }
+    }
+
+    @media(max-width:1200px) {
         background-color: #fff;
-        height: 65px;
+
         &__box {
             display: block;
         }
+
         &__section {
             display: block;
             width: 100%;
         }
-        &main {
+
+        &__main {
             display: none;
             width: 270px;
             background: #fff;
@@ -132,82 +161,84 @@
             overflow: auto;
             padding-bottom: 20px;
         }
+
         &__item {
             padding: 9px 12px;
             display: block;
             font-weight: 600;
             border-top: 1px dotted #ccc;
         }
+
+        &__list {
+            flex-direction: column;
+        }
+
         &__logo2 {
             display: block;
-            text-align: center;
         }
-        &__list {
-            display: block;
-        }
+
         &__logo {
-            text-align: center;
-            width: 100px;
-            margin: 0 auto;
-            position: relative;
-            display: block;
+            justify-content: center;
+
             img {
-                position: absolute;
-                top: 10px;
-                left: 0;
                 height: 45px;
-                max-width: 140px;
             }
         }
+
         &__menu,
         &__call {
             display: flex;
             align-items: center;
         }
+
         &__phone,
         &__regist {
-            margin: 0 5px;
-            display: block;
-            text-align: center;
-            border-radius: 6px;
+            margin: 0 10px;
+            padding:10px;
+            justify-content: center;
         }
+
         &__phone {
             margin-bottom: 5px;
         }
     }
+
     @media (max-width:768px) {
         &__menu {
             left: 20px;
         }
+
         &__call {
             right: 5px;
         }
+
         &__regist {
             margin-left: 5px;
             margin-top: 5px;
         }
+
         &__phone {
             margin-left: 5px;
         }
     }
-    @media (max-width:414px) {
-        &__logo {
-            width: 125px;
-            img {
-                height: 36px;
-                top: 15px;
-            }
-        }
+
+    @media (max-width:428px) {
         &__menu {
             left: 16px;
         }
+
         &__call {
             right: 15px;
         }
     }
+
     @media (max-width:280px) {
-        &main {
-            width: 200px;
+        min-width: 280px;
+        &__main {
+            width: 230px;
+        }
+        &__logo img {
+            height: 35px;
         }
     }
 }
