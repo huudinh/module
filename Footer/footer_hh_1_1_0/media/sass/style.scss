@@ -1,0 +1,119 @@
+.footer_hh_1_0_0 {
+    a {
+        display: block;
+    }
+    padding: 40px 0;
+    background: url(../images/ft-bg.jpg) center 0;
+    &__top {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__left {
+        width: 25%;
+    }
+    &__mid {
+        width: 33%;
+    }
+    &__right {
+        width: 30%;
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+    &__logo {
+        margin-bottom: 10px;
+        img {
+            display: block;
+            width: 90%;
+        }
+    }
+    &__license {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    &__certify {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+    &__bct {
+        width: 48%;
+    }
+    &__mid {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    &__item {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        img {
+            width: 25px;
+            height: 25px;
+        }
+        span {
+            font-size: 14px;
+            color: #fff;
+        }
+    }
+    &__line {
+        margin: 20px 0;
+        height: 2px;
+        background-color: #fff;
+    }
+    &__bottom {
+        text-align: center;
+        color: #fff;
+        font-size: 12px;
+        p {
+            margin: 0
+        }
+        a {
+            color: #fff;
+            text-decoration: underline;
+        }
+    }
+    @media(max-width: 1180px) {
+        &__item {
+            span {
+                font-size: 12px;
+            }
+        }
+    }
+    @media(max-width: 767px) {
+        padding: 20px 0 60px;
+        max-width: 428px;
+        margin: 0 auto;
+        .container {
+            max-width: 428px;
+        }
+        &__top {
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        &__logo {
+            img {
+                width: 100%;
+            }
+        }
+        &__left {
+            width: 80%;
+            text-align: center;
+            margin: 0 auto
+        }
+        &__mid {
+            width: 100%;
+        }
+        &__right {
+            width: 100%;
+        }
+    }
+}
