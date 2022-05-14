@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header-KangNam</title>
+    <link rel="stylesheet" href="https://huudinh.github.io/media/css/style-min.css">
+    <link rel="stylesheet" href="media/css/header_pr_1_0_0.css">
+</head>
+
+<body>
+    <header class="header_1_1_0">
+        <div class="container">
+            <div class="header_1_1_0__box">
+                <div class="header_1_1_0__section">
+                    <div class="header_1_1_0__logo">
+                        <a href="#page1">
+                            <img width="192" height="55" src="media/images/logo.svg" alt="">
+                        </a>
+                    </div>
+                    <div class="header_1_1_0__menu">
+                        <img width="30" height="30" src="media/images/menu-m.svg" alt="">
+                    </div>
+                    <a class="header_1_1_0__call modalbtn" data-modal="modal-top">
+                        <img width="36" height="36" src="media/images/call-m.svg" alt="">
+                    </a>
+                </div>
+                <div class="header_1_1_0__section header_1_1_0__main">
+                    <a href="#page1" class="header_1_1_0__logo2">
+                        <img width="160" height="70" src="media/images/logo1.svg" alt="">
+                    </a>
+                    <ul class="header_1_1_0__list">
+                        <li>
+                            <a href="#page1" class="header_1_1_0__item">Trang chủ</a>
+                        </li>
+                        <li>
+                            <a href="#page1" class="header_1_1_0__item">Quy Trình</a>
+                        </li>
+                        <li>
+                            <a href="#page1" class="header_1_1_0__item">Hình ảnh</a>
+                        </li>
+                        <li>
+                            <a href="#page1" class="header_1_1_0__item">Ưu đãi</a>
+                        </li>
+                        <li>
+                            <a href="#page1" class="header_1_1_0__item">Bác sĩ</a>
+                        </li>
+                    </ul>
+                    <div class="header_1_1_0__phone modal-btn" data-modal="modal-top">
+                        <img width="30" height="22" src="media/images/call.svg" alt="">
+                        <a> 1900.6900</a>
+                    </div>
+                    <div class="header_1_1_0__regist modal-btn" data-modal="modal-pop">
+                        <img width="29" height="18" src="media/images/uudai.svg" alt="">
+                        <a>Nhận ưu đãi</a>
+                    </div>
+                </div>
+                <div class="header_1_1_0__bg"></div>
+            </div>
+        </div>
+    </header>
+
+
+    <script src="media/js/lib-min.js"></script>
+    <script src="media/js/tiny-slider.js"></script>
+    <script>
+        // Mobile Menu Click
+        // Add Class : 1. Name Button / 2. Name Object / 3. Name Class Add
+        addClass('.header_1_1_0__menu', '.header_1_1_0__main', 'active');
+        addClass('.header_1_1_0__menu', '.header_1_1_0__bg', 'active');
+
+        // Remove Class : 1. Name Button / 2. Name Object / 3. Name Class Add
+        removeClass('.header_1_1_0__bg', '.header_1_1_0__main', 'active');
+        removeClass('.header_1_1_0__bg', '.header_1_1_0__bg', 'active');
+        removeClass('.header_1_1_0__box a', '.header_1_1_0__main', 'active');
+        removeClass('.header_1_1_0__box a', '.header_1_1_0__bg', 'active');
+    </script>
+</body>
+
+</html>
