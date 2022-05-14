@@ -1,0 +1,220 @@
+.header_1_1_0 {
+    border-bottom: 1px solid #eee;
+    position: fixed;
+    z-index: 11;
+    width: 100%;
+    top: 0;
+    background-color: #fff;
+    &__box {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__section {
+        display: flex;
+        align-items: center;
+    }
+    &main {
+        &.active {
+            display: block;
+            animation: animateleft 0.4s;
+        }
+    }
+    &__item {
+        padding: 36px 12px;
+        font-size: 14px;
+        text-transform: uppercase;
+        cursor: pointer;
+        color: #333;
+        font-weight: 600;
+    }
+    &__logo2 {
+        display: none;
+        img {
+            max-width: 90%;
+            margin: 20px 0 0;
+        }
+    }
+    &__bg {
+        background: rgba(0, 0, 0, .8);
+        width: 100%;
+        height: 100%;
+        content: '';
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 2;
+        animation: opac 0.4s;
+        &.active {
+            display: block;
+        }
+    }
+    &__list {
+        display: flex;
+        list-style: none;
+        padding: 0;
+    }
+    &__logo {
+        height: 90px;
+        display: flex;
+        align-items: center;
+    }
+    &__menu,
+    &__call {
+        position: absolute;
+        top: 13px;
+        display: none;
+    }
+    &__menu {
+        font-size: 30px;
+        width: 40px;
+        height: 40px;
+        left: -7px;
+        color: #00597d;
+        padding-right: 35px;
+        border-right: 1px solid #eee;
+    }
+    &__call {
+        width: 40px;
+        height: 40px;
+        right: -15px;
+    }
+    &__item.active {
+        background-color: #eee;
+    }
+    &__phone,
+    &__regist {
+        border-radius: 20px;
+        color: black;
+        padding: 10px 25px;
+        font-size: 14px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    &__regist {
+        background: linear-gradient(to right, #E09B30, #F9E17B);
+        margin-left: 10px;
+        margin-top: -9px;
+        cursor: pointer;
+    }
+    &__phone {
+        display: flex;
+        align-items: center;
+        margin-bottom: 9px;
+        margin-left: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        color: #fff;
+        background: #37A688;
+        p {
+            margin: 0;
+            margin-left: 5px;
+        }
+    }
+    @media (max-width:1180px) {
+        &__item {
+            padding: 36px 6px;
+        }
+    }
+    @media(max-width:1024px) {
+        background-color: #fff;
+        height: 65px;
+        &__box {
+            display: block;
+        }
+        &__section {
+            display: block;
+            width: 100%;
+        }
+        &main {
+            display: none;
+            width: 270px;
+            background: #fff;
+            position: fixed;
+            height: 100%;
+            left: 0;
+            top: 0;
+            z-index: 3;
+            overflow: auto;
+            padding-bottom: 20px;
+        }
+        &__item {
+            padding: 9px 12px;
+            display: block;
+            font-weight: 600;
+            border-top: 1px dotted #ccc;
+        }
+        &__logo2 {
+            display: block;
+            text-align: center;
+        }
+        &__list {
+            display: block;
+        }
+        &__logo {
+            text-align: center;
+            width: 100px;
+            margin: 0 auto;
+            position: relative;
+            display: block;
+            img {
+                position: absolute;
+                top: 10px;
+                left: 0;
+                height: 45px;
+                max-width: 140px;
+            }
+        }
+        &__menu,
+        &__call {
+            display: flex;
+            align-items: center;
+        }
+        &__phone,
+        &__regist {
+            margin: 0 5px;
+            display: flex;
+            justify-content: center;
+            text-align: center;
+            border-radius: 6px;
+        }
+        &__phone {
+            margin-bottom: 5px;
+        }
+    }
+    @media (max-width:768px) {
+        &__menu {
+            left: 20px;
+        }
+        &__call {
+            right: 5px;
+        }
+        &__regist {
+            margin-left: 5px;
+            margin-top: 5px;
+        }
+        &__phone {
+            margin-left: 5px;
+        }
+    }
+    @media (max-width:414px) {
+        &__logo {
+            width: 125px;
+            img {
+                height: 36px;
+                top: 15px;
+            }
+        }
+        &__menu {
+            left: 16px;
+        }
+        &__call {
+            right: 15px;
+        }
+    }
+    @media (max-width:280px) {
+        &main {
+            width: 200px;
+        }
+    }
+}
