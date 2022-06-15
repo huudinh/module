@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/style-min.css" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="popup_banner">
+        <div class="modal" id="modal-img">
+            <div class="modal-bg"></div>
+            <div class="modal-box modal-box-img animate-zoom">
+                <div class="modal-closePic">&times;</div>
+                <div class="modal-pic">
+                    <picture>
+                        <source media="(max-width:767px)" srcset="images/pic-banner-m.jpg">
+                        <img src="images/pic-banner.jpg" alt="">
+                    </picture>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="js/lib.min.js"></script>
+<script src=" https://benhvienhongha.vn/css/custom_v2.js?v=220521 "></script>
+<script type="text/javascript " src="https://benhvienhongha.com.vn/css/js_ver2.js?t=663 " async=" "></script>
+<script>
+    document.querySelector('.modal-closePic').addEventListener('click', () => {
+        document.getElementById('modal-img').style.display = "none"
+    })
+</script>
+
+</html>
