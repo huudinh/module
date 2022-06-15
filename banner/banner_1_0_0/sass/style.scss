@@ -66,3 +66,26 @@
         }
     }
 }
+
+.popup_banner {
+    #modal-img {
+        display: block;
+    }
+    .modal-pic {
+        img {
+            display: block;
+            width: 100%;
+        }
+    }
+    @media(max-width: 912px) {
+        .modal-box {
+            width: 70%;
+        }
+    }
+    @media(max-width: 428px) {
+        .modal-box {
+            width: 90%;
+            margin: 50px auto;
+        }
+    }
+}
