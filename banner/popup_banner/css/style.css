@@ -1,2 +1,2 @@
-.popup_banner #modal-img{display:block}.popup_banner .modal-box{position:absolute;left:50%;top:50%;transform:translate(-50%, -50%);margin:0}.popup_banner .modal-pic img{display:block;width:100%}@media (max-width: 912px){.popup_banner .modal-box{width:70%}}@media (max-width: 428px){.popup_banner .modal-box{width:90%}}
+.popup_banner .modal-bg{transition:none}.popup_banner .animate-zoom{animation:none}.popup_banner #modal-img{display:block}.popup_banner .modal-box{position:absolute;left:50%;top:50%;transform:translate(-50%, -50%);margin:0}.popup_banner .modal-pic img{display:block;width:100%}@media (max-width: 912px){.popup_banner .modal-box{width:70%}}@media (max-width: 428px){.popup_banner .modal-box{width:90%}}
 /*# sourceMappingURL=style.css.map */

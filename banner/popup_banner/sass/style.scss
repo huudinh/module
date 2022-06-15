@@ -1,4 +1,10 @@
 .popup_banner {
+    .modal-bg {
+        transition: none;
+    }
+    .animate-zoom {
+        animation: none;
+    }
     #modal-img {
         display: block;
     }
