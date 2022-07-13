@@ -1,0 +1,103 @@
+.pop_regpr_1_0_0 {
+    .modal-header {
+        padding: 0;
+        border-bottom: unset;
+    }
+    .modal-title {
+        text-align: center;
+        img {
+            clear: both;
+            width: 65%;
+            display: block;
+            margin: 0 auto 15px;
+        }
+    }
+    .modal-box {
+        width: 350px;
+    }
+    .modal-close {
+        font-size: 23px;
+        line-height: 0.9;
+        margin-right: 6px;
+    }
+    &__des {
+        background: #286c9d;
+        padding: 8px 10px;
+        font-size: 17px;
+        text-transform: uppercase;
+        color: #fff;
+        p {
+            margin: 0;
+        }
+    }
+    input {
+        width: 100%;
+        margin-bottom: 8px;
+        background: #ddd;
+        border: none;
+        padding: 8px 20px;
+    }
+    textarea {
+        width: 100%;
+        font-family: arial;
+        margin-bottom: 4px;
+        resize: none;
+        height: 96px;
+        background: #ddd;
+        border: none;
+        padding: 7px 12px;
+    }
+    &__clicknow {
+        input {
+            width: 100%;
+            background: #dd4a39;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+            margin-bottom: 5px;
+        }
+    }
+    &__contact {
+        text-align: center;
+        color: #696969;
+        font-size: 13px;
+        line-height: 20px;
+        padding-top: 5px;
+        p {
+            margin: 0px;
+            padding: 0px;
+            font-style: italic;
+        }
+        a {
+            color: #cc431d;
+            text-decoration: none;
+        }
+    }
+    @media (max-width: 360px) {
+        .modal-box {
+            max-width: 90%;
+        }
+    }
+    @media (max-width: 280px) {
+        .modal-body {
+            padding: 15px;
+        }
+        .modal-title {
+            img {
+                width: 150px;
+            }
+        }
+        &__des {
+            font-size: 14px;
+        }
+        input {
+            padding: 5px 10px;
+        }
+        textarea {
+            height: 65px;
+        }
+        &__contact {
+            font-size: 12px;
+        }
+    }
+}
