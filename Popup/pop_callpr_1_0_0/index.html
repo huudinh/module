@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="media/css/pop_callpr_1_0_0.css">
+    <link rel="stylesheet" href="https://huudinh.github.io/media/css/style-min.css">
+    <script src="media/js/lib.min.js"></script>
+</head>
+
+<body>
+    <button class="modal-btn" data-modal="modal-top">goi</button>
+    <section class="pop_callpr_1_0_0">
+        <div class="pop_callpr_1_0_0__box">
+            <div class="modal" id="modal-top">
+                <div class="modal-bg"></div>
+                <div class="modal-box animate-top">
+                    <div class="modal-header">
+                        <div class="modal-close">×</div>
+                        <div class="modal-title">
+                            <img src="media/images/logo.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="modal-body">
+                        <div class="pop_callpr_1_0_0__contact">
+                            <div class="modal-title">
+                                <div class="pop_callpr_1_0_0__des">
+                                    <p>Gọi ngay để được tư vấn & đặt lịch hẹn</p>
+                                </div>
+                            </div>
+                            <a href="tel:19006900" class="pop-call" onclick="gtag('event','touch', {event_category: 'call',event_label: '19006900'});">
+                                <img width="22px" height="22px" src="media/images/phone.svg" alt=""> 1900 6900</a>
+                        </div>
+                        <div class="modal-header">
+                            <div class="modal-title">
+                                <div class="pop_callpr_1_0_0__des">
+                                    <p>Để lại số điện thoại của bạn <br> để được tư vấn từ Nha Khoa Paris</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div style="display:none">
+
+                                <input type="text" placeholder="Họ và tên (*)" value="Yêu Cầu Gọi Lại" id="iname" name="iname">
+                                <textarea type="text" placeholder="Nhu cầu tư vấn" id="itext" name="itext"></textarea>
+                                <input id="iemail" name="iemail" value="no@email.benhvienthammykangnam.vn" type="hidden" placeholder="Email">
+                                <input type="hidden" id="gclid_field" name="gclid_field" value="">
+                                <input type="hidden" id="code_campaign" name="code_campaign" value="558803148">
+                                <input type="hidden" id="name_campaign" name="name_campaign" value="[Paris] Thương Hiệu Sale">
+                            </div>
+
+                            <input id="imob" name="imob" type="textbox" placeholder="Nhập số điện thoại*:">
+                        </div>
+                        <div class="pop_callpr_1_0_0__click">
+                            <input id="pop_sents" type="button" onclick="ants_send_contact(this);" value="NHẬN ƯU ĐÃI NGAY">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
